@@ -19,6 +19,33 @@
 
         label#date_fin.col-sm-4.col-form-label {position: relative; left: 16%; }
         /* .new_user {text-align: center; } */
+        .overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.valid {text-align: center; margin-top: 20px; }
     </style>
     <title>Maquette 11 (Fleury)</title>
 </head>
@@ -115,7 +142,7 @@
 
         </div>
 
-        <div class="gestion" style="position: relative; left: -14%;">
+        <!-- <div class="gestion" style="position: relative; left: -14%;">
 
             <h5 class="text-center m-4" style="font-size: 2em;">Gérer les participants</h5>    
             
@@ -134,7 +161,7 @@
                 </tbody>
             </table>
 
-        </div>
+        </div> -->
         <!-- <h2 class="text-center m-4" style="font-size: 2.5em;">Faits marquants</h2>
         <table class="table table-bordered text-center mx-auto m-5">
             <thead>
@@ -175,8 +202,24 @@
         </table>
 
         <div class="text-center new_user">
-            <a href="index8.html"></a><input type="submit" class="btn btn-success" value="Ajouter un fait marquant"></a>
+            <a class="button" href="#popup1"><input type="submit" class="btn btn-success" value="Ajouter un fait marquant"></a>
         </div><br>
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2 class="text-center m-4">Projet : <span>Développement IP</span> </h2>
+                <a class="close" href="#">&times;</a>
+                <div class="col-sm-8 mx-auto">
+                    <textarea class="form-control" id="liste_projets" rows="25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloremque voluptate similique tempora eius alias, vitae reprehenderit est, molestiae illum vero consequatur illo quis blanditiis ab nemo consectetur delectus nisi!</textarea>
+                </div> 
+                
+                <div class="valid">
+                    <input type="button" class="btn btn-success" value="Valider">
+                </div><br>           
+            </div>
+        </div>  
+
+
 
     <footer>
         <a href="index6bis.html"><button> < </button></a>
