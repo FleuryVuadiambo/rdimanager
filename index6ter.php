@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/menu-horizontal.css">
+    <!-- <link rel="stylesheet" href="styleheaderfooter.css"> -->
 
     <style>
         body {background-color: beige; color: brown; }
@@ -13,40 +14,24 @@
         .img_logo img {height: 50px; } 
         .contenu {margin-top: 40px; display: flex; }
         /* .register {position:relative; left: 13%; } */
-        .gerer_participants {background-color: rgb(134, 174, 226);}
+        /* .gerer_participants {background-color: rgb(134, 174, 226); }
         th {color: brown; }
-        td {background-color: whitesmoke; }
-
+        td {background-color: whitesmoke; } */
         label#date_fin.col-sm-4.col-form-label {position: relative; left: 16%; }
-        /* .new_user {text-align: center; } */
-        .overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
 
-.popup {
-  margin: 70px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 5px;
-  width: 50%;
-  position: relative;
-  transition: all 5s ease-in-out;
-}
-
-.valid {text-align: center; margin-top: 20px; }
+        .facts {display: flex; justify-content: center;  }
+        .new_user {position: absolute; bottom: 28%; }
+        .facts .new_user a {background-color: brown; }
+        .overlay {position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.7); transition: opacity 500ms; visibility: hidden; opacity: 0; }
+        .overlay:target {visibility: visible; opacity: 1; }
+        .popup {margin: 70px auto; padding: 20px; background: #fff; border-radius: 5px; width: 50%; position: relative; transition: all 5s ease-in-out; }
+        .valid {text-align: center; margin-top: 20px; }
     </style>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
     <title>Maquette 11 (Fleury)</title>
 </head>
 <body>
@@ -87,12 +72,10 @@
         <div class="container form">
         
             <div class="form-group row">
-                <div class="text-center mx-auto register">
-                    <input type="button" class="btn btn-success" value="Enregistrer le projet">
+                <div class="text-center mx-auto projet">
+                    <h1>Votre projet</h1>
                 </div>
             </div>
-
-
 
             <div class="form-group row">
                 <label for="projet" class="col-sm-2 col-form-label">Projet</label>
@@ -140,6 +123,10 @@
                 </div>
             </div>
 
+            <div class="text-center register">
+                <input type="button" class="btn btn-success" value="Enregistrer">
+            </div>
+
         </div>
 
         <!-- <div class="gestion" style="position: relative; left: -14%;">
@@ -162,8 +149,7 @@
             </table>
 
         </div> -->
-        <!-- <h2 class="text-center m-4" style="font-size: 2.5em;">Faits marquants</h2>
-        <table class="table table-bordered text-center mx-auto m-5">
+        <!-- <table class="table table-bordered text-center mx-auto m-5">
             <thead>
                 <tr class="table table-warning">
                     <th>Date</th>
@@ -180,46 +166,45 @@
             </tbody>
         </table> -->
     </div>
-
-        
-        <h2 class="text-center m-4" style="font-size: 2.5em;">Faits marquants</h2>
-        <table class="table table-bordered col-md-6 text-center mx-auto m-5">
-            <thead>
-                <tr class="table table-warning">
-                    <th>Date</th>
-                    <th>Auteur</th>
-                    <th>Fait</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-
-        </table>
-
+    
+    
+    <!-- <h2 class="text-center m-4" style="font-size: 2.5em;">Faits marquants</h2>
+    <table class="table table-bordered col-md-6 text-center mx-auto m-5">
+        <thead>
+            <tr class="table table-warning">
+                <th>Date</th>
+                <th>Auteur</th>
+                <th>Fait</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table> -->
+    
+    <div class="facts">
+        <h2 class="text-center mx-auto m-4" style="font-size: 2em;">Faits marquants</h2>
         <div class="text-center new_user">
-            <a class="button" href="#popup1"><input type="submit" class="btn btn-success" value="Ajouter un fait marquant"></a>
-        </div><br>
+            <a class="button" href="#popup1"><input type="submit" value="Ajouter un fait marquant"></a>
+        </div>
+    </div>
 
-        <div id="popup1" class="overlay">
-            <div class="popup">
-                <h2 class="text-center m-4">Projet : <span>Développement IP</span> </h2>
-                <a class="close" href="#">&times;</a>
-                <div class="col-sm-8 mx-auto">
-                    <textarea class="form-control" id="liste_projets" rows="25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloremque voluptate similique tempora eius alias, vitae reprehenderit est, molestiae illum vero consequatur illo quis blanditiis ab nemo consectetur delectus nisi!</textarea>
-                </div> 
-                
-                <div class="valid">
-                    <input type="button" class="btn btn-success" value="Valider">
-                </div><br>           
-            </div>
-        </div>  
-
-
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2 class="text-center m-4">Projet : <span>Développement IP</span> </h2>
+            <a class="close" href="#">&times;</a>
+            <div class="col-sm-8 mx-auto">
+                <textarea class="form-control" id="liste_projets" rows="25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloremque voluptate similique tempora eius alias, vitae reprehenderit est, molestiae illum vero consequatur illo quis blanditiis ab nemo consectetur delectus nisi!</textarea>
+            </div> 
+            <div class="valid">
+                <input type="button" class="btn btn-success" value="Valider">
+            </div><br>           
+        </div>
+    </div>  
 
     <footer>
         <a href="index6bis.html"><button> < </button></a>
@@ -228,8 +213,6 @@
         <a href="index8.html"><button> > </button></a>
     </footer>
         
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 </body>
 </html>
