@@ -21,7 +21,7 @@
 
         .facts {display: flex; justify-content: center;  }
         .new_user {position: absolute; bottom: 28%; }
-        .facts .new_user a {background-color: brown; }
+        /* .facts .new_user a {background-color: brown; } */
         .overlay {position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.7); transition: opacity 500ms; visibility: hidden; opacity: 0; }
         .overlay:target {visibility: visible; opacity: 1; }
         .popup {margin: 70px auto; padding: 20px; background: #fff; border-radius: 5px; width: 50%; position: relative; transition: all 5s ease-in-out; }
@@ -187,9 +187,11 @@
     </table> -->
     
     <div class="facts">
-        <h2 class="text-center mx-auto m-4" style="font-size: 2em;">Faits marquants</h2>
-        <div class="text-center new_user">
-            <a class="button" href="#popup1"><input type="submit" value="Ajouter un fait marquant"></a>
+        <div class="facts_title">
+            <h2 class="m-4">Faits marquants</h2>
+        </div>
+        <div class="new_user">
+            <a class="btn-btn secondary" href="#popup1"><input type="submit" value="Ajouter un fait marquant"></a>
         </div>
     </div>
 
