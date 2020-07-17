@@ -20,9 +20,13 @@
 
 <body>
 
+    <?php 
+	include ("menu BO.php"); 
+	?>
+
     <?php
-    include("header.php");
-    include("menu-horizontal.php");
+    include ("header.php");
+    include ("menu-horizontal.php");
     ?>
 
 

@@ -7,41 +7,21 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <title>Maquette 3</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/menu-horizontal.css">
+    <link rel="stylesheet" href="styles-old.css">
+    <title>Hello, world!</title>
   </head>
   <body>
-      
-    <nav class="navbar navbar-expand-lg ">
-      <div>
-        <a class="navbar-brand" href="#"><img class="logoheader" src="img/logohori.png" alt=""></a>
-        <p class="titre">RDI Manager</p>
-      </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Société <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Utilisateur</a>
-            </li>
-          </ul>
-          <ul style="list-style-type: none;">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle ml-md-auto" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Admin
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="connexion.html">Déconnexion</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+   
+    <?php
+      include ('menu BO.php');
+      ?>
+
+      <?php 
+	include ("menu-horizontal.php"); 
+	?>
+
       <br>
       
          <h2>Liste des Sociétées:</h2>

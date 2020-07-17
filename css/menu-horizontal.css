@@ -35,9 +35,9 @@ max-height:15em;
 }
 /* background des liens menus */
 #menu-demo2 li:first-child{
-background-color: #65537A;
-background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
-background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
+background-color: #729EBF;
+background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
 }
 #menu-demo2 li:nth-child(2){
 background-color: #729EBF;
@@ -45,40 +45,28 @@ background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
 background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
 }
 #menu-demo2 li:nth-child(3){
-background-color: #F6AD1A;
-background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
-background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
+background-color: #729EBF;
+background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
 }
 #menu-demo2 li:last-child{
-background-color: #CFFF6A;
-background-image:-webkit-linear-gradient(top, #CFFF6A 0%, #677F35 100%);
-background-image:linear-gradient(to bottom, #CFFF6A 0%, #677F35 100%);
+background-color: #729EBF;
+background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
 }
-/* background des liens sous menus */
-#menu-demo2 li:first-child li{
-background:#2A2333;
-}
-#menu-demo2 li:nth-child(2) li{
-background:#333A40;
-}
-#menu-demo2 li:nth-child(3) li{
-background:#9F391A;
-}
-#menu-demo2 li:last-child li{
-background:#677F35;
-}
+
 /* background des liens menus et sous menus au survol */
 #menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
-background:#65537A;
+background:#ce352c;;
 }
 #menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
-background:#729EBF;
+background:#ce352c;;
 }
 #menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
-background:#F6AD1A;
+background:#ce352c;
 }
 #menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
-background:#CFFF6A;
+background:#ce352c;
 }
 /* les a href */
 #menu-demo2 a{
@@ -96,5 +84,5 @@ color:#fff;
 text-transform:inherit;
 }
 #menu-demo2 li:hover a, #menu-demo2 li li:hover a{
-color:#000;
+color:#fff;
 }

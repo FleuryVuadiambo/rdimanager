@@ -1,0 +1,361 @@
+    /*********************** BODY *****************************/
+    body
+    {
+        line-height: "3,2em";
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+        background-color: beige; 
+        color: brown;
+    }
+    
+    
+    /**************************** NAV ************************/
+
+    .logoheader
+    {
+        width: 20vh;
+        margin-bottom: -0.5vh;
+        height: 6vh;
+        border: 2px solid white;
+        background-color: white;
+    }
+    .titre
+    {
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0vh;
+        color: white;
+        font-style: normal;
+        font-stretch: condensed;
+    }
+    nav
+    {
+        background-color: #ce352c; 
+    
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        font-weight: bold;
+      
+    }
+
+    .navbar-collapse
+    {
+        font-size: 2.1vh;
+    }
+    .bg-light 
+    {
+        margin-bottom: -1vh;
+    }
+    a{color: white;}
+
+    /*****************************HEADER **********************/
+    header {
+        justify-content: center;
+        background-color: #ce352c;
+        position: absolute;
+        top: -82px;
+        width: 100%;
+    }
+
+    .présentation
+    {
+        width: 76vh;
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+        font-size: xx-large;
+        padding: 10vh;
+        font-family: fantasy;
+    }
+
+
+    h1 {
+        
+        font-size: 30px;
+        font-family: inherit;
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        color: red;
+    }
+
+
+h2 {
+    font-size: 30pxrem;
+    margin: 83px auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh;
+    color: #ce352c;
+    margin-top: 12vh;
+    
+
+}
+
+/***************************** TABLE **********************/
+
+td {background-color: whitesmoke !important; }
+
+.table td, .table th
+{
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+    /**************************** FOOTER ********************************/
+    footer {
+        background-color: #ce352c;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;    }
+    
+    .logofooter
+        {
+        height: 5vh;
+        width: 5vh;
+        border-radius: 148%;
+        margin-top: 13px;
+        padding-left: 0vh;
+        margin-left: 30px;
+        margin-right: 6px;
+        }
+
+    a button
+    {
+        margin: 19px;
+    }
+    .copyright
+    { 
+        color: white;
+        margin-top: 3vh;
+        font-family: monospace;
+        font-size: larger;
+    }
+
+    /****************************************Connexion Inscription******************************/
+
+    .container {
+        width: 500px;
+        height: 400px;
+        text-align: center;
+        margin: auto;
+        background-color: #ce352c;
+        margin-top: 10%;
+        border-radius: 5px;
+        margin-bottom: 0%;
+    }
+
+    .container1 {
+        width: 361px;
+        height: 386px;
+        text-align: center;
+        margin: auto;
+        background-color: #ce352c;
+        margin-top: 15%;
+        border-radius: 5px;
+        margin-bottom: 0%;
+    }
+    
+    .logologin {
+        width: 150px;
+        height:150px;
+        border-radius:50%;
+        margin-top:-70px;
+        margin-bottom: 30px;
+    }
+    input {
+        height: 40px;
+        width: 300px;
+        font-size: 18px;
+        font-family: "Lato";
+        margin-bottom: 29px;
+        border-radius: 5px;
+        padding-left: 35px;
+    }
+    .form-input {
+        position: relative;
+        margin-bottom: 5%;
+    }
+    
+    .form-control
+    {
+        border: 2px solid black;
+
+    }
+
+    /*************************************** INSCRIPTION ********************************/
+    .form1 {
+        margin: 0 auto;
+        text-align: center;
+        height: 99vh;
+        width: 70vh;
+        padding-top: 0vh;
+    }
+    /***************************************IMG****************************************/
+    td img
+    {
+        margin: 0px 20px;
+    }
+    /***************************************MAQUETTE 3***********************************/
+    .societegerer 
+    {
+        font-size: 2.5rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4vh;
+        margin-top: 13vh;
+    }
+
+    .table {
+        width: 83%;
+    }
+
+    .btn-success
+    {
+        margin: 0 auto;
+        display: flex;
+        margin-bottom: 27vh;
+        justify-content: center;
+
+    }
+
+    /***************************************MAQUETTE 4***********************************/
+    .col-form-label {
+        padding-top: calc(.375rem + 1px);
+        padding-bottom: calc(.375rem + 1px);
+        margin-bottom: 0;
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .form4 {
+        margin: 0 auto;
+        text-align: center;
+        height: 62vh;
+        width: 136vh;
+        padding-top: 4vh;
+        margin-bottom: 18vh;
+    }
+
+.form-group4
+{
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+    input[type=submit]{
+        width: 23vh;
+    }
+    
+    /**header h1
+    {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+
+    #form-outer
+    {
+        background-color: rgb(250, 250, 250);
+        margin:0 auto;
+        border-radius: 6px;
+        width: 75%;
+        max-width: 900px;
+        padding: 10px;
+        padding-top: 30px;
+    }
+    .labels
+    {
+        display: inline-block;
+        text-align: right;
+        width: 40%;
+        padding: 5px;
+        vertical-align: top;
+        margin-top: 10px;
+    }
+    .rightTab
+    {
+        display: inline-block;
+        text-align: left;
+        width: 48%;
+        vertical-align: middle;
+    }
+    .input-field
+    {
+        height: 20px;
+        width: 280px;
+        padding: 5px;
+        margin:10px;
+        border: 1px solid #c0c0c0;
+        border-radius: 2px;
+    }
+    #userAge
+    {
+        width: 40px;
+    }
+    .userRatings, input[type="checkbox"] 
+    {
+        float: left;
+        margin-right: 5px;
+    }   
+    #submit {
+        background-color: #59ace0;
+        border-radius: 4px;
+        color: white;
+        font-size: 1em;
+        height: 30px;
+        width: 105px;
+        margin: 1px;
+        border: 0px solid;
+    }
+
+    .societegerer1 {
+        font-size: 1.8rem;
+        margin: 83px auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1vh;
+    } **/
+
+    /*************************************************** MAQUETTE 6 ********************************************/
+
+    .form6 {
+        margin: 0 auto;
+        text-align: center;
+        height: 70vh;
+        width: 150vh;
+        padding-top: 13vh;
+    }
+
+
+    /************************************************** MAQUETTE 7 **********************************************/
+
+
+
+    /************************************************** MAQUETTE 8 *******************************************/
+
+    .form8 {
+        margin: 0 auto;
+        text-align: center;
+        min-height: 45vh;
+        width: 98vh;
+        padding-top: 4vh;
+    }
+    
+    .button
+    {
+        height: 13vh;
+    }
+
+    .container8
+    {
+        margin-right: -71vh;
+    }
+
+
