@@ -23,6 +23,7 @@
         .facts .new_user a {background-color: brown; }
         .overlay {position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.7); transition: opacity 500ms; visibility: hidden; opacity: 0; }
         .overlay:target {visibility: visible; opacity: 1; }
+        #popup1 {position: absolute; z-index: 5; height: 57em; top: 19%; left: 10%; width: 80%; }
         .popup {margin: 70px auto; padding: 20px; background: #fff; border-radius: 5px; width: 50%; position: relative; transition: all 5s ease-in-out; }
         .close {position: absolute; top: 5%; right: 3%; font-size: xx-large; }
         .valid {text-align: center; margin-top: 20px; }
@@ -35,7 +36,7 @@
         .timeline-item:first-child .timeline-item-details {margin-top: 64px; }
         .timeline-item-details-date, .timeline-item-details-marker, .timeline-item-details-description {float: left; }
         .timeline-item-details-date {color: brown; font-size: 1.3em; }
-        .timeline-item-details-marker {position: relative; z-index: 10; border-radius: 50%; background-color: #3F51B5; width: 32px; height: 32px; border: 3px solid white; margin-left: 27px; transition: transform .3s, background-color .3s; }
+        .timeline-item-details-marker {position: relative; border-radius: 50%; background-color: #3F51B5; width: 32px; height: 32px; border: 3px solid white; margin-left: 27px; transition: transform .3s, background-color .3s; }
         .timeline-item-details:hover .timeline-item-details-marker {transform: scale(1.4); background-color: white; }
         .timeline-item-details-description:before {content: ''; position: absolute; background-color: red; width: 74px; height: 3px; margin-left: -90px; margin-top: 18px; }
         .timeline-item-details-description {text-align: justify; padding: 16px; color: #333; background-color: #FFF; width: 900px; border-radius: 4px; margin-left: 74px; margin-top: -20px; word-wrap: break-word;
@@ -156,7 +157,8 @@
             <h2 class="text-center m-4">Projet : <span>Développement IP</span> </h2>
             <a class="close" href="#">&times;</a>
             <div class="col-lg mx-auto">
-                <textarea class="form-control" id="liste_projets" rows="15">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloremque voluptate similique tempora eius alias, vitae reprehenderit est, molestiae illum vero consequatur illo quis blanditiis ab nemo consectetur delectus nisi!</textarea>
+                <textarea class="form-control" id="liste_projets" rows="11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloremque voluptate similique tempora eius alias, vitae reprehenderit est, molestiae illum vero consequatur illo quis blanditiis ab nemo consectetur delectus nisi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat enim nesciunt, quod ratione impedit adipisci nulla eveniet corporis, ad porro iure, saepe soluta! Laboriosam possimus modi nostrum asperiores, nihil obcaecati.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem totam exercitationem ducimus architecto! Magnam doloribus ducimus velit ut provident assumenda! Omnis non suscipit architecto ad! Nemo tempora autem soluta rem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe id voluptate dolorum. Placeat quos natus quam non molestiae odio! Earum ipsa praesentium error repellendus tempora soluta molestias consectetur eum sint.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, culpa. Illo molestias excepturi natus, sunt laboriosam exercitationem dolorum? Labore, natus eligendi! Maiores vero labore et sed distinctio, quo aliquam laboriosam.</textarea>
             </div> 
             <div class="valid">
                 <input type="button" class="btn btn-success" value="Valider">
