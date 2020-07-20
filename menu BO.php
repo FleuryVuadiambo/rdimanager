@@ -1,4 +1,6 @@
- <nav class="navbar navbar-expand-lg" style="position: relative;">
+
+
+<nav class="navbar navbar-expand-lg" style="position: relative;">
      <div><img src="logo.png" style="height:10vh" alt=""></div>
         <div class="item" style="margin:0 auto;">
             <a class="navbar-brand" href="#"><img class="logoheader" src="societe1.png" alt=""></a>
