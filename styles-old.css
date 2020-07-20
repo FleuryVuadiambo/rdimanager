@@ -2,9 +2,12 @@
     body
     {
         line-height: "3,2em";
-        font-family: monospace !important;
-        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+        background-color: beige; 
+        color: brown;
     }
+    
+    
     /**************************** NAV ************************/
 
     
@@ -29,11 +32,7 @@
         font-weight: bold;
       
     }
-    .navbar-expand-lg {
-        position: fixed;
-        width: 100%;
-        z-index: 2;
-    }
+
     .navbar-collapse
     {
         font-size: 2.1vh;
@@ -43,14 +42,15 @@
         margin-bottom: -1vh;
     }
     a{color: white;}
+
     /*****************************HEADER **********************/
-    header
-    {
-        display: flex;
+    header {
         justify-content: center;
         background-color: #ce352c;
+        position: absolute;
+        top: -82px;
+        width: 100%;
     }
-
 
     .présentation
     {
@@ -65,9 +65,8 @@
 
 
     h1 {
-        margin-top: 6.5rem;
-        font-size: xx-large;
-        font-size: 1.2rem;
+        
+        font-size: 30px;
         font-family: inherit;
         display: flex;
         justify-content: center;
@@ -75,29 +74,37 @@
         color: red;
     }
 
-    h2
-    {
-    
-            font-size: 1.8rem;
-            margin: 83px auto;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 1vh;
-        }
 
-    h5{
-        display: inline-block; 
-    }
-        
+h2 {
+    font-size: 30pxrem;
+    margin: 83px auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh;
+    color: #ce352c;
+    margin-top: 12vh;
+    
+
+}
+
+/***************************** TABLE **********************/
+
+td {background-color: whitesmoke !important; }
+
+.table td, .table th
+{
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
 
     /**************************** FOOTER ********************************/
-    footer
-        {
-            background-color:#ce352c;
-            display: flex;
-            justify-content: center;
-            pos;
-        }
+    footer {
+        background-color: #ce352c;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;    }
     
     .logofooter
         {
@@ -130,9 +137,20 @@
         text-align: center;
         margin: auto;
         background-color: #ce352c;
-        margin-top: 20%;
+        margin-top: 10%;
         border-radius: 5px;
-        margin-bottom: 18%;
+        margin-bottom: 0%;
+    }
+
+    .container1 {
+        width: 361px;
+        height: 386px;
+        text-align: center;
+        margin: auto;
+        background-color: #ce352c;
+        margin-top: 15%;
+        border-radius: 5px;
+        margin-bottom: 0%;
     }
     
     .logologin {
@@ -154,6 +172,12 @@
     .form-input {
         position: relative;
         margin-bottom: 5%;
+    }
+    
+    .form-control
+    {
+        border: 2px solid black;
+
     }
 
     /*************************************** INSCRIPTION ********************************/
@@ -181,12 +205,7 @@
     }
 
     .table {
-        width: 63%;
-        color: #212529;
-        margin: 0 auto;
-        margin-bottom: 6vh;
-        border: 2px solid darkgrey;
-
+        width: 83%;
     }
 
     .btn-success
@@ -203,25 +222,28 @@
         padding-top: calc(.375rem + 1px);
         padding-bottom: calc(.375rem + 1px);
         margin-bottom: 0;
-        font-size: inherit;
+        font-size: 20px;
         line-height: 1;
-        font-weight: bold;
-        text-decoration: underline;
     }
 
     .form4 {
         margin: 0 auto;
-        background-color: whitesmoke;
-        text-align: center;
-        height: 76vh;
+        height: 62vh;
         width: 136vh;
         padding-top: 4vh;
+        margin-bottom: 18vh;
     }
 
+.form-group4
+{
+    display: flex;
+    margin-bottom: 5vh;
+}
 
     input[type=submit]{
         width: 23vh;
     }
+    
     /**header h1
     {
         display: flex;
@@ -297,11 +319,9 @@
 
     .form6 {
         margin: 0 auto;
-        text-align: center;
-        background-color: whitesmoke;
         height: 70vh;
         width: 150vh;
-        padding-top: 4vh;
+        padding-top: 13vh;
     }
 
 
@@ -313,10 +333,8 @@
 
     .form8 {
         margin: 0 auto;
-        text-align: center;
         min-height: 45vh;
         width: 98vh;
-        background-color: antiquewhite;
         padding-top: 4vh;
     }
     
