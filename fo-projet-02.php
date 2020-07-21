@@ -10,8 +10,10 @@
     <style>
         
         .img_logo {position: absolute; left: 4%; top: 8%; }
-        .img_logo img {height: 50px; } 
-        .contenu {margin-top: 40px; display: flex; }    
+
+        .img_logo img {height: 40px; } 
+        .contenu {margin-top: 40px; display: flex; }
+
         label#date_fin.col-sm-4.col-form-label {position: relative; left: 16%; }
         /* .register {position:relative; left: 13%; }
         .gerer_participants {background-color: rgb(134, 174, 226);}
