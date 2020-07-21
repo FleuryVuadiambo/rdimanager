@@ -6,20 +6,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/menu-horizontal.css">
-
+    <link rel="stylesheet" href="css/timeline.css">
     <style>
-        body {background-color: beige; color: brown; }
+        
         .img_logo {position: absolute; left: 4%; top: 8%; }
         .img_logo img {height: 50px; } 
-        .contenu {margin-top: 40px; display: flex; }
+        .contenu {margin-top: 40px; display: flex; }    
         label#date_fin.col-sm-4.col-form-label {position: relative; left: 16%; }
         /* .register {position:relative; left: 13%; }
         .gerer_participants {background-color: rgb(134, 174, 226);}
         th {color: brown; }
         td {background-color: whitesmoke; text-align: center; } */
 
-        .facts {display: flex; justify-content: center;  }
-        .new_user {position: absolute; bottom: 32%; }
+        .facts {display: flex; justify-content: space-between;  }
+        /* .new_user {position: absolute; bottom: 32%; } */
         .facts .new_user a {background-color: brown; }
         .overlay {position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.7); transition: opacity 500ms; visibility: hidden; opacity: 0; }
         .overlay:target {visibility: visible; opacity: 1; }
@@ -29,7 +29,7 @@
         .valid {text-align: center; margin-top: 20px; }
 
         
-        .timeline {text-align: center; position: relative; min-height: 811px; overflow-y: hidden; }
+        /* .timeline {text-align: center; position: relative; min-height: 811px; overflow-y: hidden; }
         .timeline-item:before {content: ''; position: absolute; background-color: #FFF; width: 3px; height: 100%; left: 288px; }
         .timeline-item {margin: 0 74px; }
         .timeline-item-details {display: inline-block; margin-bottom: 64px; }
@@ -41,7 +41,7 @@
         .timeline-item-details-description:before {content: ''; position: absolute; background-color: red; width: 74px; height: 3px; margin-left: -90px; margin-top: 18px; }
         .timeline-item-details-description {text-align: justify; padding: 16px; color: #333; background-color: #FFF; width: 900px; border-radius: 4px; margin-left: 74px; margin-top: -20px; word-wrap: break-word;
             opacity: .9; transition: opacity .3s; overflow: scroll; }
-        .timeline-item-details:hover .timeline-item-details-description {opacity: 1; }
+        .timeline-item-details:hover .timeline-item-details-description {opacity: 1; } */
     </style>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -70,7 +70,7 @@
         
             <div class="form-group row">
                 <div class="text-center mx-auto projet">
-                    <h1>Votre projet</h1>
+                    <h1 style="font-size:">Votre projet</h1>
                 </div>
             </div>
 
@@ -145,12 +145,12 @@
 
         
         
-    <div class="facts">
+    <!-- <div class="facts">
         <h2 class="text-center mx-auto m-4" style="font-size: 2em;">Faits marquants</h2>
         <div class="text-center new_user">
             <a class="button" href="#popup1"><input type="submit" value="Ajouter un fait marquant"></a>
         </div>
-    </div>
+    </div> -->
 
     <div id="popup1" class="overlay">
         <div class="popup">
@@ -166,32 +166,73 @@
         </div>
     </div> <br>
 
-    <div class="timeline">
-        <section class="timeline-item">
-            <a href="#" class="timeline-item-details">
-                <time datetime="2020-07-10" class="timeline-item-details-date">05 novembre 2016</time>
-                <div class="timeline-item-details-marker"></div>
-                <div class="timeline-item-details-description">
-                    <h2>Ceci est un titre</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dicta minus ea quas. Minima voluptas eligendi numquam! Error corrupti beatae sed eius sit nisi quam soluta iusto, quia vero. Vel!</p>
+    <div class="main-container">
+        <section id="timeline" class="timeline-outer">
+            <div class="container" id="content">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <div class="facts">
+                            <h1 class="blue-text lighten-1 header">Faits marquants</h1>
+                            <div class="text-center new_user">
+                                <a class="button" href="#popup1"><input type="submit" value="Ajouter un fait marquant"></a>
+                            </div>
+                        </div>
+                        <ul class="timeline">
+                            <li class="event" data-date="2015/Present">
+                                <h3>Management and Entreprenurship (MSc)</h3>
+                                <p>
+                                    This September 2015 I will begin an MSc in Management and Entrepreneurship at
+                                    University of Sussex, to broaden my knowledge and gain skills necessary for my
+                                    future in business and management.
+                                </p>
+                            </li>
+                            <li class="event" data-date="2015/Present">
+                                <h3>Claromentis</h3>
+                                <p>
+                                    Claromentis is an intranet software provider company. I started working at the
+                                    Brighton office as a Marketing Designer while I was still attending my final year at
+                                    the University of Sussex. My primary responsibilities included creating corporate
+                                    identity
+                                    for the company; I re-designed their website, and have created marketing materials
+                                    such as brochures.
+                                </p>
+                                <p>Since graduating from university, I have also undertaken responsibilities for
+                                    designing a product for the company. The roles I have been given have provided the
+                                    perfect opportunity to implement the skills I have gained throughout my higher
+                                    education, as well as experiencing the running of a successful business.</p>
+                            </li>
+                            <li class="event" data-date="2012/2015">
+                                <h3>Games & Multimedia Environments BSc (Hons)</h3>
+                                <p>Throughout my degree I have gained expansive knowledge of informatics areas including
+                                    Human Computer Interaction, Multimedia Design and Development, Program Analysis and
+                                    Design For my final year project, I created a 2D Puzzler Game for iOS
+                                    called 'Flat Ball' and received a first. I therefore hope to release this game and
+                                    further develop it to add new levels and improve the features.
+                                </p>
+                            </li>
+                            <li class="event" data-date="2012/2015">
+                                <h3>1108 Studios</h3>
+                                <p>This is a small startup that a friend and I created to gain more skills and apply
+                                    those I had learned while completing my diploma. Since its inception, as a front -
+                                    end web developer I have advised, designed and built web solutions for numerous
+                                    clients.</p>
+                            </li>
+                            <li class="event" data-date="2010/2012">
+                                <h3>IT Practitioners BTEC National Diploma</h3>
+                                <p>This is where my interest in building things for interactive media began. During my
+                                    first computing course I studied a range of core topics including multimedia design,
+                                    database design, computer games development, computer networks and object
+                                    oriented programming.</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </a>
+            </div>
         </section>
-        <section class="timeline-item">
-            <a href="#" class="timeline-item-details">
-                <time datetime="2020-07-10" class="timeline-item-details-date">05 septembre 2016</time>
-                <div class="timeline-item-details-marker"></div>
-                <div class="timeline-item-details-description">
-                    <h2>Ceci est un titre</h2>
-                    <p><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus harum ipsam incidunt architecto obcaecati molestiae fugit ipsum nemo laboriosam. Maxime explicabo rerum, ipsa quibusdam eaque quasi ratione laboriosam? Suscipit, vel.
-                    Reprehenderit adipisci fugiat veniam laudantium? Non nostrum tenetur molestiae, enim ducimus id blanditiis culpa odio corporis cumque delectus, quae dolores unde cupiditate labore repudiandae explicabo repellat autem molestias dolor quis?</span>
-                    Exercitationem voluptatem cupiditate vero totam odit doloribus aliquam adipisci perspiciatis, minima iure id enim, voluptatibus nam voluptates asperiores tempora a soluta cumque repellat sequi consequatur similique necessitatibus ab. Libero, aliquam.
-                    Natus consectetur magni consequatur dignissimos voluptatum soluta totam, distinctio aspernatur minus laudantium. Delectus quae, voluptate soluta sequi similique nesciunt aspernatur necessitatibus corporis quibusdam odit accusantium inventore tempore qui, dolorem eos.
-                    Quam, expedita, labore amet eum soluta aliquid assumenda eos, quasi saepe fuga hic laudantium reprehenderit explicabo facere aspernatur temporibus tempore! Natus eveniet temporibus iure placeat, impedit tempore reiciendis maxime eum.
-                    Non nam accusantium accusamus, harum et illo assumenda ut voluptatibus dolores repudiandae repellendus ab est! Nihil facilis suscipit laboriosam. Error reprehenderit, ad minima dignissimos doloribus asperiores libero quo illo iure?</p>
-                </div>
-            </a>
-        </section>
+        <!-- <a class="portfolio-link" target "_blank" href="http://www.erpik.com">
+            <h6>www.erpik.com</h6>
+        </a> -->
+        <br />
     </div>
 
 

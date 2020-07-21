@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/jquery-ui.min.css">
 	<link rel="stylesheet" href="css/menu-horizontal.css">
     <style>
-        body {background-color: beige; color: brown; }
+        /* body {background-color: beige; color: brown; } */
         .container {min-height: 120vh; }
         .img_logo {position: absolute; left: 4%; top: 8%; }
         .img_logo img {height: 50px; } 

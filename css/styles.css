@@ -1,12 +1,11 @@
 /*********************** BODY *****************************/
 body
 {
+    background-color: white;
     line-height: "3,2em";
 }
 
 /**************************** NAV ************************/
-
-
 nav
 {
     background-color: #ce352c;

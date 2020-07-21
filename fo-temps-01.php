@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/menu-horizontal.css">
     
     <style>
-        body {background-color: beige; color: brown; }
+        /* body {background-color: beige; color: brown; } */
         .img_logo {position: absolute; left: 4%; top: 8%; }
         .img_logo img {height: 50px; }
         i {color: black; }
