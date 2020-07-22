@@ -14,14 +14,15 @@
   </head>
   <body>
    
+   
+      
     <?php
       include ('menu BO.php');
       ?>
 
       <?php 
-	include ("menu-horizontal.Back.php"); 
+	include ("menu-horizontal-Back.php"); 
 	?>
-
         
     <div style="font-size: xx-large; margin: 348px;">AJOUT / SUPPRESSION SOCIETE</div>
 
