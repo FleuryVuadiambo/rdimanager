@@ -163,7 +163,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, culpa. Illo molestias excepturi natus, sunt laboriosam exercitationem dolorum? Labore, natus eligendi! Maiores vero labore et sed distinctio, quo aliquam laboriosam.</textarea>
             </div> 
             <div class="valid">
-                <input type="button" class="btn btn-success" value="Valider">
+                <a href="fo-projet-02.php"><input type="button" class="btn btn-success" value="Valider">
             </div><br>           
         </div>
     </div> <br>

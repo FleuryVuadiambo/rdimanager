@@ -81,7 +81,7 @@
 
             <div class="text-center button mb-4">
                 <input type="submit" class="btn btn-secondary" value="Annuler">
-                <input type="submit" class="btn btn-success" value="Valider">
+                <a href="fo-admin-01.php"><input type="submit" class="btn btn-success" value="Valider">
             </div>
         </div>
     

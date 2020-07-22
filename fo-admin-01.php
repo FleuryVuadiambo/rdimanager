@@ -46,7 +46,7 @@
         <img src="img/image001.png" alt="">
     </div> -->
 
-        <div class="container">
+        <div class="container" style="background-color: beige; min-height: 532px; border-radius: 2%;">
 
             <h1 class="text-center m-4">Mon compte</h1>
 
@@ -73,21 +73,21 @@
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="email" class="col-sm-2 col-form-label disabled">Email</label>
+                    <label for="email" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-8">
-                      <input type="text" class="form-control bg-light" id="email" placeholder="john.doe@email.com">
+                      <input type="text" class="form-control bg-light" id="email" placeholder="john.doe@email.com" disabled>
                     </div>
                 </div>
                 <div class="form-group row" id="nom_societe">
                     <label for="nom_societe" class="col-sm-2 col-form-label" id="nom_societe">Nom de la société</label>
                     <div class="col-sm-8">
-                      <input type="text" class="form-control  bg-light" id="nom_societe" placeholder="Société 1">
+                      <input type="text" class="form-control  bg-light" id="nom_societe" placeholder="Société 1" disabled>
                     </div>
                 </div>
                 <div class="form-group row" id="role">
                     <label for="role" class="col-sm-2 col-form-label">Rôle</label>
                     <div class="col-sm-8">
-                        <select id="role" class="form-control  bg-light">
+                        <select id="role" class="form-control  bg-light" disabled>
                             <option selected>Administrateur</option>
                             <option>Client</option>
                         </select>
@@ -107,7 +107,7 @@
         
                 <h4 class="col-md-4 text-center mx-auto mt-4 mb-4">Changer votre mot de passe</h4>
 
-                <form class="changer_mdp" action="" method="post">
+                <form class="changer_mdp" style="background-color: beige;" action="" method="post">
 
                     <div class="form-group row">
                         <label for="mdp" class="col-sm-2 col-form-label">Mot de passe actuel</label>

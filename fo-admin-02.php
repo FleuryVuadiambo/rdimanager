@@ -75,7 +75,7 @@
         </table>
 
         <div class="new_user">
-            <input type="button" class="btn btn-success" value="Ajouter un Utilisateur">
+            <a href="fo-admin-03.php"><input type="button" class="btn btn-success" value="Ajouter un Utilisateur">
         </div>
 
     </div>
