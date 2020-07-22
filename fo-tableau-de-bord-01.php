@@ -41,24 +41,24 @@
             <table class="table table-bordered mx-auto m-5">
                 <thead>
                     <tr class="table table-secondary">
-                        <th scope="col" class="text-center">TABLEAU DE BORD</th>
+                        <th scope="col">TABLEAU DE BORD</th>
                         <th scope="col" class="text-center">ID</th>
                         <th scope="col" class="text-center">Equipe</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row" class="text-center">Nombre de projets de l'année en cours</th>
+                        <th scope="row">Nombre de projets de l'année en cours</th>
                         <td class="text-center">1</td>
                         <td class="text-center">1</td>
                     </tr>
                     <tr>
-                        <th scope="row" class="text-center">Nombre de projets de type CIR-CII</th>
+                        <th scope="row">Nombre de projets de type CIR-CII</th>
                         <td class="text-center">1</td>
                         <td class="text-center">0</td>
                     </tr>
                     <tr>
-                        <th scope="row" class="text-center">Temps total passé en  heures</th>
+                        <th scope="row">Temps total passé en  heures</th>
                         <td class="text-center">70</td>
                         <td class="text-center">70</td>
                     </tr>
