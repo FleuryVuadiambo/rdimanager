@@ -3,7 +3,16 @@ body
 {
     background-color: white;
     line-height: "3,2em";
+    min-height: 200vh;
 }
+
+.container 
+{
+    background-color: beige; 
+    min-height: 532px; 
+    border-radius: 2%;
+}
+
 
 /**************************** NAV ************************/
 nav
