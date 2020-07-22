@@ -2,8 +2,8 @@
 
 <nav class="navbar navbar-expand-lg" style="position: relative;">
      <div><img src="logo.png" style="height:10vh" alt=""></div>
-        <div class="item" style="margin:0 auto;">
-            <a class="navbar-brand" href="#"><img class="logoheader" src="societe1.png" alt=""></a>
+        <div style="margin:0 auto;">
+            <a class="navbar-brand" href="#"><img style="height:13vh !important; " class="logoheader" src="societe1.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
