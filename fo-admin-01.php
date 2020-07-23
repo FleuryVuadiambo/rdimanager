@@ -97,8 +97,8 @@
             </form>
 
             <div class="text-center button mb-4">
-                <input type="submit" class="btn btn-secondary" value="Annuler">
-                <input type="submit" class="btn btn-success" value="Valider">
+                <!-- <input type="submit" class="btn btn-secondary" value="Annuler"> -->
+                <input type="submit" class="btn btn-success" value="Activer">
             </div>
 
 
@@ -139,10 +139,10 @@
         </div>
     
         <footer>
-            <a href="maquette12.html"><button> < </button></a>
+            <!-- <a href="maquette12.html"><button> < </button></a> -->
             <p class="copyright">Copyright Eurêka C.I</p>
             <img class="logofooter" src="img/logo.png" alt="">
-            <a href="index2.html"><button> > </button></a>
+            <!-- <a href="index2.html"><button> > </button></a> -->
         </footer>
               
 
