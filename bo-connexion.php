@@ -32,8 +32,8 @@
          <input  type="text"  placeholder="Enter Username" /></div>
         <div class="form-input"><i class="fa fa-lock fa-2x" aria-hidden="true"></i>
           <input type="password"  placeholder="Enter Password" /></div>
-       <input type="submit" id="submit" value="valider"/><br>
-          <a href="#">forget password?</a>
+       <b> <a href="bo-gestion_utili.php"><button type="button" class="btn btn-success">connexion</button></a>
+
       </div>
     </form>
 
@@ -43,10 +43,8 @@
 
 
     <footer>
-      <a href="index15.html"><button><</button></a>
       <p class="copyright">Copyright Eurêka C.I</p>
       <img class="logofooter" src="img/logosign.png" alt="">
-      <a href="M2.html"><button>></button></a>
   </footer>
 
     <!-- Optional JavaScript -->

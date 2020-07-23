@@ -23,7 +23,7 @@
 	?>
       
       <br>
-
+ 
        <h1>Gestion des Utilisateurs :</h1>
 
       <table class="table text-center mx-auto m-5">
@@ -58,7 +58,6 @@
         </table>
 
         
-
 
       
           <footer>

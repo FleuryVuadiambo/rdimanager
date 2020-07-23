@@ -98,7 +98,7 @@
          
   </section>
 
-        <footer style="bottom: -192px;">
+        <footer>
           <p class="copyright">Copyright Eurêka C.I</p>
           <img class="logofooter" src="img/logosign.png" alt="">
       </footer>
