@@ -26,7 +26,7 @@
 	include ("bo-menu-horizontal.php"); 
 	?>
 
-        <h2 style="background-color: white;">Bienvenue</h2>
+        <h2 style="background-color: white;">Bienvenue sur RDI Manager</h2>
 <div id="form-main" style="margin:0 auto;">
   <div id="form-div">
     <form class="form" id="form1">
