@@ -26,6 +26,7 @@
 	include ("bo-menu-horizontal.php"); 
 	?>
 
+
         <h2>Bienvenue sur RDI Manager</h2>
 
 <div id="form-main" style="margin:0 auto;">
@@ -49,8 +50,6 @@
       </div>
     </form>
   </div>
-
-
 
 
     <!-- Optional JavaScript -->

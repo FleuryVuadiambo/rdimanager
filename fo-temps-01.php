@@ -29,7 +29,7 @@
         <img src="img/image001.png" alt="">
     </div> -->
 
-    <div class="container">
+    <div class="container"  style="background-color: beige; min-height: 532px; border-radius: 2%;">
         <h1 class="text-center m-4">Saisie de temps passé</h1>
         <p class="text-center m-4" style="font-size: 1.5em;"><a href="#"><i class="fas fa-long-arrow-alt-left"></i></a> Mai <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a></p>
 
@@ -59,7 +59,7 @@
         
         <div class="button text-center">
             <input type="submit" class="btn btn-lg btn-secondary" value="Annuler">
-            <input type="submit" class="btn btn-lg btn-success" value="Valider">
+            <a href="fo-tableau-de-bord-01.php"><input type="submit" class="btn btn-lg btn-success" value="Valider">
         </div>
 
     </div>

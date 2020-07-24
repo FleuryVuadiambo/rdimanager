@@ -83,9 +83,13 @@ h2 {
     justify-content: center;
     margin-bottom: 1vh;
     color: #ce352c;
+ footer {
     width: 33%;
     background-color: white;
 }
+
+
+
 
     
 
@@ -106,7 +110,9 @@ td {background-color: whitesmoke !important; }
         background-color: #ce352c;
         display: flex;
         justify-content: center;
-        }
+        position: absolute;
+        bottom: 0;
+        width: 100%;    }
     
     .logofooter
         {
@@ -156,7 +162,9 @@ td {background-color: whitesmoke !important; }
     padding-top: 35px;
     padding-bottom: 30px;
     width: 450px;
+footer {
     margin: 0 auto;
+
     -moz-border-radius: 4px;
     -webkit-border-radius: 31px;
     border: #a52821;
@@ -190,20 +198,26 @@ td {background-color: whitesmoke !important; }
 }
 
 .focused{
+
     color:#30aed6;
+
     border:#30aed6 solid 3px;
 }
 
 /* Icons ---------------------------------- */
 #name{
+
     background-image: url(https://cdn2.iconfinder.com/data/icons/font-awesome/1792/user-512.png);
+
     background-size: 30px 30px;
     background-position: 11px 8px;
     background-repeat: no-repeat;
 }
 
 #name:focus{
+
     background-image: url(https://cdn2.iconfinder.com/data/icons/font-awesome/1792/user-512.png);
+
     background-size: 30px 30px;
     background-position: 8px 5px;
   background-position: 11px 8px;

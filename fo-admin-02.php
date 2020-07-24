@@ -19,7 +19,7 @@
 </head>
 <body>
     <?php 
-	include ("menu BO.php"); 
+	include ("header.php"); 
 	?>
 	<?php 
 	include ("menu-horizontal.php"); 
@@ -47,6 +47,8 @@
                     <th scope="col" class="text-center">Statut</th>
                     <th scope="col" class="text-center">Date</th>
                     <th scope="col" class="text-center">Nb projets</th>
+                    <th scope="col" class="text-center">Modifier</th>
+                    <th scope="col" class="text-center">Supprimer</th>
                 </tr>
             </thead>
             <tbody>
@@ -59,6 +61,9 @@
                     <td class="text-center">Actif</td>
                     <td class="text-center"></td>
                     <td class="text-center">0</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+
                 </tr>
                 <tr>
                     <td scope="col" class="text-center">#</td>
@@ -69,22 +74,24 @@
                     <td class="text-center">Créé</td>
                     <td class="text-center"></td>
                     <td class="text-center">0</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
                 </tr>
             </tbody>
 
         </table>
 
         <div class="new_user">
-            <input type="button" class="btn btn-success" value="Ajouter un Utilisateur">
+            <a href="fo-admin-03.php"><input type="button" class="btn btn-success" value="Ajouter un Utilisateur">
         </div>
 
     </div>
 
     <footer>
-        <a href="index7.html"><button> < </button></a>
+        <!-- <a href="index7.html"><button> < </button></a> -->
         <p class="copyright">Copyright Eurêka C.I</p>
         <img class="logofooter" src="img/logo.png" alt="">
-        <a href="index8.html"><button> > </button></a>
+        <!-- <a href="index8.html"><button> > </button></a> -->
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

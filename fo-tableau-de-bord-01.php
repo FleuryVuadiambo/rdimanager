@@ -66,7 +66,7 @@
             </table>
         
             <div class="button text-center m-4">
-                <input type="button" class="btn btn-success" value="Mettre à jour votre feuille de temps">
+                <a href="fo-temps-01.php"><input type="button" class="btn btn-success" value="Mettre à jour votre feuille de temps">
             </div>
 
         </div>
