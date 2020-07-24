@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/menu-horizontal-back.css">
     <link rel="stylesheet" href="styles-old.css">
+        <link rel="stylesheet" href="styles1-old.css">
+
     <style>
         body:background-image: url('expert.jpg');
 
     </style>
     <title>Hello, world!</title>
   </head>
-  <body style="background: url('expert.jpg')">
-   
+<body>   
     <?php
       include ('bo-header.php');
       ?>
@@ -26,7 +27,7 @@
 	include ("bo-menu-horizontal.php"); 
 	?>
 
-        <h2>Bienvenue</h2>
+        <h2>Bienvenue sur RDI Manager</h2>
 <div id="form-main" style="margin:0 auto;">
   <div id="form-div">
     <form class="form" id="form1">

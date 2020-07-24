@@ -84,7 +84,7 @@ h2 {
     color: #ce352c;
     margin-top: 5vh;
     background-color: white;
-    width: 14%;
+    width: 25%;
 }
     
 
@@ -193,7 +193,7 @@ td {background-color: whitesmoke !important; }
 }
 
 .focused{
-    color:#30aed6;z
+    color:#30aed6;
     border:#30aed6 solid 3px;
 }
 
