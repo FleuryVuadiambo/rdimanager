@@ -86,7 +86,7 @@
     
         <div class="text-center button" style="display:-webkit-inline-box ;">
            <a href="bo-gestion_societe.php"><button type="button" class="btn btn-secondary">Annuler</button></a>
-            <a href="bo-gestion_societe.php"><button type="button" class="btn btn-success">Modifier</button></a>
+            <a href="bo-gestion_societe.php"><button type="button" class="btn btn-success">Enregister</button></a>
         </div>
 
     </form>        

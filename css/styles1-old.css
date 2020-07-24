@@ -93,12 +93,10 @@
     /**************************** FOOTER ********************************/
     footer
         {
-    background-color: #ce352c;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+            background-color:#ce352c;
+            display: flex;
+            justify-content: center;
+            pos;
         }
     
     .logofooter
