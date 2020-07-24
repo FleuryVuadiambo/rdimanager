@@ -17,9 +17,9 @@
     </style>
     <title>Maquette 18 (Fleury)</title>
 </head>
-<body style="overflow: hidden;">
+<body>
     <?php 
-	include ("menu BO.php"); 
+	include ("bo-header.php"); 
 	?>
 	<?php 
 	include ("menu-horizontal.php"); 

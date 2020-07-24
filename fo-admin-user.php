@@ -19,7 +19,7 @@
 </head>
 <body>
     <?php 
-	include ("menu BO.php"); 
+	include ("bo-header.php"); 
 	?>
 	<?php 
 	include ("menu-horizontal.php"); 
@@ -31,11 +31,11 @@
 
     <div class="container">
 
-        <h3 class="text-center m-4">Licences disponibles : <span style="background-color: aquamarine;">03</span></h3>
+        <h1 class="text-center m-4">Liste des utilisateurs</h1>
         
         <!-- <h3 class="text-center m-4">Projet : <span>Développement IP</span> </h3> -->
         
-        <h3 class="text-center m-4">Liste des utilisateurs</h3>
+        <h3 class="text-center m-4">Licences disponibles : <span style="background-color: aquamarine;">03</span></h3>
 
         <table class="table text-center mx-auto m-5">
             <thead>
@@ -44,11 +44,12 @@
                     <th scope="col" class="text-center">Nom</th>
                     <th scope="col" class="text-center">Prénom</th>
                     <th scope="col" class="text-center">Email</th>
-                    <th scope="col" class="text-center">Téléphone</th>
                     <th scope="col" class="text-center">Rôle</th>
-                    <!-- <th scope="col" class="text-center">Statut</th>
+                    <th scope="col" class="text-center">Statut</th>
                     <th scope="col" class="text-center">Date</th>
-                    <th scope="col" class="text-center">Nb projets</th> -->
+                    <th scope="col" class="text-center">Nb projets</th>
+                    <th scope="col" class="text-center">Modifier</th>
+                    <th scope="col" class="text-center">Supprimer</th>
                 </tr>
             </thead>
             <tbody>
@@ -57,36 +58,39 @@
                     <td class="text-center">DOE</td>
                     <td class="text-center">John</td>
                     <td class="text-center">john.doe@email.com</td>
-                    <td class="text-center">07 89 89 18 90</td>
-                    <td class="text-center">Utilisateur</td>
-                    <!-- <td class="text-center">Actif</td>
+                    <td class="text-center">Administrateur</td>
+                    <td class="text-center">Actif</td>
                     <td class="text-center"></td>
-                    <td class="text-center">0</td> -->
+                    <td class="text-center">0</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
                 </tr>
-                <tr>
-                    <!-- <td scope="col" class="text-center">#</td>
+                <!-- <tr>
+                    <td scope="col" class="text-center">#</td>
                     <td class="text-center">Dujardin</td>
                     <td class="text-center">Jean</td>
                     <td class="text-center"></td>
                     <td class="text-center">Utilisateur</td>
                     <td class="text-center">Créé</td>
                     <td class="text-center"></td>
-                    <td class="text-center">0</td> -->
-                </tr>
+                    <td class="text-center">0</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr> -->
             </tbody>
         </table>
 
         <div class="new_user">
-            <input type="button" class="btn btn-success" value="Envoyer une invitation">
+            <input type="button" class="btn btn-success" value="Ajoutez un utilisateur">
         </div>
     
     </div>
 
     <footer>
-        <!-- <a href="index6ter.html"><button> < </button></a> -->
+        <a href="index6ter.html"><button> < </button></a>
         <p class="copyright">Copyright Eurêka C.I</p>
         <img class="logofooter" src="img/logo.png" alt="">
-        <!-- <a href="index7bis.html"><button> > </button></a> -->
+        <a href="index7bis.html"><button> > </button></a>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

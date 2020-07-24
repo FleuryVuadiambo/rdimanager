@@ -19,7 +19,7 @@
 </head>
 <body>
     <?php 
-	include ("header.php"); 
+	include ("bo-header.php"); 
 	?>
 	<?php 
 	include ("menu-horizontal.php"); 
