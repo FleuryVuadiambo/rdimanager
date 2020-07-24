@@ -7,8 +7,13 @@
     <!-- <link rel="stylesheet" href="css/styles.css"> -->
     <style>
         body {overflow-y: hidden; }
+
         section {height: 837px; display: flex; justify-content: center; }
-        .connexion {border: 2px solid black; border-radius: 1em; position: absolute; top: 30%; left: 10%; height: 400px; }
+
+        .connexion { position: absolute; top: 13%; left: 10%; }
+        .img-logo {position: relative; left: 28%; margin-bottom: 12px;; }
+
+        form {border: 2px solid black; border-radius: 1em; min-height: 39vh; }
         .form-group {position: relative; left: 6%; }
         .forget_mdp, .new_compte {text-align: center; margin: 5px; }
 
@@ -23,7 +28,9 @@
 <body>
     <section>
         <div class="connexion">
-            <div class="img-logo"></div>
+            <div class="img-logo">
+                <img src="logosign.png" alt="">
+            </div>
             <form action="" method="post">
                 <div class="form-group row">
                     <label for="identifiant" class="col-sm-2 col-form-label">Identifiant</label>
@@ -37,16 +44,16 @@
                 <div class="col-sm-12">
                   <input type="password" class="form-control" id="nmdp">
                 </div>
+                <div class="forget_mdp mt-5">
+                    <span><a href="#">Mot de passe oublié ?</a></span>
+                </div>
+                <div class="new_compte mb-4">
+                    <span><a href="#">Créer un compte</a></span>
+                </div>
+                <div class="connect text-center">
+                    <a href=""><input type="button" class="btn btn-success" value="Connecter"></a>
+                </div>
             </form>
-            <div class="forget_mdp mt-5">
-                <span><a href="#">Mot de passe oublié ?</a></span>
-            </div>
-            <div class="new_compte mb-4">
-                <span><a href="#">Créer un compte</a></span>
-            </div>
-            <div class="connect text-center">
-                <a href=""><input type="button" class="btn btn-success" value="Connecter"></a>
-            </div>
         </div>
 
         <div class="presentation">
