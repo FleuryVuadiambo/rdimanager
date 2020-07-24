@@ -21,7 +21,7 @@
 </head>
 <body>
     <?php 
-	include ("menu BO.php"); 
+	include ("bo-header.php"); 
 	?>
 	<?php 
 	include ("menu-horizontal.php"); 
