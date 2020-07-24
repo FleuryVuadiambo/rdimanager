@@ -82,8 +82,6 @@ h2 {
     justify-content: center;
     margin-bottom: 1vh;
     color: #ce352c;
-    margin-top: 5vh;
-    background-color: white;
     width: 14%;
 }
     
@@ -199,14 +197,14 @@ td {background-color: whitesmoke !important; }
 
 /* Icons ---------------------------------- */
 #name{
-    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+    background-image: url(https://cdn2.iconfinder.com/data/icons/font-awesome/1792/user-512.png);
     background-size: 30px 30px;
     background-position: 11px 8px;
     background-repeat: no-repeat;
 }
 
 #name:focus{
-    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+    background-image: url(https://cdn2.iconfinder.com/data/icons/font-awesome/1792/user-512.png);
     background-size: 30px 30px;
     background-position: 8px 5px;
   background-position: 11px 8px;
