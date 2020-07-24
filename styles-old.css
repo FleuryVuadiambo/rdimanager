@@ -82,10 +82,13 @@ h2 {
     justify-content: center;
     margin-bottom: 1vh;
     color: #ce352c;
-    margin-top: 12vh;
+    margin-top: 5vh;
+    background-color: white;
+    width: 14%;
+}
     
 
-}
+
 
 /***************************** TABLE **********************/
 
@@ -99,12 +102,12 @@ td {background-color: whitesmoke !important; }
 
     /**************************** FOOTER ********************************/
     footer {
-    background-color: #ce352c;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;    }
+        background-color: #ce352c;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;    }
     
     .logofooter
         {
@@ -129,56 +132,160 @@ td {background-color: whitesmoke !important; }
         font-size: larger;
     }
 
-    /****************************************Connexion Inscription******************************/
+    /****************************************Connexion******************************/
 
-    .container {
-        width: 500px;
-        height: 400px;
-        text-align: center;
-        margin: auto;
-        background-color: #ce352c;
-        margin-top: 10%;
-        border-radius: 5px;
-        margin-bottom: 0%;
-    }
-
-    .container1 {
-        width: 361px;
-        height: 386px;
-        text-align: center;
-        margin: auto;
-        background-color: #ce352c;
-        margin-top: 15%;
-        border-radius: 5px;
-        margin-bottom: 0%;
-    }
+   body{
     
-    .logologin {
-        width: 150px;
-        height:150px;
-        border-radius:50%;
-        margin-top:-70px;
-        margin-bottom: 30px;
-    }
-    input {
-        height: 40px;
-        width: 300px;
-        font-size: 18px;
-        font-family: "Lato";
-        margin-bottom: 29px;
-        border-radius: 5px;
-        padding-left: 35px;
-    }
-    .form-input {
-        position: relative;
-        margin-bottom: 5%;
-    }
-    
-    .form-control
-    {
-        border: 2px solid black;
+    height:100%;
+    width:100%;
+}
 
+#feedback-page{
+    text-align:center;
+}
+
+#form-main{
+    width:100%;
+    float:left;
+    padding-top:0px;
+}
+
+#form-div {
+    background-color: #ce352c;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    width: 450px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 35%;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 31px;
+    border: #a52821;
+}
+
+.feedback-input {
+    color:#3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: #fbfbfb;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #3498db;
+    color: #3498db;
+    outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+#name:focus{
+    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+    background-size: 30px 30px;
+    background-position: 8px 5px;
+  background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+#password{
+    background-image: url(https://cdn4.iconfinder.com/data/icons/standard-free-icons/139/Safety01-128.png);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+#password:focus{
+    background-image: url(https://cdn4.iconfinder.com/data/icons/standard-free-icons/139/Safety01-128.png);
+    background-size: 30px 30px;
+  background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    background-color:white;
+}
+
+#button-blue {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    float: left;
+    width: 100%;
+    border: #fbfbfb solid 4px;
+    cursor: pointer;
+    background-color: #4b5d6a;
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+#button-blue:hover{
+    background-color: rgba(0,0,0,0);
+    color: #ce352c;
+}
+    
+.submit:hover {
+    color: #3498db;
+}
+    
+.ease {
+    width: 0px;
+    height: 48px;
+    background-color: #fbfbfb;
+    -webkit-transition: 1.10s ease;
+    -moz-transition: 1.10s ease;
+    -o-transition: 1.10s ease;
+    -ms-transition: 1.10s ease;
+    transition: 1.10s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+    #form-div{
+        left: 3%;
+        margin-right: 3%;
+        width: 88%;
+        margin-left: 0;
+        padding-left: 3%;
+        padding-right: 3%;
     }
+}
 
     /*************************************** INSCRIPTION ********************************/
     .form1 {
@@ -474,447 +581,3 @@ td {background-color: whitesmoke !important; }
     #confirmBox .gray span{         background-position:-395px 0;}
     #confirmBox .gray:hover{        background-position:-200px bottom;}
     #confirmBox .gray:hover span{   background-position:-395px bottom;}
-
-    /***************************************ACCUEIL*************************************************************/
-    @charset "utf-8";
-/* CSS Document */
-
-body{
-  margin: 0 auto;
-  overflow: hidden;
-  background-image:url(../_images/liege%20garden%20party%20156.JPG);
-}
-
-.overlay {
-    position: absolute;    
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    z-index: 3000;
-    -webkit-transition: all .5s ease-in-out;
-    pointer-events: auto;
-    margin-top: -4rem;
-    padding-bottom: 4rem;
-}
-
-.overlay.hidden {
-    height:100%;
-    opacity: 0;
-    pointer-events: none;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-/* LOADER */
-
-.loader{    
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 500;
-    color: white;
-    top: 20%;
-}
-
-#loader-logo{
-  text-align: center;
-  margin: 0 auto;
-  width: 100%;
-  animation: 2.5s 0.5s spinabit ease-in-out;
-  -webkit-animation: 2.5s 0.5s spinabit ease-in-out;
-  -webkit-animation-iteration-count: 2; 
-  animation-iteration-count: 2;
-}
-
-#loader-pitch{
-  font-family:"Poiret One";
-  width: 98%;
-  color: white;
-  text-align: center;
-  margin: 0 auto;
-  font-size:150%;
-}
-
-@keyframes spinabit{
-  0% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);;
-  }
-  12% {
-    transform: scale(0.7);
-    -webkit-transform: scale(0.7);
-    -ms-transform: scale(0.7);;
-  }
-  25% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-  }
-}
-
-@-webkit-keyframes spinabit{
-  0% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);;
-  }
-  12% {
-    transform: scale(0.7);
-    -webkit-transform: scale(0.7);
-    -ms-transform: scale(0.7);;
-  }
-  25% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-  }
-}
-
-
-@keyframes appear{
-  0% {
-    opacity: 0;
-    margin-top: -15px;
-  }
-  100% {
-    opacity: 1;
-    margin-top: 0;
-  }
-}
-
-@-webkit-keyframes appear{
-  0% {
-    opacity: 0;
-    margin-top: -15px;
-  }
-  100% {
-    opacity: 1;
-    margin-top: 0;
-  }
-}
-
-#svg{
-  width: 100%;
-  padding-top: 50px;
-}
-
-
-.loader-logoBackground{
-  animation: 2.5s 0.5s spin ease-in-out;
-  -webkit-animation: 2.5s 0.5s spin ease-in-out;
-  -webkit-animation-iteration-count: 2; 
-  animation-iteration-count: 2;
-
-}
-
-@keyframes spin{
-     0% {
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  25% {
-    transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  50%{
-    transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  75% {
-    transform: rotate(270deg);
-    -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  100% {
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-}
-
-@-webkit-keyframes spin{
-     0% {
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  25% {
-    transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  50%{
-    transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  75% {
-    transform: rotate(270deg);
-    -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  100% {
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-}
-
-
-.loader-logoDonut{
-    animation: 2.5s 0.5s spin-inverse ease-in-out forwards;
-    -webkit-animation: 2.5s 0.5s spin-inverse ease-in-out forwards;
-    -webkit-animation-iteration-count: 2; 
-    animation-iteration-count: 2;
-}
-
-@keyframes spin-inverse{
-   0% {
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  25% {
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  50%{
-    transform: rotate(-180deg);
-    -webkit-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  75% {
-    transform: rotate(-270deg);
-    -webkit-transform: rotate(-270deg);
-    -ms-transform: rotate(-270deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  100% {
-    transform: rotate(-360deg);
-    -webkit-transform: rotate(-360deg);
-    -ms-transform: rotate(-360deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-}
-
-@-webkit-keyframes spin-inverse{
-   0% {
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  25% {
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  50%{
-    transform: rotate(-180deg);
-    -webkit-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  75% {
-    transform: rotate(-270deg);
-    -webkit-transform: rotate(-270deg);
-    -ms-transform: rotate(-270deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-  100% {
-    transform: rotate(-360deg);
-    -webkit-transform: rotate(-360deg);
-    -ms-transform: rotate(-360deg);
-    transform-origin: 30px 25px;
-    -webkit-transform-origin: 30px 25px;
-    transform-origin: 30px 25px;
-  }
-}
-
-.quit-loader{
-  animation: 0.7s quit-loader forwards;
-  -webkit-animation: 0.7s quit-loader forwards;
-}
-
-@keyframes quit-loader {
-  0% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    opacity: 1;
-  }
-  35% {
-    transform: scale(0.5);
-    -webkit-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    opacity: 0.35;
-  }
-  100% {
-    transform: translate(0px,-100px);
-    -webkit-transform: translate(0px,-100px);
-    -ms-transform: translate(0px,-100px);
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes quit-loader {
-  0% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    opacity: 1;
-  }
-  35% {
-    transform: scale(0.5) translate(0px,0px);
-    -webkit-transform: scale(0.5) translate(0px,0px);
-    -ms-transform: scale(0.5) translate(0px,0px);
-    opacity: 0.3;
-  }
-  100% {
-    transform: scale(0.5) translate(0px,-150%);
-    -webkit-transform: scale(0.5) translate(0px,-150%);
-    -ms-transform: scale(0.5) translate(0px,-150%);
-    opacity: 0;
-  }
-}
-
-/* ACCUEIL */
-.accueil{
-    width: 100%;
-    min-height: 100%;
-    background-color: #FFF;
-    position: absolute;
-    opacity: 0;
-}
-.start-accueil{
-   animation: 0.4s 0.3s start-accueil ease-out forwards;
-   -webkit-animation: 0.4s 0.3s start-accueil ease-out forwards;
-   z-index: 1000;
-   -webkit-transform: translateZ(0);
-}
-
-@keyframes start-accueil {
-   0% {
-    transform: translate(0px,100%);
-    -webkit-transform: translate(0px,100%);
-    -ms-transform: translate(0px,100%);
-    opacity: 1;
-  }
-  100% {
-    transform: translate(0px,0%);
-    -webkit-transform: translate(0px,0%);
-    -ms-transform: translate(0px,0%);
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes start-accueil {
-   0% {
-    transform: translate(0px,100%);
-    -webkit-transform: translate(0px,100%);
-    -ms-transform: translate(0px,100%);
-    opacity: 1;
-  }
-  100% {
-    transform: translate(0px,0%);
-    -webkit-transform: translate(0px,0%);
-    -ms-transform: translate(0px,0%);
-    opacity: 1;
-  }
-}
-
-.container {
-    width:100%;
-    height:100%;
-    position:absolute;
-}
-
-.head {
-    width:100%;
-    height:70%;
-    background-color:#3cf6ae;
-    position:absolute;
-}
-.menu {
-    width:100%;
-    height:20%;
-    margin:0 auto;
-  right:50px;
-}
-
-ul {        
-    margin-top:8%;
-  
-}
-
-li{
-  margin: 0 auto;
-    display: inline-block;
-    border-bottom:1px solid #FFF;
-}
-
-a {
-    font-family:"Poiret One";
-    text-transform: uppercase;
-    color: #FFF;
-    text-decoration: none;
-    padding: 5px 5px 5px;
-    text-align:center;
-}
