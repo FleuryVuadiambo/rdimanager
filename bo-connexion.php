@@ -10,9 +10,13 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/menu-horizontal-back.css">
     <link rel="stylesheet" href="styles-old.css">
+    <style>
+        body:background-image: url('expert.jpg');
+
+    </style>
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body style="background: url('expert.jpg')">
    
     <?php
       include ('bo-header.php');
@@ -22,35 +26,61 @@
 	include ("bo-menu-horizontal.php"); 
 	?>
 
-        
 
-      <!--Formulaire d'inscription-->
-      <form >
-        <div class="container" style="height: 456px;">
-          <img class="logologin" src="http://previews.123rf.com/images/stodolskaya/stodolskaya1511/stodolskaya151100027/49219342-Connexion-de-l-utilisateur-ou-l-acc-s-authentification-ic-ne-Banque-d'images.jpg" alt="image" />
-        <div class="form-input"><i class="fa fa-user fa-2x" aria-hidden="true"></i>
-         <input  type="text"  placeholder="Enter Username" /></div>
-        <div class="form-input"><i class="fa fa-lock fa-2x" aria-hidden="true"></i>
-          <input type="password"  placeholder="Enter Password" /></div>
-       <b> <a href="bo-gestion_utili.php"><button type="button" class="btn btn-success">connexion</button></a>
+        <h2>Bienvenue sur RDI Manager</h2>
 
+<div id="form-main" style="margin:0 auto;">
+  <div id="form-div">
+    <form class="form" id="form1">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" />
+      </p>
+      
+      <p class="password">
+        <input name="password" type="text" class="validate[required,custom[email]] feedback-input" id="password" placeholder="Mot de passe" />
+      </p>
+      
+      
+      
+      
+      <div class="submit">
+        <input type="submit" value="CONNEXION" id="button-blue"/>
+        <div class="ease"></div>
       </div>
     </form>
+  </div>
 
-
-
-
-
-
-    <footer>
-      <p class="copyright">Copyright Eurêka C.I</p>
-      <img class="logofooter" src="img/logosign.png" alt="">
-  </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+      </script>
+      
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+      integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+      crossorigin="anonymous"> 
+      </script>
+
+    <script>
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+signUpButton.addEventListener('click', () => {
+    container.classList.add("right-panel-active");
+});
+
+signInButton.addEventListener('click', () => {
+    container.classList.remove("right-panel-active");
+});d
+</script>
+  
   </body>
 </html>
