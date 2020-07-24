@@ -5,6 +5,7 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
         background-color: beige; 
         color: brown;
+        background-image: url('expert.jpg')>
     }
     
     
@@ -82,10 +83,14 @@ h2 {
     justify-content: center;
     margin-bottom: 1vh;
     color: #ce352c;
-    margin-top: 5vh;
+ footer {
+    width: 33%;
     background-color: white;
-    width: 14%;
 }
+
+
+
+
     
 
 
@@ -157,9 +162,9 @@ td {background-color: whitesmoke !important; }
     padding-top: 35px;
     padding-bottom: 30px;
     width: 450px;
-    position: absolute;
-    margin-top: 4px;
-    margin-left: 35%;
+footer {
+    margin: 0 auto;
+
     -moz-border-radius: 4px;
     -webkit-border-radius: 31px;
     border: #a52821;
@@ -193,20 +198,26 @@ td {background-color: whitesmoke !important; }
 }
 
 .focused{
-    color:#30aed6;z
+
+    color:#30aed6;
+
     border:#30aed6 solid 3px;
 }
 
 /* Icons ---------------------------------- */
 #name{
-    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+
+    background-image: url(https://cdn2.iconfinder.com/data/icons/font-awesome/1792/user-512.png);
+
     background-size: 30px 30px;
     background-position: 11px 8px;
     background-repeat: no-repeat;
 }
 
 #name:focus{
-    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+
+    background-image: url(https://cdn2.iconfinder.com/data/icons/font-awesome/1792/user-512.png);
+
     background-size: 30px 30px;
     background-position: 8px 5px;
   background-position: 11px 8px;
@@ -315,13 +326,7 @@ input:focus, textarea:focus {
         width: 83%;
     }
 
-    .btn-success
-    {
-        margin: 0 auto;
-        display: flex;
-        margin-bottom: 27vh;
-        justify-content: center;
-
+    
     }
 
     /***************************************MAQUETTE 4***********************************/
@@ -445,10 +450,7 @@ input:focus, textarea:focus {
         padding-top: 4vh;
     }
     
-    .button
-    {
-        height: 13vh;
-    }
+    
 
     .container8
     {

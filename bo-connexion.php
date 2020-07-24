@@ -26,7 +26,9 @@
 	include ("bo-menu-horizontal.php"); 
 	?>
 
-        <h2>Bienvenue</h2>
+
+        <h2>Bienvenue sur RDI Manager</h2>
+
 <div id="form-main" style="margin:0 auto;">
   <div id="form-div">
     <form class="form" id="form1">
@@ -49,13 +51,6 @@
     </form>
   </div>
 
-
-
-
-    <footer>
-      <p class="copyright">Copyright Eurêka C.I</p>
-      <img class="logofooter" src="img/logosign.png" alt="">
-  </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
