@@ -17,33 +17,39 @@
     <title>Maquette 12</title>
 </head>
 <body>
-   <?php 
-	include ("menu BO.php"); 
-	?>
-	<?php 
-	include ("menu-horizontal.php"); 
-	?>
+    <section class="corps-body">
+    
+        <div class="blanc"></div>
+    
+        <?php 
+	    include ("menu BO.php"); 
+	    ?>
+
+	    <?php 
+	    include ("menu-horizontal.php"); 
+	    ?>
 
     <!-- <div class="img_logo">
         <img src="img/image001.png" alt="">
     </div> -->
 
-    <div class="container">
+        <div class="container" style="background-color: beige; min-height: 532px; border-radius: 2%;">
+            <h1 class="text-center m-4">Projet : <span>Développement IP</span> </h1>
+            <div class="form-group row">
+                <label for="liste_projets" class="col-sm-2 col-form-label" style="font-size: 1em;">Ajouter votre fait marquant : </label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" id="liste_projets" rows="25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloremque voluptate similique tempora eius alias, vitae reprehenderit est, molestiae illum vero consequatur illo quis blanditiis ab nemo consectetur delectus nisi!</textarea>
+                </div>    
+            </div>
 
-        <h1 class="text-center m-4">Projet : <span>Développement IP</span> </h1>
-
-        <div class="form-group row">
-            <label for="liste_projets" class="col-sm-2 col-form-label" style="font-size: 1em;">Ajouter votre fait marquant : </label>
-            <div class="col-sm-8">
-                <textarea class="form-control" id="liste_projets" rows="25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloremque voluptate similique tempora eius alias, vitae reprehenderit est, molestiae illum vero consequatur illo quis blanditiis ab nemo consectetur delectus nisi!</textarea>
-            </div>    
+            <div class="valid">
+                    <a href="fo-projet-02.php"><input type="button" class="btn btn-success" value="Valider">
+            </div><br>
         </div>
-    
-        <div class="valid">
-            <input type="button" class="btn btn-success" value="Valider">
-        </div><br>
 
-    </div>
+            <div class="blanc"></div>
+
+    </section>
 
     <footer>
         <a href="index7bis.html"><button> < </button></a>

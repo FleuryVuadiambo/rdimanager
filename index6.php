@@ -86,7 +86,7 @@
             </div>
 
             <div class="text-center mt-5 register">
-                <input type="button" class="btn btn-success" value="Enregistrer">
+                <a href="fo-projet-01.php"><input type="button" class="btn btn-success" value="Enregistrer">
             </div>
 <!-- 
             

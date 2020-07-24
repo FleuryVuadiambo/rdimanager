@@ -80,7 +80,7 @@
         </table>
 
         <div class="button mb-4">
-            <input type="button" class="btn btn-success new_project" value="Nouveau Projet">
+            <a href="index6.php"><input type="button" class="btn btn-success new_project" value="Nouveau Projet">
         </div>
 
     </div>
