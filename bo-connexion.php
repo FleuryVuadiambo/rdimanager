@@ -13,12 +13,12 @@
         <link rel="stylesheet" href="styles1-old.css">
 
     <style>
-        body:background-image: url('expert.jpg');
+        body:;
 
     </style>
     <title>Hello, world!</title>
   </head>
-<body>   
+<body style="background-image: url(https://www.developpez.net/forums/attachments/p550880d1/a/a/a)">   
     <?php
       include ('bo-header.php');
       ?>
