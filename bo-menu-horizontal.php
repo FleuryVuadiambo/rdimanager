@@ -9,7 +9,7 @@
 		<ul>
 			<li><a href="bo-gestion_societe.php">Liste des Sociétés</a></li>
 			<li><a href="bo-form_societe.php">Ajouter une Société</a></li>
-			<li><a href="bo-Licences.php">Liste des licences distribuées</a></li>
+			<li><a href="bo-Licences.php">Licences distribuées</a></li>
 		</ul>
 	</li>
 </ul>

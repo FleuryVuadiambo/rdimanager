@@ -22,15 +22,12 @@
 	include ("bo-menu-horizontal.php"); 
 	?>
       
-      <br> <h1>Gestion des Sociétés:</h1>
-  
+      <br>
 
-      
-
+    <h1>Bloom At Work</h1>
       <table class="table text-center mx-auto m-5">
         <thead>
           <tr class="table table-secondary">
-            <th scope="col" class="text-center">N°</th>
             <th scope="col" class="text-center">Societé</th>
             <th scope="col" class="text-center">Nb de licences</th>
             <th scope="col" class="text-center">Nb Licences utilisées</th>
@@ -42,8 +39,8 @@
 
           <tbody style="text-align: center;">
           <tr class="item">
-              <td class="text-center">1</td>
-              <td class="text-center"> Société 1 </td>
+            
+              <td class="text-center"> <a href="bo-societe.php" style="color:black;"> Société 1 </a> </td>
               <td class="text-center">5</td>
               <td class="text-center">1</td>
               <td class="text-center">Créé</td>
@@ -51,39 +48,49 @@
               <td class="text-center">Kevin</td>
               <td class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
               <td class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
-          </tr>
-          </tbody>
 
-          <tbody style="text-align: center;">
-          <tr class="item">
-              <td class="text-center">2</td>
-              <td class="text-center"> Société 2</td>
-              <td class="text-center">5</td>
-              <td class="text-center">1</td>
-              <td class="text-center">Créé</td>
-              <td class="text-center">02-02-2020 <br> 15h03</td>
-              <td class="text-center">Kevin</td>
-              <td class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
-              <td class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
-          </tr>
-          </tbody>
-          <tbody style="text-align: center;">
-          <tr class="item">
-              <td class="text-center">3</td>
-              <td class="text-center">Société 3</td>
-              <td class="text-center">5</td>
-              <td class="text-center">1</td>
-              <td class="text-center">Créé</td>
-              <td class="text-center">02-02-2020 <br> 15h03</td>
-              <td class="text-center">Kevin</td>
-              <td class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
-              <td class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
-          </tr>
+            </tr>
           </tbody>
 
       </table> 
 
-    
+      <h2 class="societegerer1" style="color: #ce352c;">Licences Distribuées</h2>
+
+      <table class="table text-center mx-auto m-5">
+        <thead>
+          <tr class="table table-secondary">
+            <th scope="col" class="text-center">Personne</th>
+            <th scope="col" class="text-center">Statut</th>
+            <th scope="col" class="text-center">Action</th>
+            <th scope="col" class="text-center">Statut</th>
+          </tr>
+        </thead>
+
+          <tbody style="text-align: center;">
+            <tr>
+              <td class="text-center">referent@societe1.com</td>
+              <td class="text-center">Invitation Envoyée</td>
+              <td class="text-center">Supprimer</td>
+              <td class="text-center">Actif</td>
+            </tr>
+          </tbody>
+
+      </table>      
+
+      
+        <a href="bo-geston_societe>"></a>
+      
+<button><a href="bo-Licences.php">Licences des Sociétées</a></button>   
+
+              
+      
+
+      
+
+      
+
+
+     
         <footer>
    
           <p class="copyright">Copyright Eurêka C.I</p>
