@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="font-awesome6/css/all.css">
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/menu-horizontal.css">
     
     <style>
         /* body {background-color: white; color: brown; } */
+        a:hover {text-decoration: none;  }
+        
         .img_logo {position: absolute; left: 4%; top: 8%; }
         .img_logo img {height: 50px; }
+
         i {color: black; }
-        tr, td {background-color: whitesmoke; }
-        /* .button {text-align: end; } */
+        .table thead th {background-color: #ce352c; color: white; }
+        tr, td {background-color: #e6e6e6; }
+        .btn-success {color: white; background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%); border: none; }
 
     </style>
-    <title>Maquette 20 (Fleury)</title>
+    <title>Tableau de bord modifié</title>
 </head>
 <body>
     <?php 
-	include ("bo-header.php"); 
+	include ("fo-header.php"); 
 	?>
 	<?php 
 	include ("menu-horizontal.php"); 
@@ -34,7 +38,7 @@
             
         <div class="container">
             
-            <h1 class="text-center mt-4 mb-4"> Projets sur l'année  <| 2020 |> <a href="#" style="font-size: smaller;"></h1>
+            <h1 class="text-center mt-4 mb-4"> Projets de l'année  <| 2020 |> <a href="#" style="font-size: smaller;"></h1>
              <!--   <h4 class="text-center"><a><i class="fas fa-arrow-alt-circle-left"></i></a> <| 2020 |> <a href="#"><i class="fas fa-arrow-alt-circle-right"></i></a></h4>
 -->
 
@@ -66,16 +70,16 @@
             </table>
         
             <div class="button text-center m-4">
-                <a href="fo-temps-01.php"><input type="button" class="btn btn-success" value="Mettre à jour votre feuille de temps">
+                <a href="fo-temps-01.php"><input type="button" class="btn btn-success" value="Mettre à jour votre feuille de temps"></a>
             </div>
 
         </div>
 
         <footer>
-            <a href="index14.html"><button> < </button></a>
+            <!-- <a href="index14.html"><button> < </button></a> -->
             <p class="copyright">Copyright Eurêka C.I</p>
-            <img class="logofooter" src="img/logo.png" alt="">
-            <a href="M1.html"><button> > </button></a>
+            <img class="logofooter" src="logo.png" alt="">
+            <!-- <a href="M1.html"><button> > </button></a> -->
             <!-- <a href="index4.html"><button> > </button></a> -->
         </footer>
 

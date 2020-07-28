@@ -3,7 +3,7 @@ body
 {
     background-color: white;
     line-height: "3,2em";
-
+    overflow-y: auto;
     height:100% !important;
 }
 
@@ -15,9 +15,8 @@ html{
 
 .container 
 {
-    background-color: beige; 
+    background-color: white; 
     min-height: 532px; 
-    border-radius: 2%;
 }
 
 
@@ -61,12 +60,6 @@ nav
 .logo-right{
     text-align: right;
 }
-
-
-
-
-
-
 
 /*
 .navbar-expand-lg .navbar-nav .nav-link {

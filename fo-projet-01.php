@@ -14,6 +14,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
+    <style>
+        a:hover {text-decoration: none; color: linear-gradient(to bottom, #729EBF 0%, #333A40 100%); }
+        h1, td a {color: black; }
+        .table thead th {background-color: #ce352c; color: white; }
+        tr, td {background-color: #e6e6e6; }
+    </style>
 
     <title>Liste des projets</title>
 </head>
@@ -21,11 +27,10 @@
 <body>
 
     <?php 
-	include ("menu BO.php"); 
+	include ("bo-header.php"); 
 	?>
 
     <?php
-    include ("header.php");
     include ("menu-horizontal.php");
     ?>
 
@@ -36,36 +41,35 @@
 
     <div class="container">
 
-        <h1>&nsbp </h1>
-        <h2 class="text-center mt-4 mb-4">Mes projets sur l'année : <| 2020 |>
-        </h2>
+        <!-- <h1>&nsbp </h1> -->
+        <h1 class="text-center mt-5 mb-4">Mes projets de l'année : <| 2020 |> <a href="#" style="font-size: smaller;"></h1>
         <table class="table   text-center mx-auto m-5">
             <thead>
                 <tr>
-                    <th scope="col" class="text-center">PROJETS</th>
-                    <th scope="col" class="text-center">Début</th>
-                    <th scope="col" class="text-center">Fin</th>
-                    <th scope="col" class="text-center">Statut</th>
-                    <th scope="col" class="text-center">Partcipants</th>
-                    <th scope="col" class="text-center">Faits Marquants</th>
-                    <th scope="col" class="text-center">CIR / CII</th>
-                    <th scope="col" class="text-center">Mes Heures</th>
-                    <th scope="col" class="text-center">Heures équipe</th>
+                    <th scope="col" class="">PROJETS</th>
+                    <th scope="col" class="">Début</th>
+                    <th scope="col" class="">Fin</th>
+                    <th scope="col" class="">Statut</th>
+                    <th scope="col" class="">Participants</th>
+                    <th scope="col" class="">Faits Marquants</th>
+                    <th scope="col" class="">CIR / CII</th>
+                    <th scope="col" class="">Mes Heures</th>
+                    <th scope="col" class="">Heures équipe</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td scope="row" class="text-center">Développement ID</td>
+                <tr style="color: #e6e6e6;">
+                    <td scope="row" class="text-center"><a href ="fo-projet-02.php">Développement ID</a></td>
                     <td class="text-center">15-02-2020</td>
                     <td class="text-center"></td>
                     <td class="text-center">En cours</td>
                     <td class="text-center">1</td>
-                    <td class="text-center">1</td>
+                    <td class="text-center">5</td>
                     <td class="text-center">oui</td>
                     <td class="text-center">70</td>
                     <td class="text-center">270</td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td scope="row" class="text-center"></td>
                     <td scope="row" class="text-center"></td>
                     <td scope="row" class="text-center"></td>
@@ -75,12 +79,12 @@
                     <td scope="row" class="text-center"></td>
                     <td scope="row" class="text-center"></td>
                     <td scope="row" class="text-center"></td>
-                </tr>
+                </tr> -->
             </tbody>
         </table>
 
         <div class="button mb-4">
-            <a href="index6.php"><input type="button" class="btn btn-success new_project" value="Nouveau Projet">
+            <a href="fo-new-projet.php"><input type="button" class="btn btn-success new_project" value="Nouveau Projet">
         </div>
 
     </div>
