@@ -8,18 +8,22 @@
     <link rel="stylesheet" href="css/menu-horizontal.css">
     
     <style>
-        body {background-color: beige; color: brown; }
+        body {background-color: white; color: brown; }
         .img_logo {position: absolute; left: 4%; top: 8%; }
         .img_logo img {height: 50px; }
         .container {margin-top: 40px; }
-        td {background-color: whitesmoke; }
+        /* td {background-color: whitesmoke; } */
+
+        form {position: relative; left: 16%; }
+        .col-sm-8 {max-width: 51.666667%; }
+
         .new_user {text-align: end;}
     </style>
     <title>Maquette 5(Fleury)</title>
 </head>
 <body>
     <?php 
-	include ("bo-header.php"); 
+	include ("fo-header.php"); 
 	?>
 	<?php 
 	include ("menu-horizontal.php"); 
@@ -35,10 +39,9 @@
         
         <!-- <h3 class="text-center m-4">Projet : <span>Développement IP</span> </h3> -->
         
-        <h3 class="text-center m-4">Licences disponibles : <span style="background-color: aquamarine;">03</span></h3>
+        <!-- <h3 class="text-center m-4">Licences disponibles : <span style="background-color: aquamarine;">03</span></h3> -->
 
         <form action="" method="post">
-
             <div class="form-group row">
                 <label for="nom" class="col-sm-2 col-form-label">Nom</label>
                 <div class="col-sm-8">
@@ -72,7 +75,6 @@
                         <option>Chef de projet</option>
                         <option>Collaborateur</option>
                         <option>Observateur</option>
-
                     </select>
                 </div>
             </div>
@@ -125,7 +127,7 @@
     <footer>
         <!-- <a href="index6ter.html"><button> < </button></a> -->
         <p class="copyright">Copyright Eurêka C.I</p>
-        <img class="logofooter" src="img/logo.png" alt="">
+        <img class="logofooter" src="logo.png" alt="">
         <!-- <a href="index7bis.html"><button> > </button></a> -->
     </footer>
 

@@ -19,7 +19,7 @@
 </head>
 <body>
     <?php 
-	include ("bo-header.php"); 
+	include ("fo-header.php"); 
 	?>
 	<?php 
 	include ("menu-horizontal.php"); 
@@ -35,7 +35,7 @@
         
         <!-- <h3 class="text-center m-4">Projet : <span>Développement IP</span> </h3> -->
         
-        <h3 class="text-center m-4">Licences disponibles : <span style="background-color: aquamarine;">03</span></h3>
+        <!-- <h3 class="text-center m-4">Licences disponibles : <span style="background-color: aquamarine;">03</span></h3> -->
 
         <table class="table text-center mx-auto m-5">
             <thead>
