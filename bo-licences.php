@@ -27,6 +27,7 @@
       <table class="table text-center mx-auto m-5">
         <thead>
           <tr class="table table-secondary">
+            <th scope="col" class="text-center">Société</th>
             <th scope="col" class="text-center">Personne</th>
             <th scope="col" class="text-center">Statut</th>
             <th scope="col" class="text-center">Action</th>
@@ -36,6 +37,31 @@
 
           <tbody style="text-align: center;">
             <tr>
+              <td class="text-center">Bloom Art Work</td>
+              <td class="text-center">referent@societe1.com</td>
+              <td class="text-center">Invitation Envoyée</td>
+              <td class="text-center">Supprimer</td>
+              <td class="text-center">Actif</td>
+            </tr>
+
+            <tr>
+              <td class="text-center">Gucci</td>
+              <td class="text-center">referent@societe1.com</td>
+              <td class="text-center">Invitation Envoyée</td>
+              <td class="text-center">Supprimer</td>
+              <td class="text-center">Actif</td>
+            </tr>
+
+            <tr>
+              <td class="text-center">Le césar</td>
+              <td class="text-center">referent@societe1.com</td>
+              <td class="text-center">Invitation Envoyée</td>
+              <td class="text-center">Supprimer</td>
+              <td class="text-center">Actif</td>
+            </tr>
+
+            <tr>
+              <td class="text-center">Bloom Art Work</td>
               <td class="text-center">referent@societe1.com</td>
               <td class="text-center">Invitation Envoyée</td>
               <td class="text-center">Supprimer</td>

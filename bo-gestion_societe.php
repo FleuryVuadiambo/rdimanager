@@ -31,7 +31,7 @@
         <thead>
           <tr class="table table-secondary">
             <th scope="col" class="text-center">N°</th>
-            <th scope="col" class="text-center">Societé</th>
+            <th scope="col" class="text-center">Société</th>
             <th scope="col" class="text-center">Nb de licences</th>
             <th scope="col" class="text-center">Nb Licences utilisées</th>
             <th scope="col" class="text-center">Statut</th>
@@ -43,7 +43,7 @@
           <tbody style="text-align: center;">
           <tr class="item">
               <td class="text-center">1</td>
-              <td class="text-center"> Société 1 </td>
+              <td class="text-center"> <a href="bo-societe.php">Bloom Art Work</a> </td>
               <td class="text-center">5</td>
               <td class="text-center">1</td>
               <td class="text-center">Créé</td>
@@ -57,7 +57,7 @@
           <tbody style="text-align: center;">
           <tr class="item">
               <td class="text-center">2</td>
-              <td class="text-center"> Société 2</td>
+              <td class="text-center"> <a href="bo-societe.php">Le César</a> </td>
               <td class="text-center">5</td>
               <td class="text-center">1</td>
               <td class="text-center">Créé</td>
@@ -70,7 +70,7 @@
           <tbody style="text-align: center;">
           <tr class="item">
               <td class="text-center">3</td>
-              <td class="text-center">Société 3</td>
+              <td class="text-center"><a href="bo-societe.php">Gucci</a> </td>
               <td class="text-center">5</td>
               <td class="text-center">1</td>
               <td class="text-center">Créé</td>
@@ -192,8 +192,7 @@ $(document).ready(function(){
         var elem = $(this).closest('.item');
         
         $.confirm({
-            'title'     : 'Delete Confirmation',
-            'message'   : 'Etes-vous sur de vouloir supprimer cet éléments?. <br />! Continue?',
+            'message'   : 'Voulez-vous vraiment supprimer cette société ?" . <br />! Continue?',
             'buttons'   : {
                 'Yes'   : {
                     'class' : 'blue',

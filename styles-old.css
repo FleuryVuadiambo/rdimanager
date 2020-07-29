@@ -4,7 +4,7 @@
         line-height: "3,2em";
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
         color: brown;
-        background-image: url('expert.jpg')>
+  
     }
     
 /******************************COntainer******************************************/
@@ -76,13 +76,14 @@
     display: flex;
     justify-content: center;
     color: #ce352c;
+    margin-top: 10vh;
+}
 
-    }
 
 
 h2 {
     font-size: 30pxrem;
-    margin: 83px auto;
+    margin: 13px auto;
     display: flex;
     justify-content: center;
     margin-bottom: 1vh;
@@ -119,6 +120,11 @@ button
     background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
 }
 
+tbody
+{
+    background-color: #e6e6e6;
+    color: black;
+} 
 
 
     /**************************** FOOTER ********************************/
@@ -230,8 +236,8 @@ button
 }
 
 a{
-  color: #fff;
-  text-decoration: none;
+    color: #ce352c;
+    text-decoration: underline;;
 }
 
 a:hover {
@@ -399,7 +405,7 @@ label span {
 .form-group4
 {
     display: flex;
-    margin-bottom: 5vh;
+    margin-left: 89px;
 }
 
     input[type=submit]{
@@ -528,8 +534,7 @@ label span {
         right:-80px
     }
     
-    .item a{
-        background-color: #FAFAFA;
+    .item a
         border: none;
         display: block;
         padding: 10px;
@@ -633,3 +638,12 @@ label span {
     #confirmBox .gray span{         background-position:-395px 0;}
     #confirmBox .gray:hover{        background-position:-200px bottom;}
     #confirmBox .gray:hover span{   background-position:-395px bottom;}
+
+    /********************************************Formulaire utilisateur*****************************************/
+    .row{      
+    padding-left: 103px;
+    }
+
+    form label{
+            max-width: 12.666667%;
+    }

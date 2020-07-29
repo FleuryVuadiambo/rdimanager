@@ -27,7 +27,7 @@
 
 <section>
       <h2>Ajouter une Société</h2>
-      <div id="container">
+      
       <form class="form4" action="" method="post">
 
         <div class="form-group row">
@@ -61,8 +61,14 @@
 
         <div class="form-group row">
           <label for="nom_societe" class="col-sm-2 col-form-label">Référent Back Office</label>
-          <div class="col-sm-8">
-            <input type="text" class="form-control" id="nom_societe" placeholder="Admin">
+          <div class="col-sm-10">
+            <select name="nom">
+                <option>Kevin</option>
+                <option>Sylvain</opotion>
+                <option>Yanny</option>
+                <option>Abder</option>
+                <option>Fleury</option>
+              </select>
           </div>
         </div>
 
@@ -73,13 +79,13 @@
               </div>
         </div>
 
-        <div class="form-group4">
-                <label for="statut" class="col-sm-2 col-form-label">NB de Licences</label>
+        <div class="form-group4" style="display:flex;">
+                <label for="statut" class="col-sm-2 col-form-label">Nb de Licences</label>
                 <div class="col-sm-1">
-                  <input type="number" class="form-control" id="statut" placeholder="5">
+                  <input type="text" class="form-control" id="statut" placeholder="5">
                 </div>
   
-          <label for="statut" class="col-sm-2 col-form-label">NB de Licences disponibles</label>
+          <label for="statut" class="col-sm-2 col-form-label">Nb de Licences utilisées</label>
           <div class="col-sm-1">
             <input type="number" class="form-control" id="statut" placeholder="5">
           </div>
@@ -99,12 +105,8 @@
          
   </section>
 
-  <form action="method-get.php" method="get">
-    Nom :     <input type="text" name="nom" />
-    Age :     <input type="text" name="age" />
-    Adresse : <input type="text" name="adresse" />
-    <input type="submit" name="submit" /> 
-</form>
+
+
 
 <?php
    // Vérifier si le formulaire est soumis 

@@ -21,14 +21,14 @@
       <?php 
 	include ("bo-menu-horizontal.php"); 
 	?>
-      
+      <img src="" alt="">
       <br>
 
     <h1>Bloom At Work</h1>
       <table class="table text-center mx-auto m-5">
         <thead>
           <tr class="table table-secondary">
-            <th scope="col" class="text-center">Societé</th>
+            <th scope="col" class="text-center">Bloom Art Work</th>
             <th scope="col" class="text-center">Nb de licences</th>
             <th scope="col" class="text-center">Nb Licences utilisées</th>
             <th scope="col" class="text-center">Statut</th>
@@ -40,7 +40,7 @@
           <tbody style="text-align: center;">
           <tr class="item">
             
-              <td class="text-center"> <a href="bo-societe.php" style="color:black;"> Société 1 </a> </td>
+              <td class="text-center"> <a href="bo-societe.php" style="color:white;"> Société 1 </a> </td>
               <td class="text-center">5</td>
               <td class="text-center">1</td>
               <td class="text-center">Créé</td>

@@ -19,7 +19,7 @@
     </style>
     <title>Hello, world!</title>
   </head>
-<body style="background-image: url(https://www.developpez.net/forums/attachments/p550880d1/a/a/a)">   
+<body style="background-image: url(expert.jpg)">   
     <?php
       include ('bo-header.php');
       ?>
@@ -29,29 +29,7 @@
 	?>
 
 
-        <h2>Bienvenue sur RDI Manager</h2>
-<div id="form-main" style="margin:0 auto;">
-  <div id="form-div">
-    <form class="form" id="form1">
-      
-      <p class="name">
-        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" />
-      </p>
-      
-      <p class="password">
-        <input name="password" type="text" class="validate[required,custom[email]] feedback-input" id="password" placeholder="Mot de passe" />
-      </p>
-      
-      
-      
-      
-      <div class="submit">
-        <input type="submit" value="CONNEXION" id="button-blue"/>
-        <div class="ease"></div>
-      </div>
-    </form>
-  </div>
-
+       
 
        <body id="particles-js"></body>
        
@@ -68,11 +46,10 @@
       
         <input type="text" name="email" placeholder="Email" autocomplete="off">
         <i class="typcn typcn-eye" id="eye"></i>
-        <input type="password" name="password" placeholder="Passsword" id="pwd" autocomplete="off">
-        <a href="#" class="forgetpass">Forget Password?</a>
-        <input type="submit" value="Sign in" class="btn1">
+        <input type="password" name="Nom" placeholder="Mot de Passe" id="pwd" autocomplete="off">
+        <a href="#" class="forgetpass">Mot De Passe,oublier?</a>
+        <a href="bo-gestion_societe.php"><input type="submit" value="Connexion" class="btn1"></a>
       </form>
-        <a href="#" class="dnthave">Don’t have an account? Sign up</a>
   </div> 
        
 </div>
