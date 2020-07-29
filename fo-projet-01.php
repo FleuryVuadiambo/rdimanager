@@ -43,7 +43,7 @@
 
         <!-- <h1>&nsbp </h1> -->
         <h1 class="text-center mt-5 mb-4">Mes projets de l'année : <| 2020 |> <a href="#" style="font-size: smaller;"></h1>
-        <table class="table   text-center mx-auto m-5">
+        <table class="table  text-center mx-auto m-5">
             <thead>
                 <tr>
                     <th scope="col" class="">PROJETS</th>

@@ -42,7 +42,7 @@
              <!--   <h4 class="text-center"><a><i class="fas fa-arrow-alt-circle-left"></i></a> <| 2020 |> <a href="#"><i class="fas fa-arrow-alt-circle-right"></i></a></h4>
 -->
 
-            <table class="table table-bordered mx-auto m-5">
+            <table class="table table-bordered mx-auto m-5"  style="max-width: 67.9%;">
                 <thead>
                     <tr class="table table-secondary">
                         <th scope="col">TABLEAU DE BORD</th>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/all.css">
+    <!-- <link rel="stylesheet" href="css/all.css"> -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/menu-horizontal.css">
     
@@ -19,8 +19,9 @@
         .edit-delete1 {position: absolute; top: 42%; left: 83%; }
         .edit-delete2 {position: absolute; top: 38%; left: 83%; }
         .new_user {text-align: center; }
+        .edit-delete1, .edit-delete2 {display: flex; }
     </style>
-    <title>Maquette 10 (Fleury)</title>
+    <title>Liste des utilisateurs</title>
 </head>
 <body>
     <?php 
@@ -41,7 +42,7 @@
         <p class="text-end mt-4 mb-4">Licences disponibles : <span>03</span></p>
         
 
-        <table class="table text-center mx-auto m-5">
+        <table class="table text-center mx-auto m-5"  style="max-width: 80%;">
             <thead>
                 <tr class="table table-secondary">
                     <th scope="col" class="text-center">N°</th>
@@ -66,13 +67,9 @@
                     <td class="text-center">Actif</td>
                     <td class="text-center"></td>
                     <td class="text-center">0</td>
-                    <!-- <td class="text-center"></td>
-                    <td class="text-center"></td> -->
+                    <td style="background: none; border: none;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
+                    <td style="background: none; border: none;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
                 </tr>
-                <div class="edit-delete1">
-                    <i class="far fa-edit"></i>
-                    <i class="fas fa-trash-alt"></i>
-                </div>
                 <tr>
                     <td scope="col" class="text-center">2</td>
                     <td class="text-center">Dujardin</td>
@@ -82,13 +79,9 @@
                     <td class="text-center">Créé</td>
                     <td class="text-center"></td>
                     <td class="text-center">0</td>
-                    <!-- <td class="text-center"></td>
-                    <td class="text-center"></td> -->
+                    <td style="background: none; border: none;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
+                    <td style="background: none; border: none;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
                 </tr>
-                <div class="edit-delete2">
-                    <i class="far fa-edit"></i>
-                    <i class="fas fa-trash-alt"></i>
-                </div>
             </tbody>
 
         </table>

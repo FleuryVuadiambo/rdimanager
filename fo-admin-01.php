@@ -24,9 +24,9 @@
         .overlay {position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.7); transition: opacity 500ms; visibility: hidden; opacity: 0; }
         .overlay:target {visibility: visible; opacity: 1; }
 
-        #popup2 {position: absolute; z-index: 5; height: 57em; top: 19%; left: 10%; width: 80%; }
-        #popup1 {position: absolute; z-index: 5; height: 57em; top: 19%; left: 10%; width: 80%; }
-        .popup {margin: 70px auto; padding: 20px; background: #fff; border-radius: 5px; width: 50%; position: relative; transition: all 5s ease-in-out; }
+        #popup2 {position: fixed; z-index: 5; }
+        #popup1 {position: fixed; z-index: 5; }
+        .popup {margin: 70px auto; padding: 20px; background: #fff; border-radius: 5px; width: 50%; position: relative; transition: all 5s ease-in-out; top: 19%; }
         .close {position: absolute; top: 5%; right: 3%; font-size: xx-large; }
         .valid {text-align: center; margin-top: 20px; }
     </style>
@@ -35,7 +35,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="crossorigin="anonymous"></script>
     <!-- <script src="js/indexbis.js"></script> -->
 
@@ -50,8 +50,7 @@
         });
     </script> -->
 
-
-    <title>Maquette 1 (Fleury)</title>
+    <title>Mon compte RDI Manager</title>
 </head>
 <body>
     <?php 

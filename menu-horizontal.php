@@ -3,7 +3,7 @@
 	<li><a href="">Mes Projets</a>
 		<ul>
 			<li><a href="fo-projet-01.php">Liste des projets</a></li>
-			<li><a href="index6.php">Nouveau projet</a></li>	
+			<li><a href="fo-new-projet.php">Nouveau projet</a></li>	
 			<!-- <li><a href="fo-projet-02.php">Détails du projet</a></li>
 			<li><a href="fo-projet-03.php">Ajouter un fait marquant</a></li> -->
 			
@@ -12,7 +12,7 @@
 	<li><a href="">Suivi temps</a>
 		<ul>
 			<li><a href="fo-temps-01.php">Feuille de temps</a></li>
-			<li><a href="fo-temps-02.php">Mes Absences</a></li>
+			<li><a href="fo-absences.php">Mes Absences</a></li>
 		</ul>
 	</li>
 	<li><a href="">Administration</a>
