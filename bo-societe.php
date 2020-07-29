@@ -25,22 +25,25 @@
       <br>
 
     <h1>Bloom At Work</h1>
+    <img src="societe1.png" class="logosociete" alt="">
       <table class="table text-center mx-auto m-5">
         <thead>
           <tr class="table table-secondary">
-            <th scope="col" class="text-center">Bloom Art Work</th>
+            <th scope="col" class="text-center">Société</th>
             <th scope="col" class="text-center">Nb de licences</th>
             <th scope="col" class="text-center">Nb Licences utilisées</th>
             <th scope="col" class="text-center">Statut</th>
             <th scope="col" class="text-center">Date / Heure</th>
             <th scope="col" class="text-center">Gestionnaire</th>
+            <th scope="col" class="text-center"> </th>
+            <th scope="col" class="text-center"> </th>
           </tr>
         </thead>
 
           <tbody style="text-align: center;">
           <tr class="item">
             
-              <td class="text-center"> <a href="bo-societe.php" style="color:white;"> Société 1 </a> </td>
+              <td class="text-center"> <a href="bo-societe.php"> Bloom Art Work </a> </td>
               <td class="text-center">5</td>
               <td class="text-center">1</td>
               <td class="text-center">Créé</td>
@@ -91,13 +94,9 @@
 
 
      
-        <footer>
-   
-          <p class="copyright">Copyright Eurêka C.I</p>
-          <img class="logofooter" src="img/logosign.png" alt="">
-        
-      </footer>
-    
+        <?php
+        include('bo-footer.php')
+        ?>
       
  
       
@@ -199,7 +198,6 @@ $(document).ready(function(){
         var elem = $(this).closest('.item');
         
         $.confirm({
-            'title'     : 'Delete Confirmation',
             'message'   : 'Etes-vous sur de vouloir supprimer cet éléments?. <br />! Continue?',
             'buttons'   : {
                 'Yes'   : {

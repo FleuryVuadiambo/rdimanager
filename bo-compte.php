@@ -49,7 +49,9 @@
 
       
  
-      
+      <?php
+        include('bo-footer.php')
+        ?>
 
       <script src="maquette.js"></script>
 

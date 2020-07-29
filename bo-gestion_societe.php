@@ -37,6 +37,10 @@
             <th scope="col" class="text-center">Statut</th>
             <th scope="col" class="text-center">Date / Heure</th>
             <th scope="col" class="text-center">Gestionnaire</th>
+            <th scope="col" class="text-center"></th>
+            <th scope="col" class="text-center"></th>
+
+
           </tr>
         </thead>
 
@@ -84,12 +88,9 @@
       </table> 
 
     
-        <footer>
-   
-          <p class="copyright">Copyright Eurêka C.I</p>
-          <img class="logofooter" src="img/logosign.png" alt="">
-        
-      </footer>
+        <?php
+        include('bo-footer.php')
+        ?>
     
       
  
