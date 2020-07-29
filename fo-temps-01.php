@@ -58,8 +58,8 @@
 
         
         <div class="button text-center mt-5">
-            <input type="submit" class="btn btn-secondary" value="Annuler">
-            <a href="fo-tableau-de-bord-01.php"><input type="submit" class="btn btn-success" value="Valider">
+            <!-- <input type="submit" class="btn btn-secondary" value="Annuler"> -->
+            <a href="#"><input type="submit" class="btn btn-success" value="Mettre à jour">
         </div>
 
     </div>

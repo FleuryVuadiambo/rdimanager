@@ -12,7 +12,7 @@
         /* .changer_mdp ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content ui-accordion-content-active {background: border-box border-box; border-radius: 1%; } */
         .container {min-height: 86vh; }
         form {position: relative; left: 16%; }
-        .text-center {justify-content: space-bteween; }
+        .text-center {justify-content: space-between; }
         .btn-success1 {color: white; background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%); border: none; }
         .col-sm-8 {max-width: 51.666667%; }
 
@@ -29,7 +29,6 @@
         .popup {margin: 70px auto; padding: 20px; background: #fff; border-radius: 5px; width: 50%; position: relative; transition: all 5s ease-in-out; }
         .close {position: absolute; top: 5%; right: 3%; font-size: xx-large; }
         .valid {text-align: center; margin-top: 20px; }
-
     </style>
     
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->

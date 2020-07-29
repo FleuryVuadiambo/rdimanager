@@ -19,7 +19,7 @@
 
         .new_user {text-align: end;}
     </style>
-    <title>Maquette 5(Fleury)</title>
+    <title>Inviter un utilisateur</title>
 </head>
 <body>
     <?php 

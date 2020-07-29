@@ -11,14 +11,14 @@
         /* body {background-color: beige; color: brown; } */
         .img_logo {position: absolute; left: 4%; top: 8%; }
         .img_logo img {height: 50px; } 
-        .container {margin-top: 40px; max-height: 100vh; }
+        .container {margin-top: 40px; min-height: 100vh; }
         /* .register {position:relative; left: 13%; } */
         th {color: brown; }
         td {background-color: whitesmoke; }
 
         label#date_fin.col-sm-4.col-form-label {position: relative; left: 16%; }
     </style>
-    <title>Maquette 8 (Fleury)</title>
+    <title>Ajouter votre projet</title>
 </head>
 <body>
     <?php 
@@ -113,10 +113,10 @@
         </div>
 
     <footer>
-        <a href="index5.html"><button> < </button></a>
+        <!-- <a href="index5.html"><button> < </button></a> -->
         <p class="copyright">Copyright Eurêka C.I</p>
-        <img class="logofooter" src="img/logo.png" alt="">
-        <a href="index6bis.html"><button> > </button></a>
+        <img class="logofooter" src="logo.png" alt="">
+        <!-- <a href="index6bis.html"><button> > </button></a> -->
     </footer>
         
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

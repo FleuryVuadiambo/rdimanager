@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/menu-horizontal.css">
     <link rel="stylesheet" href="css/timeline.css">
     <style>
-        
+        a {color: black; }
+        a:hover {text-decoration: none; color:  linear-gradient(to bottom, #729EBF 0%, #333A40 100%); }
         .img_logo {position: absolute; left: 4%; top: 8%; }
 
         .img_logo img {height: 40px; } 
@@ -32,7 +33,10 @@
         .overlay {position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.7); transition: opacity 500ms; visibility: hidden; opacity: 0; }
         .overlay:target {visibility: visible; opacity: 1; }
         #popup3 {position: absolute; z-index: 5; height: 57em; top: 19%; left: 10%; width: 80%; }
+
+
         #popup1 {position: absolute; z-index: 5; height: 57em; top: 19%; left: 10%; width: 80%; }
+        span {font-size: 1em; }
         .popup {margin: 70px auto; padding: 20px; background: #fff; border-radius: 5px; width: 50%; position: relative; transition: all 5s ease-in-out; }
         .close {position: absolute; top: 5%; right: 3%; font-size: xx-large; }
         .valid {text-align: center; margin-top: 20px; }
@@ -77,28 +81,29 @@
             <div class="form-group row">
                 <label for="titre" class="col-sm-2 col-form-label">Titre</label>
                 <div class="col-sm-8">
-                  <input type="text" class="form-control" id="titre">
+                  <input type="text" class="form-control" id="titre" placeholder="Développement IP">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="statut" class="col-sm-2 col-form-label">Statut</label>
                 <div class="col-sm-8">
                     <select id="statut" class="form-control">
-                        <option selected>Création </option>
-                        <option>...</option>
+                        <option selected>En cours</option>
+                        <option>Création</option>
+                        <option>Terminé</option>
                     </select>                
                 </div>
             </div>
             <div class="form-group row">
                 <label for="liste_projets" class="col-sm-2 col-form-label">Résumé</label>
                 <div class="col-sm-8">
-                    <textarea class="form-control" id="liste_projets" rows="3"></textarea>
+                    <textarea class="form-control" id="liste_projets" rows="3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium ratione rem repellat dolores ut recusandae asperiores corrupti, quo, id provident dolorem voluptatum excepturi perspiciatis quia possimus! Laudantium sed dolore labore?</textarea>
                 </div>    
             </div>
             <div class="form-group row">
                 <label for="chef_projet" class="col-sm-2 col-form-label">Chef du projet</label>
                 <div class="col-sm-8">
-                  <input type="text" class="form-control" id="chef_projet">
+                  <input type="text" class="form-control" id="chef_projet" placeholder="Sylvain Clément">
                 </div>
             </div>
             <div class="bloc">
@@ -119,7 +124,7 @@
                                 <a href="#popup3"><input type="button" class="btn btn-success" value="Gérer les participants"></a>
                             </div>
                             <div class="new_user">
-                                <a href="#"><input type="button" class="btn btn-success" value="Nouveau participant"></a>
+                                <a href="fo-new-user.php"><input type="button" class="btn btn-success" value="Nouveau participant"></a>
                             </div>
                         </div>
                     </div>
@@ -154,6 +159,9 @@
                     </tr>
                 </tbody>
             </table>
+            <div class="text-center new_user">
+                <a href="fo-new-user.php"><input type="button" class="btn btn-success" value="Ajouter"></a>
+            </div>
         </div>
     </div>
         
@@ -184,24 +192,24 @@
                 <div class="row">
                     <div class="col s12 m12 l12">
                         <div class="facts">
-                            <h1 style="font-size: 2.5em;">Faits marquants</h1>
+                            <h1 style="font-size: 2.5em; text-decoration: none; ">Faits marquants</h1>
                             <div class="text-center new_user">
                                 <a class="button" href="#popup1"><input type="submit" class="btn btn-success" value="Ajouter un fait marquant"></a>
                             </div>
                         </div>
                         <ul class="timeline">
-                            <li class="event">
-                                <h4 style="font-size: 1em;" data-date="22 Sept 2020">22 Sept 2020</h4>
-                                <p><h3>Management and Entreprenurship (MSc)</h3><span>Kévin Njifenju</span></p>
+                            <a href="#"><li class="event">
+                                <h4 style="font-size: 1em;" data-date="22 Sept 2020">22 Sept 2020  <span>Kévin Njifenju</span></h4>
+                                <p><h3>Management and Entreprenurship (MSc)</h3></p>
                                 <p>
                                     This September 2015 I will begin an MSc in Management and Entrepreneurship at
                                     University of Sussex, to broaden my knowledge and gain skills necessary for my
                                     future in business and management.
                                 </p>
-                            </li>
-                            <li class="event">
-                                <h4 style="font-size: 1em;" data-date="12 Sept 2020">12 Sept 2020</h4>
-                                <p><h3>Claromentis</h3><span>Sylvain Clément</span></p>
+                            </li></a>
+                            <a href="#"><li class="event">
+                                <h4 style="font-size: 1em;" data-date="12 Sept 2020">12 Sept 2020  <span>Sylvain Clément</span></h4>
+                                <p><h3>Claromentis</h3></p>
                                 <p>
                                     Claromentis is an intranet software provider company. I started working at the
                                     Brighton office as a Marketing Designer while I was still attending my final year at
@@ -216,35 +224,35 @@
                                     perfect opportunity to implement the skills I have gained throughout my higher
                                     education, as well as experiencing the running of a successful business.
                                 </p>
-                            </li>
-                            <li class="event">
-                                <h4 style="font-size: 1em;" data-date="14 Juil 2020">14 Juil 2020</h4>
-                                <p><h3>Games & Multimedia Environments BSc (Hons)</h3><span>Kévin Njifenju</span></p>
+                            </li></a>
+                            <a href="#"><li class="event">
+                                <h4 style="font-size: 1em;" data-date="14 Juil 2020">14 Juil 2020  <span>Kévin Njifenju</span></h4>
+                                <p><h3>Games & Multimedia Environments BSc (Hons)</h3></p>
                                 <p>Throughout my degree I have gained expansive knowledge of informatics areas including
                                     Human Computer Interaction, Multimedia Design and Development, Program Analysis and
                                     Design For my final year project, I created a 2D Puzzler Game for iOS
                                     called 'Flat Ball' and received a first. I therefore hope to release this game and
                                     further develop it to add new levels and improve the features.
                                 </p>
-                            </li>
-                            <li class="event">
-                                <h4 style="font-size: 1em;" data-date="22 Mai 2020">15 Juin 2020</h4>
-                                <p><h3>1108 Studios</h3><span>Yanny Appadoo</span></p>
+                            </li></a>
+                            <a href="#"><li class="event">
+                                <h4 style="font-size: 1em;" data-date="22 Mai 2020">15 Juin 2020  <span>Yanny Appadoo</span></h4>
+                                <p><h3>1108 Studios</h3></p>
                                 <p>This is a small startup that a friend and I created to gain more skills and apply
                                     those I had learned while completing my diploma. Since its inception, as a front -
                                     end web developer I have advised, designed and built web solutions for numerous
                                     clients.
                                 </p>
-                            </li>
-                            <li class="event">
-                                <h4 style="font-size: 1em;" data-date="22 Mai 2020">22 Mai 2020</h4>
-                                <p><h3>IT Practitioners BTEC National Diploma</h3><span>Fleury Vuadiambo</span></p>
+                            </li></a>
+                            <a href="#"><li class="event">
+                                <h4 style="font-size: 1em;" data-date="22 Mai 2020">22 Mai 2020  <span>Fleury Vuadiambo</span></h4>
+                                <p><h3>IT Practitioners BTEC National Diploma</h3></p>
                                 <p>This is where my interest in building things for interactive media began. During my
                                     first computing course I studied a range of core topics including multimedia design,
                                     database design, computer games development, computer networks and object
                                     oriented programming.
                                 </p>
-                            </li>
+                            </li></a>
                         </ul>
                     </div>
                 </div>
