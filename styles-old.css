@@ -91,6 +91,9 @@ h2 {
  footer {
     width: 33%;
     background-color: white;
+
+    width: 25%;
+
 }
 
 
@@ -219,9 +222,11 @@ button
   color: #565f79;
 }
 
-.box input[type = "text"]:focus,.box input[type = "password"]:focus {
-  border: 1px solid #79A6FE;
-  
+
+.focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
+
 }
 
 a{

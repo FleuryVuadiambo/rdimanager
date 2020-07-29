@@ -10,13 +10,16 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/menu-horizontal-back.css">
     <link rel="stylesheet" href="styles-old.css">
+        <link rel="stylesheet" href="styles1-old.css">
+
     <style>
+
         body:background-image: url('expert.jpg');
+
     </style>
     <title>Hello, world!</title>
   </head>
-  <body style="background: url('expert.jpg')">
-   
+<body style="background-image: url(https://www.developpez.net/forums/attachments/p550880d1/a/a/a)">   
     <?php
       include ('bo-header.php');
       ?>
@@ -24,6 +27,30 @@
       <?php 
 	include ("bo-menu-horizontal.php"); 
 	?>
+
+
+        <h2>Bienvenue sur RDI Manager</h2>
+<div id="form-main" style="margin:0 auto;">
+  <div id="form-div">
+    <form class="form" id="form1">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" />
+      </p>
+      
+      <p class="password">
+        <input name="password" type="text" class="validate[required,custom[email]] feedback-input" id="password" placeholder="Mot de passe" />
+      </p>
+      
+      
+      
+      
+      <div class="submit">
+        <input type="submit" value="CONNEXION" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
 
 
        <body id="particles-js"></body>
