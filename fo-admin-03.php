@@ -9,7 +9,12 @@
 	<link rel="stylesheet" href="css/menu-horizontal.css">
     <style>
         /* body {background-color: beige; color: brown; } */
-        .container {min-height: 120vh; }
+        .container {min-height: 119vh; max-weight: 150vh; }
+
+        h4 {position: relative; left: 16%; }
+        form {position: relative; left: 16.4%; }
+        .col-sm-8 {max-width: 51.666667%; }
+        
         .img_logo {position: absolute; left: 4%; top: 8%; }
         .img_logo img {height: 50px; } 
         .changer_mdp ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content ui-accordion-content-active {background: border-box border-box; border-radius: 1%; }
@@ -19,7 +24,7 @@
 </head>
 <body>
     <?php 
-	include ("menu BO.php"); 
+	include ("bo-header.php"); 
 	?>
 	<?php 
 	include ("menu-horizontal.php"); 
@@ -33,7 +38,7 @@
 
             <h1 class="text-center m-4">Nouvel Utilisateur</h1>
 
-            <h4 class="mb-4">Saisir les informations du nouvel utilisateur</h4>
+            <h4 class="mb-4">Saisir les informations</h4>
 
             <form action="" method="post">
 
@@ -56,40 +61,43 @@
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="email" class="col-sm-2 col-form-label disabled">Email</label>
+                    <label for="email" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-8">
-                      <input type="text" class="form-control bg-light" id="email" placeholder="john.doe@email.com">
+                      <input type="text" class="form-control bg-light" id="email" placeholder="john.doe@email.com" disabled>
                     </div>
                 </div>
                 <div class="form-group row" id="nom_societe">
                     <label for="nom_societe" class="col-sm-2 col-form-label" id="nom_societe">Nom de la société</label>
                     <div class="col-sm-8">
-                      <input type="text" class="form-control  bg-light" id="nom_societe" placeholder="Société 1">
+                      <input type="text" class="form-control  bg-light" id="nom_societe" placeholder="Société 1"  disabled>
                     </div>
                 </div>
                 <div class="form-group row" id="role">
                     <label for="role" class="col-sm-2 col-form-label">Rôle</label>
                     <div class="col-sm-8">
                         <select id="role" class="form-control  bg-light">
-                            <option selected>Administrateur</option>
-                            <option>Client</option>
+                            <option selected>Utilisateur</option>
+                            <option>Administrateur</option>
+                            <option>Chef de projet</option>
+                            <option>Participant</option>
+                            <option>Observateur</option>
                         </select>
                     </div>
                 </div>
 
             </form>
 
-            <div class="text-center button mb-4">
+            <div class="text-center button mt-5 mb-4">
                 <input type="submit" class="btn btn-secondary" value="Annuler">
                 <a href="fo-admin-01.php"><input type="submit" class="btn btn-success" value="Valider">
             </div>
         </div>
     
         <footer>
-            <a href="maquette12.html"><button> < </button></a>
+            <!-- <a href="maquette12.html"><button> < </button></a> -->
             <p class="copyright">Copyright Eurêka C.I</p>
-            <img class="logofooter" src="img/logo.png" alt="">
-            <a href="index2.html"><button> > </button></a>
+            <img class="logofooter" src="logo.png" alt="">
+            <!-- <a href="index2.html"><button> > </button></a> -->
         </footer>
               
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->

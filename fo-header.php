@@ -3,6 +3,7 @@
 <nav class="navbar navbar-expand-lg" style="position: relative;">
      <div><img src="logo.png" style="height:10vh" alt=""></div>
         <div style="margin:0 auto;">
+            <a class="navbar-brand" href="#"><img style="height:13vh !important; " class="logoheader" src="societe1.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -16,7 +17,7 @@
               
             <div  style="left:-65px;min-width: 7rem;list-style-type: none; position: absolute; left: -92px;" class="dropdown-menu" aria-labelledby="navbarDropdown">
                               
-                <a class="dropdown-item" href="bo-compte.php">Mon Compte</a>
+                <!-- <a class="dropdown-item" href="bo-moncompte.php">Mon Compte</a> -->
                 <a class="dropdown-item" href="bo-connexion.php">Déconnexion</a>
                 
             </div>

@@ -22,75 +22,31 @@
 	include ("bo-menu-horizontal.php"); 
 	?>
       
-      <br> <h1>Gestion des Sociétés:</h1>
+      <br>
+
+      <div class="card">
+          <div class="la">
+              <div class="sff">
+
+
+                  <div>
+                      <div>
+
+                      </div>
+                      <div>
+                          <div>
+                              <div>
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   
 
-      
 
-      <table class="table text-center mx-auto m-5">
-        <thead>
-          <tr class="table table-secondary">
-            <th scope="col" class="text-center">N°</th>
-            <th scope="col" class="text-center">Societé</th>
-            <th scope="col" class="text-center">Nb de licences</th>
-            <th scope="col" class="text-center">Nb Licences utilisées</th>
-            <th scope="col" class="text-center">Statut</th>
-            <th scope="col" class="text-center">Date / Heure</th>
-            <th scope="col" class="text-center">Gestionnaire</th>
-          </tr>
-        </thead>
-
-          <tbody style="text-align: center;">
-          <tr class="item">
-              <td class="text-center">1</td>
-              <td class="text-center"> Société 1 </td>
-              <td class="text-center">5</td>
-              <td class="text-center">1</td>
-              <td class="text-center">Créé</td>
-              <td class="text-center">02-02-2020 <br> 15h03</td>
-              <td class="text-center">Kevin</td>
-              <td class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
-              <td class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
-          </tr>
-          </tbody>
-
-          <tbody style="text-align: center;">
-          <tr class="item">
-              <td class="text-center">2</td>
-              <td class="text-center"> Société 2</td>
-              <td class="text-center">5</td>
-              <td class="text-center">1</td>
-              <td class="text-center">Créé</td>
-              <td class="text-center">02-02-2020 <br> 15h03</td>
-              <td class="text-center">Kevin</td>
-              <td class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
-              <td class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
-          </tr>
-          </tbody>
-          <tbody style="text-align: center;">
-          <tr class="item">
-              <td class="text-center">3</td>
-              <td class="text-center">Société 3</td>
-              <td class="text-center">5</td>
-              <td class="text-center">1</td>
-              <td class="text-center">Créé</td>
-              <td class="text-center">02-02-2020 <br> 15h03</td>
-              <td class="text-center">Kevin</td>
-              <td class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
-              <td class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
-          </tr>
-          </tbody>
-
-      </table> 
-
-    
-        <footer>
-   
-          <p class="copyright">Copyright Eurêka C.I</p>
-          <img class="logofooter" src="img/logosign.png" alt="">
-        
-      </footer>
-    
       
  
       

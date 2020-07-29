@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
     <style>
         body {overflow-y: hidden; }
 
@@ -19,11 +19,9 @@
 
         .presentation {position: absolute; left: 33%; top: 15%; }
         .text {width: 576px; text-align: justify; position: absolute; top: 116px; }
-
-        footer {position: fixed; bottom: 78px; width: 100%; padding-top: 67px; height: 35px; }
-        .copyright {background-color: brown; color: white; margin-top: 3vh; font-family: monospace; font-size: larger; text-align: center; padding: 15px; }
+        
     </style>
-    <title>Présentation RDI Manager - Connexion</title>
+    <title>Présentation FrontOffice RDI Manager</title>
 </head>
 <body>
     <section>
@@ -51,7 +49,7 @@
                     <span><a href="#">Créer un compte</a></span>
                 </div>
                 <div class="connect text-center">
-                    <a href=""><input type="button" class="btn btn-success" value="Connecter"></a>
+                    <a href="fo-tableau-de-bord.php"><input type="button" class="btn btn-success" value="Connecter"></a>
                 </div>
             </form>
         </div>
@@ -67,11 +65,12 @@
         </div>
     </section>
 
-    <footer>
-        <!-- <a href="index7.html"><button> < </button></a> -->
-        <p class="copyright">Copyright Eurêka C.I</p>
-        <img class="logofooter" src="img/logo.png" alt="">
-        <!-- <a href="index8.html"><button> > </button></a> -->
-    </footer>
-</body>
+    <?php 
+	include ("footer.php"); 
+	?>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body> 
 </html>

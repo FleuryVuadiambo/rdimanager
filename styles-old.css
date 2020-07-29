@@ -3,11 +3,16 @@
     {
         line-height: "3,2em";
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-        background-color: beige; 
         color: brown;
+        background-image: url('expert.jpg')>
     }
     
-    
+/******************************COntainer******************************************/
+    #container{
+        background-color: beige;
+        border-radius: 2%;
+}
+
     /**************************** NAV ************************/
 
     
@@ -66,12 +71,12 @@
 
     h1 {
         
-        font-size: 30px;
-        font-family: inherit;
-        display: flex;
-        justify-content: center;
-        text-decoration: underline;
-        color: red;
+    font-size: 30px;
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    color: #ce352c;
+
     }
 
 
@@ -82,33 +87,49 @@ h2 {
     justify-content: center;
     margin-bottom: 1vh;
     color: #ce352c;
-    margin-top: 5vh;
-    background-color: white;
-    width: 25%;
 }
+ footer {
+    width: 33%;
+    background-color: white;
+
+    width: 25%;
+
+}
+
+
+
+
     
 
 
 
 /***************************** TABLE **********************/
 
-td {background-color: whitesmoke !important; }
-
-.table td, .table th
+.table-secondary th
 {
-    vertical-align: top;
-    border-top: 1px solid #dee2e6;
+    background-color: #ce352c; color: white;
 }
 
+button
+{
+    margin: 0 auto;
+    display: flex;
+    background-color: #729EBF;
+    background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+    background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+}
+
+
+
     /**************************** FOOTER ********************************/
-    footer {
+    footer   {
         background-color: #ce352c;
         display: flex;
         justify-content: center;
         position: absolute;
-        bottom: 0;
-        width: 100%;    }
-    
+        bottom: -15% !important;
+        width: 100%;
+    }
     .logofooter
         {
         height: 5vh;
@@ -134,159 +155,199 @@ td {background-color: whitesmoke !important; }
 
     /****************************************Connexion******************************/
 
-   body{
-    
-    height:100%;
-    width:100%;
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+
+.container{
+
+    margin: 0 auto;
+    margin-top: 5vh;
+    text-align: center;
+    transform: translateX(0%);
+    background-color: #ce352cdb;
+    border-radius: 9px;
+    border-top: 10px solid #efefef;
+    border-bottom: 10px solid #ffffff;
+    width: 400px;
+    height: 500px;
+}
+.login
+{
+      vertical-align: middle;
+    border-style: none;
+    height: 15vh;
+    margin-top: 70px;
 }
 
-#feedback-page{
-    text-align:center;
+
+.box h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #5c6bc0; 
+  font-size: 18px;
+  margin-top:94px;;
 }
 
-#form-main{
-    width:100%;
-    float:left;
-    padding-top:0px;
+.box h4 span {
+  color: #dfdeee;
+  font-weight: lighter;
 }
 
-#form-div {
-    background-color: #ce352c;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 35px;
-    padding-bottom: 30px;
-    width: 450px;
-    position: absolute;
-    margin-top: 4px;
-    margin-left: 35%;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 31px;
-    border: #a52821;
+.box h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  color: #a1a4ad;
+  letter-spacing: 1.5px;
+  margin-top: -15px;
+  margin-bottom: 70px;
 }
 
-.feedback-input {
-    color:#3c3c3c;
-    font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-    font-size: 18px;
-    border-radius: 0;
-    line-height: 22px;
-    background-color: #fbfbfb;
-    padding: 13px 13px 13px 54px;
-    margin-bottom: 10px;
-    width:100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
-}
-
-.feedback-input:focus{
-    background: #fff;
-    box-shadow: 0;
-    border: 3px solid #3498db;
-    color: #3498db;
+.box input[type = "text"],.box input[type = "password"] {
+  display: block;
+    margin: 20px auto;
+    background: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    padding: 14px 10px;
+    width: 320px;
     outline: none;
-  padding: 13px 13px 13px 54px;
+    color: #000000;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+  
 }
+::-webkit-input-placeholder {
+  color: #565f79;
+}
+
 
 .focused{
     color:#30aed6;
     border:#30aed6 solid 3px;
+
 }
 
-/* Icons ---------------------------------- */
-#name{
-    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-    background-size: 30px 30px;
-    background-position: 11px 8px;
-    background-repeat: no-repeat;
+a{
+  color: #fff;
+  text-decoration: none;
 }
 
-#name:focus{
-    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-    background-size: 30px 30px;
-    background-position: 8px 5px;
-  background-position: 11px 8px;
-    background-repeat: no-repeat;
+a:hover {
+  text-decoration: underline;
 }
 
-#password{
-    background-image: url(https://cdn4.iconfinder.com/data/icons/standard-free-icons/139/Safety01-128.png);
-    background-size: 30px 30px;
-    background-position: 11px 8px;
-    background-repeat: no-repeat;
+ label input[type = "checkbox"] {
+  display: none; /* hide the default checkbox */
 }
 
-#password:focus{
-    background-image: url(https://cdn4.iconfinder.com/data/icons/standard-free-icons/139/Safety01-128.png);
-    background-size: 30px 30px;
-  background-position: 11px 8px;
-    background-repeat: no-repeat;
+/* style the artificial checkbox */
+label span {
+  height: 13px;
+  width: 13px;
+  border: 2px solid grey;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  left: 7.5%;
 }
 
-
-input:hover, textarea:hover,
-input:focus, textarea:focus {
-    background-color:white;
+.btn1 {
+  border:0;
+  background: #fff;
+  color: black;
+  border-radius: 100px;
+  width: 340px;
+  height: 49px;
+  font-size: 16px;
+  position: absolute;
+  top: 79%;
+  left: 8%;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
-#button-blue {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    float: left;
+.btn1:hover {
+  background:grey;
+}
+
+.rmb {
+  position: absolute;
+  margin-left: -24%;
+  margin-top: 0px;
+  color: #dfdeee;
+  font-size: 13px;
+}
+
+.forgetpass {
+  position: relative;
+  float: right;
+  right: 28px;
+}
+
+.dnthave{
+    position: absolute;
+    top: 92%;
+    left: 24%;
+}
+
+[type=checkbox]:checked + span:before {/* <-- style its checked state */
+    font-family: FontAwesome;
+    font-size: 16px;
+    content: "\f00c";
+    position: absolute;
+    top: -4px;
+    color: #896cec;
+    left: -1px;
+    width: 13px;
+}
+
+.typcn {
+  position: absolute;
+  left: 339px;
+  top: 282px;
+  color: #3b476b;
+  font-size: 22px;
+  cursor: pointer;
+}      
+
+.typcn.active {
+  color: #7f60eb;
+}
+
+.error {
+  background: #ff3333;
+  text-align: center;
+  width: 337px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px auto 10px;
+  position: absolute;
+  top: 31%;
+  left: 7.2%;
+  color: white;
+  display: none;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 605px;
     width: 100%;
-    border: #fbfbfb solid 4px;
-    cursor: pointer;
-    background-color: #4b5d6a;
-    color: white;
-    font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    margin-top: -4px;
-    font-weight: 700;
+    color: #78797d;
+    font-size: 14px;
+    text-align: center;
 }
 
-#button-blue:hover{
-    background-color: rgba(0,0,0,0);
-    color: #ce352c;
+.footer .fa {
+  color: #7f5feb;;
 }
-    
-.submit:hover {
-    color: #3498db;
-}
-    
-.ease {
-    width: 0px;
-    height: 48px;
-    background-color: #fbfbfb;
-    -webkit-transition: 1.10s ease;
-    -moz-transition: 1.10s ease;
-    -o-transition: 1.10s ease;
-    -ms-transition: 1.10s ease;
-    transition: 1.10s ease;
-}
-
-.submit:hover .ease{
-  width:100%;
-  background-color:white;
-}
-
-@media only screen and (max-width: 580px) {
-    #form-div{
-        left: 3%;
-        margin-right: 3%;
-        width: 88%;
-        margin-left: 0;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-}
-
     /*************************************** INSCRIPTION ********************************/
     .form1 {
         margin: 0 auto;
@@ -315,14 +376,8 @@ input:focus, textarea:focus {
         width: 83%;
     }
 
-    .btn-success
-    {
-        margin: 0 auto;
-        display: flex;
-        margin-bottom: 27vh;
-        justify-content: center;
-
-    }
+    
+}
 
     /***************************************MAQUETTE 4***********************************/
     .col-form-label {
@@ -445,10 +500,7 @@ input:focus, textarea:focus {
         padding-top: 4vh;
     }
     
-    .button
-    {
-        height: 13vh;
-    }
+    
 
     .container8
     {

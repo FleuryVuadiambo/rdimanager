@@ -1,0 +1,344 @@
+
+/* 
+    Created on : 12 nov. 2016, 22:49:39
+    Author     : Armel
+*/
+/*************BODY************/
+body{
+    font-family: "Open Sans";
+}
+.container{
+    padding: 50px 0 50px 0;
+}
+
+.page-content{
+    margin-top: 3.125rem
+}
+
+.banner{
+    background: url("../Images/bg-img2.jpg") no-repeat center center;
+    background-attachment: fixed;
+    min-height: 200px;
+    
+}
+.description{
+    border-left: 5px solid #9A1616;
+    padding: 5px 0 10px 5px;
+}
+
+.body-page p::first-letter { 
+    font-size: 150%;
+}
+p.text-accent{line-height: 1.4em}
+
+/****************MENU******************/
+.app-bar .app-bar-element.branding{
+    padding: 0px;
+    line-height: 0;
+}
+.app-bar-element.branding img{
+    display: inline;
+    height: 100%;
+}
+.app-bar-element.branding span{
+    font-size: 1px;
+}
+
+.app-bar a{
+    color: black
+}
+#tile-group{
+    background: none;
+    border: none
+}
+#tile-group:before{
+    background: none;
+    border: none;
+}
+
+.app-bar-element .tile-container {
+    background: none;
+    border: none;
+    
+}
+
+.app-bar-element .tile-container .tile-small {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.app-bar-element .tile-container .tile-small:hover{
+    outline: none;
+    background: whitesmoke;
+}
+
+
+.app-bar-element .tile-container{
+    width: auto
+}
+.app-bar .app-bar-menu > li, .app-bar .app-bar-menu > li > a {
+    font-size: .85rem
+}
+
+div.offre .cell{
+    /*border: 1px solid black;*/
+    height: 470px;
+    padding: 12px;
+    font-size: 13pt;
+}
+div.offre .cell h3{
+    font-size: 16pt;
+    background: linear-gradient(to bottom right, #5a0000, darkred, #9A1616) ;
+    height: 100px;
+    margin: -12px;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 0 0 100px 0;
+}
+
+.app-bar.red .app-bar-menu > li:hover,.app-bar.red .app-bar-menu > li>a:hover{
+    background-color: #CE352C !important;
+}
+
+/********************* SLIDE *********************/
+.carousel .slide h1{
+    margin-top: 100px;
+    font-size: 100px;
+    padding-top: 100px
+}
+.carousel .slide1{
+    background: url(../img/slideRocket.jpg) no-repeat center center;
+    background-size: cover
+}
+.carousel .slide2{
+    background: url(../img/slideRobot.jpg) no-repeat center center;
+    background-size: cover
+}
+.carousel .slide3{
+    background: url(../img/slideIT.jpg) no-repeat center center;
+    background-size: cover
+}
+.carousel .slide4{
+    background: url(../img/expertise.jpg) no-repeat center center;
+    background-size: cover
+}
+.carousel .slide5{
+    background: url(../img/slideAgri.jpg) no-repeat center center;
+    background-size: cover
+}
+
+/*******************others*******************/
+.form-container, .info-container{
+    height: auto;
+    padding: 0 20px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+div.title-divider{
+    background-color: #9A1616;
+    display: block;
+    height: 1px;
+    width: 150px;
+    margin-bottom: 50px !important;
+    position: relative;
+    margin: auto
+}
+div.title-divider:before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: #9A1616;
+    left: 0;
+    margin: auto;
+    right: 0;
+    top: -1px;
+}
+
+.simple-list.red-bullet li:before {
+    color: #9A1616;
+}
+h3.title, h2.title{
+    position: relative;
+    margin-bottom: 40px
+}
+h3.title:before, h2.title:before {
+    bottom: -15px;
+    background-color: #9A1616;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    width: 100px;
+}
+
+.icon-DE{
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+.icon-DE img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;   
+}
+
+div.hint2{
+    line-height: 1.3em;
+    font-size: 1.05em;
+}
+
+div.team:hover{
+    border: 1px solid #9A1616;
+}
+
+.grid.equipe .row div.team{
+    transition: border .2s ease-in-out;
+    -webkit-transition: border .2s ease-in-out;
+    -moz-transition: border .2s ease-in-out;
+    
+    /*height: 400px !important;*/
+}
+
+.grid.equipe .row div.team div.portrait{
+    max-height: 470px;
+    overflow: hidden;
+}
+div#philo .grid .cell p{
+    margin: 5px 0 5px 0;
+}
+
+div.tabcontrol li.active a{
+    background-color: #9A1616 !important;
+    text-shadow: 0 0 #ff0000 !important;
+}
+div.tabcontrol .tabs{
+    border-bottom-color: #9A1616;
+    font-family: "Segoe UI"
+}
+/*
+h1.leader{
+    border-left: 5px solid;
+    padding: 5px 0 10px 10px;
+}
+*/
+ul.text-accent li{
+    margin: 5px 0;
+}
+
+div.grid.cat .row{
+    padding-right: 10px;
+    border: 1px solid whitesmoke
+}
+div.grid.cat .row:hover{
+    box-shadow: 0px 5px 50px #aaa;
+    border: 1px solid #aaa
+}
+
+.accordion > .frame.active > .heading {
+    background-color: whitesmoke;
+    color: #9A1616;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+div.accordion .frame{
+    border-bottom: 2px solid #9A1616;
+}
+
+div.carousel h1, div.carousel h2{
+    font-family: "Arial";
+    font-weight: bold
+}
+
+.sidebar2 li:hover, .sidebar2 li:hover a{
+    background: whitesmoke;
+}
+
+.simple-list li:before, .numeric-list li:before{
+    top: 20px;
+    
+}
+
+section.domain{
+}
+
+
+section.domain p.align-center{
+    padding: 15px 10px;
+    font-weight: 300;
+    line-height: 1.5em;
+    background-color: rgba(0,0,0,.0);
+}
+
+section.domain .grid .row .cell{
+    padding-bottom: 10px;
+    border-radius: 0;
+    background-color: rgba(255,255,255,.7);
+}
+
+section.appel{
+    background: url(../img/footerBG.jpg) top left no-repeat;
+    background-size: 100% 100%;
+}
+
+/***** Footer ******/
+footer section.first h4{
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+footer section.first h4:before {
+    position: absolute;
+    bottom: -3px;
+    left: 20px;
+    width: 35px;
+    height: 5px;
+    content: "";
+    display: inline-block;
+    background-color: #9A1616;
+        box-sizing: border-box;
+}
+
+footer section.first h4:after {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 80px;
+    height: 1px;
+    content: "";
+    display: inline-block;
+    background-color: #9A1616;
+        box-sizing: border-box;
+}
+
+footer section.first .socials a{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 0%;
+    background-color: lightgrey
+    
+}
+
+footer section.first .table tbody td{
+    padding: 0.5rem 0.3rem
+}
+
+.listview-outlook .list{
+    border-bottom: black
+}
+
+/*********** MAP **************/
+.i4ewOd-pzNkMb-haAclf{
+    background-color: none;
+}
