@@ -15,7 +15,7 @@
         td {background-color: whitesmoke; }
         .new_user {text-align: end;}
     </style>
-    <title>Maquette 5(Fleury)</title>
+    <title>Liste des utilisateurs</title>
 </head>
 <body>
     <?php 

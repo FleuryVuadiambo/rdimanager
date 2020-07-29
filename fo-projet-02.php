@@ -47,7 +47,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 
-    <title>Maquette 13 (Fleury)</title>
+    <title>Détails du projet</title>
 </head>
 <body>
    <?php 
@@ -137,7 +137,7 @@
         <div class="popup">
             <h5 class="text-center m-4" style="font-size: 2em;">Gérer les participants</h5>    
             <a class="close" href="#">&times;</a>
-            <table class="table table-bordered col-md text-center mx-auto m-5">
+            <table class="table table-bordered col-md text-center mx-auto m-5" style="max-width: 90%;">
                 <thead>
                     <tr class="gerer_participants">
                         <th>Participants</th>
@@ -148,14 +148,21 @@
                     <tr>
                         <td>John Doe</td>
                         <td>Administrateur</td>
+                        <td style="background: none; border: none;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
+                        <td style="background: none; border: none;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
+
                     </tr>
                     <tr>
                         <td>Kévin Njifenju</td>
                         <td>Administrateur</td>
+                        <td style="background: none; border: none;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
+                        <td style="background: none; border: none;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
                     </tr>
                     <tr>
                         <td>Sylvain Clément</td>
                         <td>Chef de projet</td>
+                        <td style="background: none; border: none;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
+                        <td style="background: none; border: none;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
                     </tr>
                 </tbody>
             </table>
@@ -174,7 +181,14 @@
 
     <div id="popup1" class="overlay">
         <div class="popup">
-            <h2 class="text-center m-4">Projet : <span>Développement IP</span> </h2>
+            <h4 class="text-center mb-4">Projet : Développement ID</h4>
+            <div class="projet form-group row" style="position: relative; left: 3%;">
+                <label for="titre" class="col-sm-2 col-form-label">Titre</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="projet" placeholder="Management and Entreprenurship (MSc)">
+                </div>
+            </div> 
+            <!-- <h2 class="text-center m-4">Projet : <span>Développement IP</span> </h2> -->
             <a class="close" href="#">&times;</a>
             <div class="col-lg mx-auto">
                 <textarea class="form-control" id="liste_projets" rows="11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloremque voluptate similique tempora eius alias, vitae reprehenderit est, molestiae illum vero consequatur illo quis blanditiis ab nemo consectetur delectus nisi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat enim nesciunt, quod ratione impedit adipisci nulla eveniet corporis, ad porro iure, saepe soluta! Laboriosam possimus modi nostrum asperiores, nihil obcaecati.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem totam exercitationem ducimus architecto! Magnam doloribus ducimus velit ut provident assumenda! Omnis non suscipit architecto ad! Nemo tempora autem soluta rem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe id voluptate dolorum. Placeat quos natus quam non molestiae odio! Earum ipsa praesentium error repellendus tempora soluta molestias consectetur eum sint.
@@ -199,7 +213,7 @@
                         </div>
                         <ul class="timeline">
                             <a href="#"><li class="event">
-                                <h4 style="font-size: 1em;" data-date="22 Sept 2020">22 Sept 2020  <span>Kévin Njifenju</span></h4>
+                                <h4 style="font-size: 1em;" data-date="22 Sept 2020">22 Sept 2020 - <span>Kévin Njifenju</span></h4>
                                 <p><h3>Management and Entreprenurship (MSc)</h3></p>
                                 <p>
                                     This September 2015 I will begin an MSc in Management and Entrepreneurship at
@@ -208,7 +222,7 @@
                                 </p>
                             </li></a>
                             <a href="#"><li class="event">
-                                <h4 style="font-size: 1em;" data-date="12 Sept 2020">12 Sept 2020  <span>Sylvain Clément</span></h4>
+                                <h4 style="font-size: 1em;" data-date="12 Sept 2020">12 Sept 2020 - <span>Sylvain Clément</span></h4>
                                 <p><h3>Claromentis</h3></p>
                                 <p>
                                     Claromentis is an intranet software provider company. I started working at the
@@ -226,7 +240,7 @@
                                 </p>
                             </li></a>
                             <a href="#"><li class="event">
-                                <h4 style="font-size: 1em;" data-date="14 Juil 2020">14 Juil 2020  <span>Kévin Njifenju</span></h4>
+                                <h4 style="font-size: 1em;" data-date="14 Juil 2020">14 Juil 2020 - <span>Kévin Njifenju</span></h4>
                                 <p><h3>Games & Multimedia Environments BSc (Hons)</h3></p>
                                 <p>Throughout my degree I have gained expansive knowledge of informatics areas including
                                     Human Computer Interaction, Multimedia Design and Development, Program Analysis and
@@ -236,7 +250,7 @@
                                 </p>
                             </li></a>
                             <a href="#"><li class="event">
-                                <h4 style="font-size: 1em;" data-date="22 Mai 2020">15 Juin 2020  <span>Yanny Appadoo</span></h4>
+                                <h4 style="font-size: 1em;" data-date="22 Mai 2020">15 Juin 2020 - <span>Yanny Appadoo</span></h4>
                                 <p><h3>1108 Studios</h3></p>
                                 <p>This is a small startup that a friend and I created to gain more skills and apply
                                     those I had learned while completing my diploma. Since its inception, as a front -
@@ -245,7 +259,7 @@
                                 </p>
                             </li></a>
                             <a href="#"><li class="event">
-                                <h4 style="font-size: 1em;" data-date="22 Mai 2020">22 Mai 2020  <span>Fleury Vuadiambo</span></h4>
+                                <h4 style="font-size: 1em;" data-date="22 Mai 2020">22 Mai 2020 - <span>Fleury Vuadiambo</span></h4>
                                 <p><h3>IT Practitioners BTEC National Diploma</h3></p>
                                 <p>This is where my interest in building things for interactive media began. During my
                                     first computing course I studied a range of core topics including multimedia design,
