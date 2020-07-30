@@ -3,7 +3,7 @@
     {
         line-height: "3,2em";
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-        color: brown;
+        color: black;
   
     }
     
@@ -136,8 +136,12 @@ tbody
 } 
 table tbody tr td a 
 {
-    color:black
+    color:black}
+.table td, .table th 
+{
+    border:none !important;
 }
+.table tbody+tbody {border:none;}
 
 
     /**************************** FOOTER ********************************/
@@ -281,11 +285,7 @@ label span {
   border-radius: 100px;
   width: 340px;
   height: 49px;
-  font-size: 16px;
-  position: absolute;
-  top: 79%;
-  left: 8%;
-  transition: 0.3s;
+  font-size: 16px;  transition: 0.3s;
   cursor: pointer;
 }
 
@@ -301,10 +301,12 @@ label span {
   font-size: 13px;
 }
 
-.forgetpass {
+
+.forgetpass a {
   position: relative;
   float: right;
   right: 28px;
+  color:white;
 }
 
 .dnthave{
@@ -587,7 +589,7 @@ label span {
         box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
     }
     
-    #confirmBox h1,
+    
     #confirmBox p{
         font:26px/1 'Cuprum','Lucida Sans Unicode', 'Lucida Grande', sans-serif;
         padding: 18px 25px;
@@ -595,10 +597,7 @@ label span {
         color:#666;
     }
     
-    #confirmBox h1{
-        letter-spacing:0.3px;
-        color:#888;
-    }
+   
     
     #confirmBox p{
         background:none;

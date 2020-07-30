@@ -15,7 +15,7 @@
   <body>
    
     <?php
-      include ('bo-header.php');
+      include ("bo-header.php");
       ?>
 
       <?php 
@@ -24,24 +24,19 @@
       
       <br>
 
-      <div class="card">
-          <div class="la">
-              <div class="sff">
+      <div class="card1">
+          <div class="user">
 
+          </div>
+          
+          <div class="lamere">
+              <div class="nom"></div>
+              <div class=rôle></div>
+          </div>
 
-                  <div>
-                      <div>
-
-                      </div>
-                      <div>
-                          <div>
-                              <div>
-
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+          <div class="donnée">
+              <div class="mobile"></div>
+              div=
           </div>
       </div>
   

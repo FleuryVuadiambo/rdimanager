@@ -73,7 +73,7 @@
                 </div>
             </div>
         
-        <div class="text-center button" >
+        <div class="text-center button" style="display:flex; justify-content:center;" >
           <a href="bo-gestion_utili.php"><button type="button" class="">Annuler</button></a>
             <a href="bo-gestion_utili.php"><button type="button" class=" ">Modifier</button></a>
         </div>

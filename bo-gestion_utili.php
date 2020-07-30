@@ -35,8 +35,8 @@
            <th scope="col" class="text-center">Rôle</th>
            <th scope="col" class="text-center">Satut</th>
            <th scope="col" class="text-center">Date / Heure</th>
-           <th scope="col" class="text-center"></th>
-           <th scope="col" class="text-center"></th>
+           <th style="background-color:white;" scope="col" class="text-center"></th>
+           <th style="background-color:white;" scope="col" class="text-center"></th>
            
      <?php
         include ('bo-footer.php')
@@ -54,8 +54,8 @@
                 <td class="text-center">Consultant</td>
                 <td class="text-center">Activé</td>
                 <td class="text-center">15-05-2020 <br> 10h03</td>
-                <td class="text-center"><a href="bo-modif_utili.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
-               <td class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
+                <td style="background-color:white;" class="text-center"><a href="bo-modif_utili.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
+                <td style="background-color:white;" class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
                 </tr>
 
                 <tr class="item">
@@ -65,8 +65,8 @@
                 <td class="text-center">Consultant</td>
                 <td class="text-center">Activé</td>
                 <td class="text-center">15-05-2020 <br> 10h03</td>
-                <td class="text-center"><a href="bo-modif_utili.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
-               <td class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
+                <td style="background-color:white;" class="text-center"><a href="bo-modif_utili.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
+                <td style="background-color:white;" class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
               </tr>
 
               <tr class="item">
@@ -76,8 +76,8 @@
                 <td class="text-center">Consultant</td>
                 <td class="text-center">Activé</td>
                 <td class="text-center">15-05-2020 <br> 10h03</td>
-                <td class="text-center"><a href="bo-modif_utili.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
-                <td class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
+                <td style="background-color:white;" class="text-center"><a href="bo-modif_utili.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
+                <td style="background-color:white;" class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
                </tr>
             </tbody>
 
@@ -138,7 +138,6 @@
           var markup = [
               '<div id="confirmOverlay">',
               '<div id="confirmBox">',
-              '<h1>',params.title,'</h1>',
               '<p>',params.message,'</p>',
               '<div id="confirmButtons">',
               buttonHTML,
@@ -192,18 +191,19 @@
           
           $.confirm({
             
-              'message'   : 'Voulez-vous vraiment supprimer cette société ?". <br />! Continue?',
+              'message'   : 'Voulez-vous vraiment supprimer cette utilisateur ?". <br />! Continue?',
               'buttons'   : {
+                  'No'    : {
+                      'class' : 'gray',
+                      'action': function(){}  // Nothing to do in this case. You can as well omit the action property.
+                  },
                   'Yes'   : {
                       'class' : 'blue',
                       'action': function(){
                           elem.slideUp();
                       }
-                  },
-                  'No'    : {
-                      'class' : 'gray',
-                      'action': function(){}  // Nothing to do in this case. You can as well omit the action property.
                   }
+                  
               }
           });
           
