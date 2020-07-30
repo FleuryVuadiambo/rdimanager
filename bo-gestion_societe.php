@@ -37,6 +37,10 @@
             <th scope="col" class="text-center">Statut</th>
             <th scope="col" class="text-center">Date / Heure</th>
             <th scope="col" class="text-center">Gestionnaire</th>
+            <th style="background-color:white;" scope="col" class="text-center"></th>
+            <th style="background-color:white;"  scope="col" class="text-center"></th>
+
+
           </tr>
         </thead>
 
@@ -49,8 +53,8 @@
               <td class="text-center">Créé</td>
               <td class="text-center">02-02-2020 <br> 15h03</td>
               <td class="text-center">Kevin</td>
-              <td class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
-              <td class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
+              <td style="background-color:white;"  class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
+              <td style="background-color:white;"  class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
           </tr>
           </tbody>
 
@@ -63,8 +67,8 @@
               <td class="text-center">Créé</td>
               <td class="text-center">02-02-2020 <br> 15h03</td>
               <td class="text-center">Kevin</td>
-              <td class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
-              <td class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
+              <td style="background-color:white;"  class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
+              <td style="background-color:white;"  class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
           </tr>
           </tbody>
           <tbody style="text-align: center;">
@@ -76,20 +80,17 @@
               <td class="text-center">Créé</td>
               <td class="text-center">02-02-2020 <br> 15h03</td>
               <td class="text-center">Kevin</td>
-              <td class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
-              <td class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
+              <td style="background-color:white;" class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
+              <td style="background-color:white;" class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
           </tr>
           </tbody>
 
       </table> 
 
     
-        <footer>
-   
-          <p class="copyright">Copyright Eurêka C.I</p>
-          <img class="logofooter" src="img/logosign.png" alt="">
-        
-      </footer>
+        <?php
+        include('bo-footer.php')
+        ?>
     
       
  
@@ -139,7 +140,6 @@
         var markup = [
             '<div id="confirmOverlay">',
             '<div id="confirmBox">',
-            '<h1>',params.title,'</h1>',
             '<p>',params.message,'</p>',
             '<div id="confirmButtons">',
             buttonHTML,
@@ -194,16 +194,17 @@ $(document).ready(function(){
         $.confirm({
             'message'   : 'Voulez-vous vraiment supprimer cette société ?" . <br />! Continue?',
             'buttons'   : {
+                'No'    : {
+                    'class' : 'gray',
+                    'action': function(){}  // Nothing to do in this case. You can as well omit the action property.
+                },
                 'Yes'   : {
                     'class' : 'blue',
                     'action': function(){
                         elem.slideUp();
                     }
-                },
-                'No'    : {
-                    'class' : 'gray',
-                    'action': function(){}  // Nothing to do in this case. You can as well omit the action property.
                 }
+                
             }
         });
         

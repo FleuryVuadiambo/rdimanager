@@ -73,16 +73,15 @@
                 </div>
             </div>
         
-        <div class="text-center button" >
+        <div class="text-center button" style="display:flex; justify-content:center;" >
           <a href="bo-gestion_utili.php"><button type="button" class="">Annuler</button></a>
             <a href="bo-gestion_utili.php"><button type="button" class=" ">Modifier</button></a>
         </div>
         </form>        
 
-    <footer>
-      <p class="copyright">Copyright Eurêka C.I</p>
-      <img class="logofooter" src="img/logosign.png" alt="">
-  </footer>
+    <?php
+        include('bo-footer.php')
+        ?>
 </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

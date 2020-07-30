@@ -27,7 +27,7 @@
 <section>
       <h2>Modifier une Société</h2>     
 
-     <img src="societe1.png" alt="" style="margin: 0 auto;display: flex;height: 5vh;">
+     <img src="societe1.png" alt="" class="logosociete";>
 
       <form class="form4" action="" method="post">
 
@@ -105,10 +105,9 @@
          
   </section>
 
-        <footer>
-          <p class="copyright">Copyright Eurêka C.I</p>
-          <img class="logofooter" src="img/logosign.png" alt="">
-      </footer>
+        <?php
+        include('bo-footer.php')
+        ?>
     
  
       

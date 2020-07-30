@@ -79,10 +79,9 @@
         </div>
         </form>        
 
-    <footer>
-      <p class="copyright">Copyright Eurêka C.I</p>
-      <img class="logofooter" src="img/logosign.png" alt="">
-  </footer>
+    <?php
+        include('bo-footer.php')
+        ?>
 </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
