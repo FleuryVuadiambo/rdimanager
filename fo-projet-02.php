@@ -124,7 +124,7 @@
                                 <a href="#popup3"><input type="button" class="btn btn-success" value="Gérer les participants"></a>
                             </div>
                             <div class="new_user">
-                                <a href="fo-new-user.php"><input type="button" class="btn btn-success" value="Nouveau participant"></a>
+                                <a href="bo-form_utili.php"><input type="button" class="btn btn-success" value="Nouveau participant"></a>
                             </div>
                         </div>
                     </div>
