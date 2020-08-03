@@ -18,7 +18,7 @@
 	<li><a href="">Administration</a>
 		<ul>
 			<li><a href="fo-admin-02.php">Liste des utilisateurs</a></li>
-			<li><a href="fo-admin-03.php">Nouvel Utilisateur</a></li>
+			<li><a href="fo-admin-03.php">Nouvel utilisateur</a></li>
 			<li><a href="fo-admin-01.php">Mon compte</a></li>
 		</ul>
 	</li>
