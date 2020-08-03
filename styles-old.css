@@ -83,7 +83,7 @@
 
 h2 {
     font-size: 30pxrem;
-    margin: 6% auto;
+    margin: 0% auto;
     display: flex;
     justify-content: center;
     margin-bottom: 1vh;
@@ -149,7 +149,7 @@ table tbody tr td a
         display: flex;
         justify-content: center;
         position: absolute;
-        bottom: -15% !important;
+        bottom: 0% !important;
         width: 100%;
     }
     .logofooter
