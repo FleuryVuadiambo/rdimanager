@@ -132,7 +132,7 @@
 
         <div id="popup2"  class="overlay">
             <div class="popup">
-                <a class="close2" href="#">&times;</a> 
+                <a class="close" href="#">&times;</a> 
                 <div class="col-lg text-center mx-auto">    
                     <form method="post">
 
