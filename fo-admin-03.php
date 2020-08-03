@@ -38,7 +38,7 @@
 
         <div class="container">
 
-            <h1 class="text-center m-4"  style="color: #ce352c;">Nouvel Utilisateur</h1>
+            <h1 class="text-center m-4"  style="color: #ce352c;">Nouvel utilisateur</h1>
 
             <h4 class="mb-4">Saisir les informations</h4>
 

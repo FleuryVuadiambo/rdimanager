@@ -70,40 +70,40 @@
 
             <!-- <h4 class="mb-4">Activer votre compte RDI Manager</h4> -->
 
-            <form action="" method="post">
+            <form action="" method="post" style="max-width: 82%;">
                 <div class="form-group row">
-                    <label for="nom" class="col-sm-2 col-form-label">Nom</label>
-                    <div class="col-sm-8">
+                    <label for="nom" class="col-md-2 col-form-label">Nom</label>
+                    <div class="col-md-8">
                       <input type="text" class="form-control" id="nom" placeholder="DOE" disabled>
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="prenom" class="col-sm-2 col-form-label">Prénom</label>
-                    <div class="col-sm-8">
+                    <label for="prenom" class="col-md-2 col-form-label">Prénom</label>
+                    <div class="col-md-8">
                       <input type="text" class="form-control" id="prenom" placeholder="John"  disabled>
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="mobile" class="col-sm-2 col-form-label">Mobile</label>
-                    <div class="col-sm-8">
-                      <input type="text" class="form-control" id="mobile"placeholder="09 90 89 99 09"  disabled>
+                    <label for="mobile" class="col-md-2 col-form-label">Mobile</label>
+                    <div class="col-md-8">
+                      <input type="text" class="form-control" id="mobile"placeholder="09 9d-89 99 09"  disabled>
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="email" class="col-sm-2 col-form-label">Email</label>
-                    <div class="col-sm-8">
+                    <label for="email" class="col-md-2 col-form-label">Email</label>
+                    <div class="col-md-8">
                       <input type="text" class="form-control" id="email" placeholder="john.doe@email.com" disabled>
                     </div>
                 </div>
                 <div class="form-group row" id="nom_societe">
-                    <label for="nom_societe" class="col-sm-2 col-form-label" id="nom_societe">Nom de la société</label>
-                    <div class="col-sm-8">
+                    <label for="nom_societe" class="col-md-2 col-form-label" id="nom_societe">Nom de la société</label>
+                    <div class="col-md-8">
                       <input type="text" class="form-control" id="nom_societe" placeholder="Société 1" disabled>
                     </div>
                 </div>
                 <div class="form-group row" id="role">
-                    <label for="role" class="col-sm-2 col-form-label">Rôle</label>
-                    <div class="col-sm-8">
+                    <label for="role" class="col-md-2 col-form-label">Rôle</label>
+                    <div class="col-md-8">
                         <select id="role" class="form-control" disabled>
                             <option selected>Administrateur</option>
                             <option>Chef de projet</option>

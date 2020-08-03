@@ -32,9 +32,9 @@
         
         <div class="container">
             
-        <h1 class="text-center mt-4 mb-4"> Projets de l'année  <| 2020 |> <a href="#" style="font-size: smaller;"></h1>
+        <h1 class="text-center mt-4 mb-4"  style="color: #ce352c;"> Projets de l'année  <| 2020 |> <a href="#" style="font-size: smaller;"></h1>
 
-            <table class="table table-bordered mx-auto m-5">
+            <table class="table table-bordered mx-auto m-5"  style="max-width: 67.9%;">
                 <thead>
                     <tr class="table table-secondary">
                         <th scope="col" class="text-center">TABLEAU DE BORD</th>
@@ -44,17 +44,17 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row" class="text-center">Nombre de projets de l'année en cours</th>
+                        <th scope="row">Nombre de projets de l'année en cours</th>
                         <td class="text-center">0</td>
                         <td class="text-center">0</td>
                     </tr>
                     <tr>
-                        <th scope="row" class="text-center">Nombre de projets de type CIR-CII</th>
+                        <th scope="row">Nombre de projets de type CIR-CII</th>
                         <td class="text-center">0</td>
                         <td class="text-center">0</td>
                     </tr>
                     <tr>
-                        <th scope="row" class="text-center">Temps total passé</th>
+                        <th scope="row">Temps total passé</th>
                         <td class="text-center">0</td>
                         <td class="text-center">0</td>
                     </tr>

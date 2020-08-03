@@ -42,7 +42,7 @@
         <input type="text" name="email" placeholder="Email" autocomplete="off">
         <i class="typcn typcn-eye" id="eye"></i>
         <input type="password" name="Nom" placeholder="Mot de Passe" id="pwd" autocomplete="off">
-        <a href="#" class="forgetpass" style="color:white;">Mot De Passe oublier?</a>
+        <a href="#" class="forgetpass" style="color:white;">Mot de passe oublié ?</a>
         <a href="bo-gestion_societe.php"><input type="submit" value="Connexion" class="btn1"></a>
       </form>
   </div> 
