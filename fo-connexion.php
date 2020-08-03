@@ -33,13 +33,13 @@
                 <div class="form-group row">
                     <label for="identifiant" class="col-sm-2 col-form-label">Identifiant</label>
                 </div>
-                <div class="col-sm-12 mb-4">
+                <div class="col-md-12 mb-4">
                     <input type="text" class="form-control" id="identifiant">
                 </div>
                 <div class="form-group row">
                     <label for="mdp" class="col-sm-6 col-form-label">Mot de passe</label>
                 </div>
-                <div class="col-sm-12">
+                <div class="col-md-12">
                   <input type="password" class="form-control" id="nmdp">
                 </div>
                 <div class="forget_mdp mt-5">

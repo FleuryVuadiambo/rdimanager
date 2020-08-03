@@ -44,6 +44,13 @@
     	    }
         });
     });   
+
+    // jQuery(document).ready(function($){
+    //     $('cd-popup-date').('click', function(event){
+    // 		event.preventDefault();
+    // 		$('.cd-popup1').addClass('is-visible');
+    //     });
+    // });
     </script>
 
     <title>Saisie de temps passé</title>
@@ -94,17 +101,61 @@
             <a href="#0"><input type="submit" class="btn btn-success cd-popup-trigger" value="Mettre à jour"></a>
         </div>
 
+        <!-- <div class="cd-popup" role="alert">
+	        <div class="cd-popup-container" style="top: 18%;">
+                <form action="" method="post">
+                    <div class="form-group row">
+                        <label for="developpement" class="col-sm-2 col-form-label">Développement IP</label>
+                        <div class="col-sm-2">
+                          <input type="text" class="form-control" id="developpement">
+                        </div> 
+                        %
+                    </div>
+                    <div class="form-group row">
+                        <label for="projet2" class="col-sm-2 col-form-label">Projet 2</label>
+                        <div class="col-sm-2">
+                          <input type="text" class="form-control" id="projet2">
+                        </div>  %
+                    </div>
+                    <div class="form-group row">
+                        <label for="projet3" class="col-sm-2 col-form-label">Projet 3</label>
+                        <div class="col-sm-2">
+                          <input type="text" class="form-control" id="projet3">
+                        </div>  %
+                    </div>
+                </form>
+		        <a href="#0" class="cd-popup-close img-replace">Close</a>
+	        </div> <!-- cd-popup-container -->
+        <!-- </div> -->
+
         <div class="cd-popup" role="alert">
 	        <div class="cd-popup-container" style="top: 18%;">
 		        <p>Avez-vous été absent durant cette période ?</p>
 		        <ul class="cd-buttons">
 		    	    <li><a href="fo-temps-01.php">Non</a></li>
-		    	    <li><a href="fo-absences.php">Oui</a></li>
+		    	    <li class="cd-popup-date"><a href="fo-absences.php">Oui</a></li>
 		        </ul>
 		        <a href="#0" class="cd-popup-close img-replace">Close</a>
-	        </div> <!-- cd-popup-container -->
-        </div> <!-- cd-popup -->
-    
+	        </div> 
+        </div>
+
+        <!-- <div class="cd-popup1" role="alert">
+        
+            <div class="calendar">
+                <div class="wrap">
+                    Journée: <input type="text" id="journee" class="datepicker" name="datepicker">   
+                </div></br>
+                <div class="wrap">
+                    Demi-journée: <input type="text" id="demi_journee" class="datepicker" name="datepicker"></br>   
+                </div>
+
+                <div class="text-center m-5">
+                    <a href="fo-temps-01.php"><input type="button" class="btn btn-success" value="Valider">
+                </div>
+            </div>
+
+        </div>        
+     -->
     </div>
 
     <footer>
