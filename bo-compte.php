@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/menu-horizontal-back.css">
     <link rel="stylesheet" href="styles-old.css">
-    <link rel="stylesheet" href="style-old.css">
     <title>Hello, world!</title>
   </head>
   <body>
@@ -22,60 +21,27 @@
       <?php 
 	include ("bo-menu-horizontal.php"); 
     ?>
+<h2>Mon Compte</h2>
 
-    <div class="wrapper">
-    <div class="left">
-        <img src="https://i.imgur.com/cMy8V5j.png" alt="user" width="100">
-        <h4>Alex William</h4>
-         <p>UI Developer</p>
-    </div>
-    <div class="right">
-        <div class="info">
-            <h3>Information</h3>
-            <div class="info_data">
-                 <div class="data">
-                    <h4>Email</h4>
-                    <p>alex@gmail.com</p>
-                 </div>
-                 <div class="data">
-                   <h4>Phone</h4>
-                    <p>0001-213-998761</p>
-              </div>
-            </div>
-        </div>
-      
-      <div class="projects">
-            <h3>Projects</h3>
-            <div class="projects_data">
-                 <div class="data">
-                    <h4>Recent</h4>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                 </div>
-                 <div class="data">
-                   <h4>Most Viewed</h4>
-                    <p>dolor sit amet.</p>
-              </div>
-            </div>
-        </div>
-      
-        <div class="social_media">
-            <ul>
-              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-          </ul>
-      </div>
-    </div>
+<div class="card10">
+  <img src="icone.png">
+  <div class="container10">
+    <h1>Yanny APPADOO</h1>
+    <p class="title10">Développeur web </p>
+    <p>06-12-81-76-92</p>
+    <p>yappadoo@eurekaci.com</p>
+    <p>WebForce3</p>
+    <div style="margin: 24px 0;">
+      <a href="#"><i class="fa fa-dribbble"></i></a> 
+      <a href="#"><i class="fa fa-twitter"></i></a>  
+      <a href="#"><i class="fa fa-linkedin"></i></a>  
+      <a href="#"><i class="fa fa-facebook"></i></a> 
+   </div>
+   <p><button>Contact</button></p>
+  </div>
 </div>
-
-
-
-
-
-
-
       <?php
-        include ('footer.php');
+        include ('bo-footer.php');
         ?>
 
       <script src="maquette.js"></script>

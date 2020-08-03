@@ -77,7 +77,7 @@
     display: flex;
     justify-content: center;
     color: #ce352c;
-    margin-top:7vh;
+    margin-top:2vh;
     }
 
 
@@ -655,6 +655,42 @@ label span {
             max-width: 12.666667%;
     }
 
-    button a{
-        color:white;
-    }
+    .card10 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.container10 {
+  padding: 0 16px;
+}
+
+.container10::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title10 {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+color: white;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
