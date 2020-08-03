@@ -12,7 +12,7 @@
 	<li><a href="">Suivi temps</a>
 		<ul>
 			<li><a href="fo-temps-01.php">Feuille de temps</a></li>
-			<li><a href="fo-absences.php">Mes Absences</a></li>
+			<li><a href="fo-absences.php">Mes absences</a></li>
 		</ul>
 	</li>
 	<li><a href="">Administration</a>

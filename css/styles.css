@@ -80,6 +80,11 @@ header
     background-color: #ce352c;
 }
 
+li, a:hover 
+{
+    background-color: #ce352c;
+}
+
 /* h1
 {
     
