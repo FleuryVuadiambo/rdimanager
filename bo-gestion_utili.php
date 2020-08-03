@@ -87,7 +87,7 @@
 
       
           <?php
-        include('bo-footer.php')
+        include('footer.php')
         ?>
       
         
