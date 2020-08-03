@@ -143,8 +143,8 @@ footer
    
  .logofooter
     {
-       height: 5vh;
-       width: 5vh;
+       height: 4vh;
+       width: 4vh;
        border-radius: 148%;
        margin-top: 13px;
        padding-left: 0vh;
@@ -160,7 +160,7 @@ a button
 { 
     color: white;
     margin-top: 3vh;
-    font-size: larger;
+    font-size: 1.05em;
 }
 
 /* ***************************************Connexion Inscription*****************************
