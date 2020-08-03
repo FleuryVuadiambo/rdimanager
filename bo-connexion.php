@@ -17,11 +17,11 @@
         body:background-image: url('expert.jpg');
 
     </style>
-    <title>Hello, world!</title>
+    <title>Welcome on RDI MANAGER!</title>
   </head>
 <body style="background-image: url(expert.jpg)">   
     <?php
-      include ('bo-header.php');
+      include ('bo-header_co.php');
       ?>
 
       <?php 
