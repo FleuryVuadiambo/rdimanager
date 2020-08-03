@@ -171,7 +171,7 @@ xpopup
   -o-transform: translateY(-40px);
   transform: translateY(-40px);
   /* Force Hardware Acceleration in WebKit */
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform;
@@ -197,6 +197,7 @@ xpopup
   height: 60px;
   line-height: 60px;
   text-transform: uppercase;
+  background: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
   color: #FFF;
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
