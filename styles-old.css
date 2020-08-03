@@ -3,7 +3,7 @@
     {
         line-height: "3,2em";
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-        color: brown;
+        color: black;
   
     }
     
@@ -76,8 +76,8 @@
     display: flex;
     justify-content: center;
     color: #ce352c;
-    margin-top: 10vh;
-}
+    margin-top:7vh;
+    }
 
 
 
@@ -92,9 +92,18 @@ h2 {
  footer {
     width: 33%;
     background-color: white;
-
+    font-family: cursive;
     width: 25%;
 
+}
+
+/*****************************Logo*******************************/
+
+.logosociete
+{
+    margin: 0 auto;
+    display: flex;
+    height: 5vh
 }
 
 
@@ -125,6 +134,14 @@ tbody
     background-color: #e6e6e6;
     color: black;
 } 
+table tbody tr td a 
+{
+    color:black}
+.table td, .table th 
+{
+    border:none !important;
+}
+.table tbody+tbody {border:none;}
 
 
     /**************************** FOOTER ********************************/
@@ -268,11 +285,7 @@ label span {
   border-radius: 100px;
   width: 340px;
   height: 49px;
-  font-size: 16px;
-  position: absolute;
-  top: 79%;
-  left: 8%;
-  transition: 0.3s;
+  font-size: 16px;  transition: 0.3s;
   cursor: pointer;
 }
 
@@ -288,10 +301,12 @@ label span {
   font-size: 13px;
 }
 
-.forgetpass {
+
+.forgetpass a {
   position: relative;
   float: right;
   right: 28px;
+  color:white;
 }
 
 .dnthave{
@@ -365,7 +380,7 @@ label span {
     /***************************************IMG****************************************/
     td img
     {
-        margin: 0px 20px;
+        height:3vh;
     }
     /***************************************MAQUETTE 3***********************************/
     .societegerer 
@@ -383,7 +398,7 @@ label span {
     }
 
     
-}
+
 
     /***************************************MAQUETTE 4***********************************/
     .col-form-label {
@@ -534,12 +549,7 @@ label span {
         right:-80px
     }
     
-    .item a
-        border: none;
-        display: block;
-        padding: 10px;
-        text-decoration: none;
-    }
+ 
     
     .item a img{
         display:block;
@@ -552,9 +562,8 @@ label span {
         position:fixed;
         top:0;
         left:0;
-        /*background:url('http://demo.tutorialzine.com/2010/12/better-confirm-box-jquery-css3/jquery.confirm/ie.png');*/
         background: -moz-linear-gradient(rgba(11,11,11,0.1), rgba(11,11,11,0.6)) repeat-x rgba(11,11,11,0.2);
-        background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(11,11,11,0.1)), to(rgba(11,11,11,0.6))) repeat-x rgba(11,11,11,0.2);
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(11,11,11,0.1)), to(rgba(11,11,11,0.6))) repeat-x rgba(11,11,11,0.2);
         z-index:100000;
       
     z-index: 1040;
@@ -580,7 +589,7 @@ label span {
         box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
     }
     
-    #confirmBox h1,
+    
     #confirmBox p{
         font:26px/1 'Cuprum','Lucida Sans Unicode', 'Lucida Grande', sans-serif;
         padding: 18px 25px;
@@ -588,10 +597,7 @@ label span {
         color:#666;
     }
     
-    #confirmBox h1{
-        letter-spacing:0.3px;
-        color:#888;
-    }
+   
     
     #confirmBox p{
         background:none;
@@ -646,4 +652,8 @@ label span {
 
     form label{
             max-width: 12.666667%;
+    }
+
+    button a{
+        color:white;
     }

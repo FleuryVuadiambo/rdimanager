@@ -79,10 +79,12 @@
         </div>
         </form>        
 
-    <footer>
+
+  <footer>
       <p class="copyright">Copyright Eurêka C.I</p>
       <img class="logofooter" src="logosign.png" alt="">
   </footer>
+
 </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
