@@ -120,14 +120,17 @@ h2 {
 {
     background-color: #ce352c; color: white;
 }
+.btn-secondary{
+     background-color: #729EBF;
+    background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+    background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+}
 
 button
 {
     margin: 0 auto;
     display: flex;
-    background-color: #729EBF;
-    background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
-    background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+   
 }
 
 tbody
