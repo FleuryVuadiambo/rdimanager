@@ -24,9 +24,7 @@
       include ('bo-header_co.php');
       ?>
 
-      <?php 
-	include ("bo-menu-horizontal.php"); 
-	?>
+      
 
 
        
