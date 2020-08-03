@@ -38,7 +38,7 @@
             
         <div class="container">
             
-            <h1 class="text-center mt-4 mb-4"> Projets de l'année  <| 2020 |> <a href="#" style="font-size: smaller;"></h1>
+            <h1 class="text-center mt-4 mb-4" style="color: #ce352c;"> Projets de l'année <a href="#"><img src="https://img.icons8.com/android/24/000000/arrow-pointing-left.png"/></a> 2020 <a href="#"><img src="https://img.icons8.com/android/24/000000/arrow.png"/> <a href="#" style="font-size: smaller;"></h1>
              <!--   <h4 class="text-center"><a><i class="fas fa-arrow-alt-circle-left"></i></a> <| 2020 |> <a href="#"><i class="fas fa-arrow-alt-circle-right"></i></a></h4>
 -->
 
@@ -75,13 +75,9 @@
 
         </div>
 
-        <footer>
-            <!-- <a href="index14.html"><button> < </button></a> -->
-            <p class="copyright">Copyright Eurêka C.I</p>
-            <img class="logofooter" src="logo.png" alt="">
-            <!-- <a href="M1.html"><button> > </button></a> -->
-            <!-- <a href="index4.html"><button> > </button></a> -->
-        </footer>
+        <?php
+            include ("footer.php");
+        ?>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

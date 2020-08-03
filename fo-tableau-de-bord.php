@@ -67,12 +67,9 @@
         
         </div>
 
-        <footer>
-            <!-- <a href="index.html"><button> < </button></a> -->
-            <p class="copyright">Copyright Eurêka C.I</p>
-            <img class="logofooter" src="logo.png" alt="">
-            <!-- <a href="index3.html"><button> > </button></a> -->
-        </footer>
+        <?php
+            include ("footer.php");
+        ?>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

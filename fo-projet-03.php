@@ -51,12 +51,9 @@
 
     </section>
 
-    <footer>
-        <a href="index7bis.html"><button> < </button></a>
-        <p class="copyright">Copyright Eurêka C.I</p>
-        <img class="logofooter" src="img/logo.png" alt="">
-        <a href="index9.html"><button> > </button></a>
-    </footer>
+    <?php
+        include ("footer.php");
+    ?>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

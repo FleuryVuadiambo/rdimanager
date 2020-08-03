@@ -16,8 +16,10 @@
         .col-sm-8 {max-width: 51.666667%; }
         
         .img_logo {position: absolute; left: 4%; top: 8%; }
-        .img_logo img {height: 50px; } 
+        .img_logo img {height: 50px; }     
         .changer_mdp ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content ui-accordion-content-active {background: border-box border-box; border-radius: 1%; }
+        .btn-success {color: white; background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%); border: none; }
+    
     </style>
     
     <title>Maquette 1 (Fleury)</title>
@@ -36,7 +38,7 @@
 
         <div class="container">
 
-            <h1 class="text-center m-4">Nouvel Utilisateur</h1>
+            <h1 class="text-center m-4"  style="color: #ce352c;">Nouvel Utilisateur</h1>
 
             <h4 class="mb-4">Saisir les informations</h4>
 
@@ -93,12 +95,9 @@
             </div>
         </div>
     
-        <footer>
-            <!-- <a href="maquette12.html"><button> < </button></a> -->
-            <p class="copyright">Copyright Eurêka C.I</p>
-            <img class="logofooter" src="logo.png" alt="">
-            <!-- <a href="index2.html"><button> > </button></a> -->
-        </footer>
+    <?php
+        include ("footer.php");
+    ?>
               
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
