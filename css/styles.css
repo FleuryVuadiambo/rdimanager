@@ -146,7 +146,7 @@ footer
        height: 4vh;
        width: 4vh;
        border-radius: 148%;
-       margin-top: 13px;
+       margin-top: 14px;
        padding-left: 0vh;
        margin-left: 30px;
        margin-right: 6px;
@@ -159,7 +159,7 @@ a button
 .copyright
 { 
     color: white;
-    margin-top: 3vh;
+    margin-top: 2vh;
     font-size: 1.05em;
 }
 
