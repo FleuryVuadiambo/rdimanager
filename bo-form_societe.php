@@ -93,7 +93,7 @@
     
         <div class="text-center button" style=" margin:0 auto;">
            <a href="bo-gestion_societe.php"><button type="button" class="btn btn-secondary">Annuler</button></a>
-            <a href="bo-gestion_societe.php"><button type="button" class="btn btn-success">Ajouter</button></a>
+            <a href="bo-gestion_societe.php"><button type="button" style=" background-image:none;" class="btn btn-success">Ajouter</button></a>
         </div>
 
     </form>        
