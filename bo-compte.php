@@ -21,14 +21,27 @@
       <?php 
 	include ("bo-menu-horizontal.php"); 
     ?>
+<h2>Mon Compte</h2>
 
-
-
-</body>
-</html>
-
+<div class="card10">
+  <img src="icone.png">
+  <div class="container10">
+    <h1>Yanny APPADOO</h1>
+    <p class="title10">Développeur web </p>
+    <p>06-12-81-76-92</p>
+    <p>yappadoo@eurekaci.com</p>
+    <p>WebForce3</p>
+    <div style="margin: 24px 0;">
+      <a href="#"><i class="fa fa-dribbble"></i></a> 
+      <a href="#"><i class="fa fa-twitter"></i></a>  
+      <a href="#"><i class="fa fa-linkedin"></i></a>  
+      <a href="#"><i class="fa fa-facebook"></i></a> 
+   </div>
+   <p><button>Contact</button></p>
+  </div>
+</div>
       <?php
-        include ('footer.php');
+        include ('bo-footer.php');
         ?>
 
       <script src="maquette.js"></script>
