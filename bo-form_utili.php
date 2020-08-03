@@ -26,7 +26,7 @@
       <br>
 
         <!-- Formulaire -->
-        <h2>Ajouter un Utilisateur</h2>
+        <h2>Ajouter un utilisateur</h2>
 
         <form class="form6" action="" method="post">
 
