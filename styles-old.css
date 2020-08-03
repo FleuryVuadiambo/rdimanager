@@ -2,7 +2,6 @@
     body
     {
         line-height: "3,2em";
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
         color: black;
   
     }
@@ -252,7 +251,6 @@ table tbody tr td a
 
 a{
     color: #ce352c;
-    text-decoration: underline;;
 }
 
 a:hover {
