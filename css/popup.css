@@ -210,7 +210,7 @@ xpopup
   background-color: #fc8982;
 }
 .cd-popup-container .cd-buttons li:last-child a {
-  background: #b6bece;
+  background-color: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
   border-radius: 0 0 .25em 0;
 }
 .no-touch .cd-popup-container .cd-buttons li:last-child a:hover {

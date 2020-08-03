@@ -37,7 +37,8 @@
 <body>
     <?php 
 	include ("fo-header.php"); 
-	?>
+    ?>
+    
 	<?php 
 	include ("menu-horizontal.php"); 
     ?>

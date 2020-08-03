@@ -279,12 +279,9 @@
     </div>
 
 
-    <footer>
-        <!-- <a href="index8.html"><button> < </button></a> -->
-        <p class="copyright">Copyright Eurêka C.I</p>
-        <img class="logofooter" src="logo.png" alt="">
-        <!-- <a href="index10.html"><button> > </button></a> -->
-    </footer>
+    <?php
+        include ("footer.php");
+    ?>
         
 </body>
 </html>

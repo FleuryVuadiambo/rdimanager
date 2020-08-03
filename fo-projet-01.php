@@ -27,7 +27,7 @@
 <body>
 
     <?php 
-	include ("bo-header.php"); 
+	include ("fo-header.php"); 
 	?>
 
     <?php
@@ -42,7 +42,7 @@
     <div class="container">
 
         <!-- <h1>&nsbp </h1> -->
-        <h1 class="text-center mt-5 mb-4">Mes projets de l'année : <| 2020 |> <a href="#" style="font-size: smaller;"></h1>
+        <h1 class="text-center mt-4 mb-4" style="color: #ce352c;"> Mes projets de l'année <a href="#"><img src="https://img.icons8.com/android/24/000000/arrow-pointing-left.png"/></a> 2020 <a href="#"><img src="https://img.icons8.com/android/24/000000/arrow.png"/> <a href="#" style="font-size: smaller;"></h1>
         <table class="table  text-center mx-auto m-5">
             <thead>
                 <tr>

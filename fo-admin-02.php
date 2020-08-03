@@ -20,6 +20,8 @@
         .edit-delete2 {position: absolute; top: 38%; left: 83%; }
         .new_user {text-align: center; }
         .edit-delete1, .edit-delete2 {display: flex; }
+        .btn-success {color: white; background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%); border: none; }
+
     </style>
     <title>Liste des utilisateurs</title>
 </head>
@@ -38,7 +40,7 @@
 
     <div class="container">
           
-        <h1 class="text-center m-4">Liste des utilisateurs</h1>
+        <h1 class="text-center m-4" style="color: #ce352c;">Liste des utilisateurs</h1>
         <p class="text-end mt-4 mb-4">Licences disponibles : <span>03</span></p>
         
 

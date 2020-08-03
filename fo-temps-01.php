@@ -68,7 +68,7 @@
     </div> -->
 
     <div class="container">
-        <h1 class="text-center m-4">Saisie de temps passé</h1>
+        <h1 class="text-center m-4" style="color: #ce352c;">Saisie de temps passé</h1>
         <p class="text-center m-4" style="font-size: 1.5em;"><a href="#"><img src="https://img.icons8.com/android/24/000000/arrow-pointing-left.png"/></a> Mai <a href="#"><img src="https://img.icons8.com/android/24/000000/arrow.png"/></i></a></p>
 
             <form action="" method="post">
@@ -158,12 +158,9 @@
      -->
     </div>
 
-    <footer>
-        <!-- <a href="index12.html"><button> < </button></a> -->
-        <p class="copyright">Copyright Eurêka C.I</p>
-        <img class="logofooter" src="logo.png" alt="">
-        <!-- <a href="index14.html"><button> > </button></a> -->
-    </footer>
+    <?php
+        include ("footer.php");
+    ?>
 
 </body>
 </html>

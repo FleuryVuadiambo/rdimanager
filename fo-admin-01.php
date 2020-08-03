@@ -11,7 +11,7 @@
     <style>
         /* .changer_mdp ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content ui-accordion-content-active {background: border-box border-box; border-radius: 1%; } */
         .container {min-height: 86vh; }
-        form {position: relative; left: 16%; }
+        form {position: relative; left: 16%; color: black; }
         .text-center {justify-content: space-between; }
         .btn-success1 {color: white; background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%); border: none; }
         .col-sm-8 {max-width: 51.666667%; }
@@ -66,7 +66,7 @@
 
         <div class="container">
 
-            <h1 class="text-center m-4">Mon compte</h1>
+            <h1 class="text-center m-4"  style="color: #ce352c;">Mon compte</h1>
 
             <!-- <h4 class="mb-4">Activer votre compte RDI Manager</h4> -->
 
@@ -120,7 +120,7 @@
                     <a href="#popup2"> <input type="update" class="btn btn-success" value="Mettre à jour"> </a>
                 </div>
                 <div class="change_mdp">
-                    <a href="#popup1"><input type="button" class="btn btn-success1" value="Modifier votre mot de passe"> </a>
+                    <a href="#popup1"><input type="button" class="btn btn-warning" value="Modifier votre mot de passe"> </a>
                 </div>
             </div>
 
@@ -211,7 +211,7 @@
                         </div>
                     </form> 
                     <div class="valid">
-                        <a href="fo-projet-02.php"><input type="button" class="btn btn-primary" value="Modifier"></a>
+                        <a href="fo-projet-02.php"><input type="button" class="btn btn-success1" value="Modifier"></a>
                     </div><br> 
                 </div> 
             </div>
@@ -220,12 +220,9 @@
 
         <!-- </div> -->
     
-        <footer>
-            <!-- <a href="maquette12.html"><button> < </button></a> -->
-            <p class="copyright">Copyright Eurêka C.I</p>
-            <img class="logofooter" src="logo.png" alt="">
-            <!-- <a href="index2.html"><button> > </button></a> -->
-        </footer>
+        <?php
+            include ("footer.php");
+        ?>
               
 
   
