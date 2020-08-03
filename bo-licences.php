@@ -22,7 +22,7 @@
 	include ("bo-menu-horizontal.php"); 
 	?>
 
-    <h2 class="societegerer1" style="color: #ce352c;">Licences Distribué:</h2>
+    <h2 class="societegerer1" style="color: #ce352c;">Licences Distribuées:</h2>
 
       <table class="table text-center mx-auto m-5">
         <thead>

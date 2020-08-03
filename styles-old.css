@@ -150,7 +150,7 @@ table tbody tr td a
         display: flex;
         justify-content: center;
         position: absolute;
-        bottom: -15% !important;
+        bottom: 0% !important;
         width: 100%;
     }
     .logofooter
