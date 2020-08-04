@@ -57,7 +57,7 @@
 
       </table> 
 
-      <h2 class="societegerer1" style="color: #ce352c;">Licences Distribuées</h2>
+      <h1 class="societegerer1" style="color: #ce352c;">Licences Distribuées</h1>
 
       <table class="table text-center mx-auto m-5">
         <thead>

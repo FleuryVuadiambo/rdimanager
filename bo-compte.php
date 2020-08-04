@@ -21,7 +21,7 @@
       <?php 
 	include ("bo-menu-horizontal.php"); 
     ?>
-<h2>Mon Compte</h2>
+<h1>Mon Compte</h1>
 
 <div class="card10">
   <img src="icone.png">

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/menu-horizontal-back.css">
     <link rel="stylesheet" href="styles-old.css">
-    <title>Hello, world!</title>
+    <title>RDI MANAGER PLATEFORME!</title>
   </head>
   <body>
    
@@ -22,7 +22,7 @@
 	include ("bo-menu-horizontal.php"); 
 	?>
 
-    <h2 class="societegerer1" style="color: #ce352c;">Licences Distribuées:</h2>
+    <h1 style="color: #ce352c;">Licences Distribuées</h1>
 
       <table class="table text-center mx-auto m-5">
         <thead>
