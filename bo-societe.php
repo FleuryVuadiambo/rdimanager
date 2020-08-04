@@ -83,7 +83,7 @@
       
         <a href="bo-geston_societe>"></a>
       
-<button><a href="bo-Licences.php">Licences des Sociétées</a></button>   
+<button style="display:flex;margin:0 auto;"><a href="bo-Licences.php">Licences des Sociétées</a></button>   
 
               
       
@@ -95,7 +95,7 @@
 
      
         <?php
-        include('footer.php')
+        include ('footer.php')
         ?>
       
  

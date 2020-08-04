@@ -41,7 +41,7 @@
   </div>
 </div>
       <?php
-        include ('bo-footer.php');
+        include ('footer.php');
         ?>
 
       <script src="maquette.js"></script>
