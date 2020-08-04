@@ -119,7 +119,7 @@
         </table> -->
 
         <div class="new_user text-center mt-5">
-            <input type="button" class="btn btn-success" value="Envoyer une invitation">
+            <a href="fo-projet-02.php"><input type="button" class="btn btn-success" value="Envoyer une invitation"></a>
         </div>
     
     </div>
