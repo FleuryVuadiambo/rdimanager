@@ -17,7 +17,7 @@
         .contenu {margin-top: 40px; display: flex; }
 
         .date_fin {position: relative; left: 0%; }
-        label#date_fin.col-sm-4.col-form-label {position: relative; left: 16%; }
+        label#date_fin.col-lg-4.col-form-label {position: relative; left: 20%; }
         .register {position: relative; left: 13%; }
         .gerer_participants {background-color: rgb(134, 174, 226); }
         th {color: white; }
@@ -26,13 +26,14 @@
         .btn-success {color: white; background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%); border: none; }
 
 
-        .settings {display: flex; justify-content: space-between; position: relative; left: 21%; width: 0 auto; }
-        .settings1 {display: flex; justify-content: space-between; position: absolute; left: 44%; }
+        .settings {display: flex; justify-content: space-between;  }
+        .settings1 {display: flex; justify-content: space-between; }
         .facts {border: 1px solid black; border-radius: 2em; background-color: #ce352c; color: white; }
         /* .new_user {position: absolute; left: 59%; top: 50%; } */
         /* .facts .new_user a {background-color: brown; } */
         .overlay {position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.7); transition: opacity 500ms; visibility: hidden; opacity: 0; }
         .overlay:target {visibility: visible; opacity: 1; }
+        #popup4 {position: absolute; z-index: 5; height: 57em; top: 19%; left: 10%; width: 80%; }
         #popup3 {position: absolute; z-index: 5; height: 57em; top: 19%; left: 10%; width: 80%; }
 
 
@@ -82,13 +83,13 @@
             <div class="form-group row">
                 <label for="titre" class="col-lg-2 col-form-label">Titre</label>
                 <div class="col-lg-8">
-                  <input type="text" class="form-control" id="titre" placeholder="Développement IP">
+                  <input type="text" class="form-control" id="titre" placeholder="Développement IP" disabled>
                 </div>
             </div>
             <div class="form-group row">
                 <label for="statut" class="col-lg-2 col-form-label">Statut</label>
                 <div class="col-lg-8">
-                    <select id="statut" class="form-control">
+                    <select id="statut" class="form-control"  disabled>
                         <option selected>En cours</option>
                         <option>Création</option>
                         <option>Terminé</option>
@@ -98,13 +99,13 @@
             <div class="form-group row">
                 <label for="liste_projets" class="col-lg-2 col-form-label">Résumé</label>
                 <div class="col-lg-8">
-                    <textarea class="form-control" id="liste_projets" rows="3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium ratione rem repellat dolores ut recusandae asperiores corrupti, quo, id provident dolorem voluptatum excepturi perspiciatis quia possimus! Laudantium sed dolore labore?</textarea>
+                    <textarea class="form-control" id="liste_projets" rows="3"  disabled>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium ratione rem repellat dolores ut recusandae asperiores corrupti, quo, id provident dolorem voluptatum excepturi perspiciatis quia possimus! Laudantium sed dolore labore?</textarea>
                 </div>    
             </div>
             <div class="form-group row">
                 <label for="chef_projet" class="col-lg-2 col-form-label">Chef du projet</label>
                 <div class="col-lg-8">
-                  <input type="text" class="form-control" id="chef_projet" placeholder="Sylvain Clément">
+                  <input type="text" class="form-control" id="chef_projet" placeholder="Sylvain Clément"  disabled>
                 </div>
             </div>
             <div class="bloc">
@@ -127,38 +128,38 @@
                         </div>
                     </div> -->
                     <div class="form-group row">
-                        <label for="date_debut" class="col-sm-2 col-form-label">Date de début</label>
-                        <div class="col-sm-2">
-                          <input type="date" class="form-control" id="date_debut">
+                        <label for="date_debut" class="col-lg-2 col-form-label">Date de début</label>
+                        <div class="col-lg-2">
+                          <input type="date" class="form-control" id="date_debut"  disabled>
                         </div>
-                        <label for="date_fin" class="col-sm-4 col-form-label" id="date_fin">Date de fin</label>
-                        <div class="col-sm-2">
-                            <input type="date" class="form-control" id="date_fin">
+                        <label for="date_fin" class="col-lg-4 col-form-label" id="date_fin">Date de fin</label>
+                        <div class="col-lg-2">
+                            <input type="date" class="form-control" id="date_fin"  disabled>
                         </div>
                     </div>
                     <div class="form-group row" style="position: relative; left: -12%; margin-top: 7%;">
-                        <div class="settings"  style="margin-left: 5%;">
+                        <div class="col-lg-4 mx-auto settings"  style="margin-left: 5%;">
                             <div class="gestion">
-                                <a href="bo-form_utili.php"><input type="button" class="btn btn-success" style="width: 25vh;" value="Fichiers joints"></a>
+                                <a href="#"><input type="button" class="btn btn-success" style="width: 30.2vh;" value="Fichiers joints"></a>
                             </div>
                             <div class="new_user"  style="margin-left: -12%;">
-                                <a href="bo-form_utili.php"><input type="button" class="btn btn-success" style="width: 25vh;" value="Gestion des participants"></a>
+                                <a class="button" href="#popup3"><input type="button" class="btn btn-success" style="width: 30.2vh;" value="Gestion des participants"></a>
                             </div>
                             <div class="new_user" style="position: relative; left: 5%;">
-                                <a href="bo-form_utili.php"><input type="button" class="btn btn-success" style="width: 25vh;" value="Modifier le projet"></a>
+                                <a href="#popup4"><input type="button" class="btn btn-success" style="width: 30.2vh;" value="Modifier le projet"></a>
                             </div>
                         </div>
                     </div>
                     <div class="form-group row" style="position: relative; left: -12%;">
-                        <div class="settings"  style="margin-left: 5%;">
+                        <div class="col-lg-4 mx-auto settings"  style="margin-left: 5%;">
                             <div class="gestion">
-                                <a href="bo-form_utili.php"><input type="button" class="btn btn-success" style="width: 25vh;" value="Ajouter un fichier"></a>
+                                <a href="#"><input type="button" class="btn btn-success" style="width: 30.2vh;" value="Ajouter un fichier"></a>
                             </div>
                             <div class="new_user"  style="margin-left: -12%;">
-                                <a href="bo-form_utili.php"><input type="button" class="btn btn-success" style="width: 25vh;" value="Ajouter un participant"></a>
+                                <a href="fo-new-user.php"><input type="button" class="btn btn-success" style="width: 30.2vh;" value="Ajouter un participant"></a>
                             </div>
                             <div class="new_user" style="position: relative; left: 5%;">
-                                <a href="bo-form_utili.php"><input type="button" class="btn btn-success" style="width: 25vh;" value="Ajouter un fait marquant"></a>
+                                <a class="button" href="#popup1" ><input type="submit" class="btn btn-success" style="width: 30.2vh;" value="Ajouter un fait marquant"></a>
                             </div>
                         </div>
                     </div>
@@ -184,6 +185,58 @@
         </div>
     </div>
 
+    <div id="popup4" class="overlay">
+        <div class="popup">
+            <h5 class="text-center m-4" style="font-size: 2em;">Modifier le projet</h5>    
+            <a class="close" href="#">&times;</a>
+            <div class="form-group row">
+                <label for="titre" class="col-sm-2 col-form-label">Titre</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="titre" placeholder="Développement IP">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="statut" class="col-sm-2 col-form-label">Statut</label>
+                <div class="col-sm-8">
+                    <select id="statut" class="form-control" >
+                        <option selected>En cours</option>
+                        <option>Création</option>
+                        <option>Terminé</option>
+                    </select>                
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="liste_projets" class="col-sm-2 col-form-label">Résumé</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" id="liste_projets" rows="3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium ratione rem repellat dolores ut recusandae asperiores corrupti, quo, id provident dolorem voluptatum excepturi perspiciatis quia possimus! Laudantium sed dolore labore?</textarea>
+                </div>    
+            </div>
+            <div class="form-group row">
+                <label for="chef_projet" class="col-sm-2 col-form-label">Chef du projet</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="chef_projet" placeholder="Sylvain Clément">
+                </div>
+            </div>
+            <div class="bloc">
+                <div class="date">
+                    <div class="form-group row">
+                        <label for="date_debut" class="col-sm-2 col-form-label">Date de début</label>
+                        <div class="col-sm-2">
+                          <input type="date" class="form-control" id="date_debut">
+                        </div>
+                        <label for="date_fin" class="col-sm-4 col-form-label" id="date_fin">Date de fin</label>
+                        <div class="col-sm-2">
+                            <input type="date" class="form-control" id="date_fin">
+                        </div>
+                    </div>      
+                </div>
+            </div>
+            <div class="text-center new_user">
+                <a href="fo-projet-02.php"><input type="button" class="btn btn-success" value="Modifier"></a>
+            </div>      
+        </div>
+    </div>
+
     <div id="popup3" class="overlay">
         <div class="popup">
             <h5 class="text-center m-4" style="font-size: 2em;">Gérer les participants</h5>    
@@ -199,21 +252,21 @@
                     <tr>
                         <td>John Doe</td>
                         <td>Administrateur</td>
-                        <td style="background: none; border: none;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
-                        <td style="background: none; border: none;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
+                        <td style="background: white; border: white;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
+                        <td style="background: white; border: white;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
 
                     </tr>
                     <tr>
                         <td>Kévin Njifenju</td>
                         <td>Administrateur</td>
-                        <td style="background: none; border: none;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
-                        <td style="background: none; border: none;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
+                        <td style="background: white; border: white;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
+                        <td style="background: white; border: white;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
                     </tr>
                     <tr>
                         <td>Sylvain Clément</td>
                         <td>Chef de projet</td>
-                        <td style="background: none; border: none;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
-                        <td style="background: none; border: none;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
+                        <td style="background: white; border: white;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
+                        <td style="background: white; border: white;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
                     </tr>
                 </tbody>
             </table>

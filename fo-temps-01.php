@@ -15,7 +15,8 @@
         .img_logo img {height: 50px; }
         i {color: black; }
         form {position: relative; left: 35%; }
-        li: frist-child a {background-color:  #ce352c; }
+        .cd-popup-container .cd-buttons li:first-child a {background: #ce352c; }
+        .cd-popup-container .cd-buttons li:last-child a {background: linear-gradient(to bottom, #729EBF 0%, #333A40 100%); }
     </style>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

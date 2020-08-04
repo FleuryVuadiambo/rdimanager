@@ -69,8 +69,8 @@
                     <td class="text-center">Actif</td>
                     <td class="text-center"></td>
                     <td class="text-center">0</td>
-                    <td style="background: none; border: none;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
-                    <td style="background: none; border: none;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
+                    <td style="background: white; border: white;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
+                    <td style="background: white; border: white;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
                 </tr>
                 <tr>
                     <td scope="col" class="text-center">2</td>
@@ -81,15 +81,15 @@
                     <td class="text-center">Créé</td>
                     <td class="text-center"></td>
                     <td class="text-center">0</td>
-                    <td style="background: none; border: none;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
-                    <td style="background: none; border: none;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
+                    <td style="background: white; border: white;"><div><a href="fo-admin-01.php"><img src="https://img.icons8.com/small/36/000000/edit.png"/></a></div></td>
+                    <td style="background: white; border: white;"><div><a href="#"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/36/000000/filled-trash.png"/></a></div></td>
                 </tr>
             </tbody>
 
         </table>
 
         <div class="new_user">
-            <a href="fo-admin-03.php"><input type="button" class="btn btn-success" value="Ajouter un Utilisateur">
+            <a href="fo-admin-03.php"><input type="button" class="btn btn-success" value="Ajouter un utilisateur">
         </div>
 
     </div>
