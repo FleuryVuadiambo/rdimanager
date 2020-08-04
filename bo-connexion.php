@@ -47,6 +47,7 @@
 </br>
 
         <a href="bo-gestion_societe.php"><input type="submit" value="Connexion" class="btn1"></a>
+
       </form>
   </div>
         

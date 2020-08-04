@@ -18,7 +18,7 @@
             <div  style="left:-65px;min-width: 7rem;list-style-type: none; position: absolute; left: -92px;" class="dropdown-menu" aria-labelledby="navbarDropdown">
                               
                 <!-- <a class="dropdown-item" href="bo-moncompte.php">Mon Compte</a> -->
-                <a class="dropdown-item" href="bo-connexion.php">Déconnexion</a>
+                <a class="dropdown-item" href="fo-connexion.php">Déconnexion</a>
                 
             </div>
         </li>
