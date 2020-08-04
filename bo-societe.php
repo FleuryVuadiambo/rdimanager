@@ -63,9 +63,9 @@
         <thead>
           <tr class="table table-secondary">
             <th scope="col" class="text-center">Personne</th>
-            <th scope="col" class="text-center">Statut</th>
+            <th scope="col" class="text-center">Invitation</th>
             <th scope="col" class="text-center">Action</th>
-            <th scope="col" class="text-center">Statut</th>
+            <th scope="col" class="text-center">Compte</th>
           </tr>
         </thead>
 
@@ -83,7 +83,9 @@
       
         <a href="bo-geston_societe>"></a>
       
-<button style="display:flex;margin:0 auto;"><a href="bo-Licences.php">Licences des Sociétées</a></button>   
+
+<button style="display:flex;margin:0 auto;"><a href="bo-Licences.php">Licences des Sociétés</a></button>   
+
 
               
       

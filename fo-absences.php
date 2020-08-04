@@ -13,6 +13,7 @@
 
     <style>
         #ui-datepicker-div { font-size: 25px; } 
+        .calendar {background-color: beige; border: 1px solid black; border-radius: 2em; width: 50%; margin: 25px; padding: 20px; position: relative; left: 23%;  }
         .btn-success {color: white; background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%); border: none; }
     </style>
 
@@ -45,16 +46,15 @@
 
     <div class="cd-popup1" role="alert">
         
-        <div class="calendar">
-            <div class="wrap">
-                Journée: <input type="text" id="journee" class="datepicker" name="datepicker">   
+        <div class="calendar text-center">
+            <h1 style="color: #ce352c;">Indiquez vos jours d'absence</h1>
+            <div class="col-lg" style="margin-top: 30px;">
+                Journée <input type="text" id="journee" class="datepicker" name="datepicker"> &nbsp; &nbsp; 
+                Demi-journée <input type="text" id="demi_journee" class="datepicker" name="datepicker"></br>   
             </div></br>
-            <div class="wrap">
-                Demi-journée: <input type="text" id="demi_journee" class="datepicker" name="datepicker"></br>   
-            </div>
 
             <div class="text-center m-5">
-                <a href="fo-temps-01.php"><input type="button" class="btn btn-success" value="Valider">
+                <a href="fo-tableau-de-bord-01.php"><input type="button" class="btn btn-success" value="Valider">
             </div>
         </div>
 
