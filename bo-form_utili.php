@@ -26,7 +26,7 @@
       <br>
 
         <!-- Formulaire -->
-        <h2>Ajouter un utilisateur</h2>
+        <h1>Ajouter un Utilisateur</h1>
 
         <form class="form6" action="" method="post">
 
@@ -75,7 +75,7 @@
         
         <div class="text-center button">
           <a href="bo-gestion_utili.php"><button type="button" class="btn btn-secondary">Annuler</button></a>
-            <a href="bo-gestion_utili.php"><button type="button" class="btn btn-success">Ajouter</button></a>
+            <a href="bo-gestion_societe.php"><button type="button" style=" background-image:none;" class="btn btn-success">Ajouter</button></a>
         </div>
         </form>        
 

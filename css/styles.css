@@ -136,7 +136,7 @@ footer
         display: flex;
         justify-content: center;
         position: fixed;
-        bottom: 0%;
+        bottom: 0% !important;
         width: 100%;
     
     }

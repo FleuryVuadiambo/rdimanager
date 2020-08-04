@@ -24,7 +24,7 @@
       
       <br>
  
-       <h1>Gestion des Utilisateurs :</h1>
+       <h1>Gestion des utilisateurs</h1>
 
       <table class="table text-center mx-auto m-5">
        <thead>
@@ -65,8 +65,8 @@
                 <td class="text-center">Consultant</td>
                 <td class="text-center">Activé</td>
                 <td class="text-center">15-05-2020 <br> 10h03</td>
-                <td style="background-color:white;" class="text-center"><a href="bo-modif_utili.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
-                <td style="background-color:white;" class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
+                <td style="background-color:white; width:3px;" class="text-center"><a href="bo-modif_utili.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
+                <td style="background-color:white;width:3px; " class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
               </tr>
 
               <tr class="item">
@@ -87,7 +87,7 @@
 
       
           <?php
-        include('footer.php')
+        include ('footer.php')
         ?>
       
         

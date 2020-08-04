@@ -25,7 +25,7 @@
       
       <br>
 <section>
-      <h2>Modifier une Société</h2>     
+      <h1>Modifier une Société</h1>     
 
      <img src="societe1.png" alt="" class="logosociete";>
 
@@ -93,7 +93,7 @@
     
         <div class="text-center button" style="margin: 0 auto;">
            <a href="bo-gestion_societe.php"><button type="button" class="btn btn-secondary">Annuler</button></a>
-            <a href="bo-gestion_societe.php"><button type="button" class="btn btn-success">Enregister</button></a>
+            <a href="bo-gestion_societe.php"><button type="button" style=" background-image:none;" class="btn btn-success">Modifier</button></a>
         </div>
 
     </form>        
