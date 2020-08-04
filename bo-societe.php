@@ -83,7 +83,9 @@
       
         <a href="bo-geston_societe>"></a>
       
-<button style="display:flex;margin:0 auto;" st><a class="btn-licence" href="bo-Licences.php">Licences des Sociétées</a></button>   
+
+<button style="display:flex;margin:0 auto;"><a href="bo-Licences.php">Licences des Sociétés</a></button>   
+
 
               
       
