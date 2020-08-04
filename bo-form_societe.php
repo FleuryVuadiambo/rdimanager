@@ -54,15 +54,15 @@
         <div class="form-group row">
           <label for="email" class="col-sm-2 col-form-label">Mobile</label>
           <div class="col-sm-8">
-            <input type="number" class="form-control" id="email" placeholder="06 88 77 55 21">
+            <input type="" class="form-control" id="email" placeholder="06 88 77 55 21">
           </div>
         </div>
       
 
         <div class="form-group row">
           <label for="nom_societe" class="col-sm-2 col-form-label">Référent Back Office</label>
-          <div class="col-sm-10">
-            <select name="nom">
+          <div class="col-sm-8">
+            <select style="width: 16vh;" name="nom">
                 <option>Kevin</option>
                 <option>Sylvain</opotion>
                 <option>Yanny</option>
@@ -87,7 +87,7 @@
   
           <label for="statut" class="col-sm-2 col-form-label">Nb de Licences utilisées</label>
           <div class="col-sm-1">
-            <input type="number" class="form-control" id="statut" placeholder="5">
+            <input type="" class="form-control" id="statut" placeholder="5">
           </div>
         </div>
     

@@ -9,6 +9,10 @@
         
         </div>
 
+        <div class="personne"><h6 style="color:white;">Bienvenue</h6>
+            <p style="color:white;">Yanny APPADOO</p>
+        </div>
+
         
         <li class="nav-item dropdown" style="list-style-type: none;">
             <a class="nav-link dropdown-toggle1 ml-md-auto" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -26,7 +26,7 @@
       <br>
 
         <!-- Formulaire -->
-        <h2>Modifier un Utilisateur</h2>
+        <h1>Modifier un Utilisateur</h1>
 
         <form class="form6" action="" method="post">
 
@@ -75,7 +75,7 @@
         
         <div class="text-center button" style="display:flex; justify-content:center;" >
           <a href="bo-gestion_utili.php"><button type="button" class="">Annuler</button></a>
-            <a href="bo-gestion_utili.php"><button type="button" class=" ">Modifier</button></a>
+            <a href="bo-gestion_societe.php"><button type="button" style=" background-image:none;" class="btn btn-success">Modifier</button></a>
         </div>
         </form>        
 

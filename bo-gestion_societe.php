@@ -22,7 +22,7 @@
 	include ("bo-menu-horizontal.php"); 
 	?>
       
-      <br> <h1>Gestion des Sociétés:</h1>
+       <h1>Gestion des Sociétés</h1>
   
 
       
@@ -37,8 +37,8 @@
             <th scope="col" class="text-center">Statut</th>
             <th scope="col" class="text-center">Date / Heure</th>
             <th scope="col" class="text-center">Gestionnaire</th>
-            <th style="background-color:white;" scope="col" class="text-center"></th>
-            <th style="background-color:white;"  scope="col" class="text-center"></th>
+            <th style="background-color:white;width:1px;" scope="col" class="text-center"></th>
+            <th style="background-color:white;width:1px;"  scope="col" class="text-center"></th>
 
 
           </tr>
@@ -53,7 +53,7 @@
               <td class="text-center">Créé</td>
               <td class="text-center">02-02-2020 <br> 15h03</td>
               <td class="text-center">Kevin</td>
-              <td style="background-color:white;"  class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
+              <td style="background-color:white; width:1px;"  class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
               <td style="background-color:white;"  class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
           </tr>
           </tbody>
@@ -80,8 +80,8 @@
               <td class="text-center">Créé</td>
               <td class="text-center">02-02-2020 <br> 15h03</td>
               <td class="text-center">Kevin</td>
-              <td style="background-color:white;" class="text-center"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
-              <td style="background-color:white;" class="text-center"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
+              <td style="background-color:white;"><a href="bo-modif_societe.php"><img src="https://img.icons8.com/small/16/000000/edit.png"/></a></td>
+              <td style="background-color:white;"><img onclick="confirm" class="delete" src="https://img.icons8.com/small/16/000000/filled-trash.png"/></a>
           </tr>
           </tbody>
 
@@ -89,7 +89,7 @@
 
     
         <?php
-        include('footer.php')
+        include ('footer.php')
         ?>
     
       
