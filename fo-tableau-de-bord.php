@@ -10,12 +10,32 @@
     <style>
         /* body {background-color: beige; color: brown; } */
         .img_logo {position: absolute; left: 4%; top: 8%; }
-        .img_logo img {height: 50px; } 
+        .img_logo img {height: 50%; } 
         
         i {color: black; }
         .table thead th {background-color: #ce352c; color: white; }
         tr, td {background-color: #e6e6e6; }
         .btn-success {color: white; background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%); border: none; }
+    
+        @media screen and (max-width: 970px) {
+            /* body {overflow-x: hidden; } */
+            /* #menu-demo2, #menu-demo2 li {padding: 2%; }
+            #menu-demo2, #menu-demo2 a {display: inline; border: none; } */
+            .menu-icon {position: relative; display: block; float: right; width: 50px; height: 66px; cursor: pointer; }
+            .personne {display: none; }
+        }
+
+        @media screen and (max-width: 576px) {
+            body {overflow-x: hidden; }
+            .nav-link dropdown-toggle1 ml-md-auto {position: absolute; top: 10%; }
+            #menu-demo2 {display: inline; border: none; } 
+            #menu-demo2, #menu-demo2 a {width: 0 auto;  } 
+        }
+
+        @media screen and (max-width: 300px) {
+            .nav-link dropdown-toggle1 ml-md-auto {display: none; }
+        }
+
     </style>
     <title>Tableau de bord</title>
 </head>
@@ -23,6 +43,7 @@
     <?php 
 	include ("fo-header.php"); 
 	?>
+
 	<?php 
 	include ("menu-horizontal.php"); 
 	?>
@@ -32,12 +53,12 @@
         
         <div class="container">
             
-        <h1 class="text-center mt-4 mb-4"  style="color: #ce352c;"> Projets de l'année  <| 2020 |> <a href="#" style="font-size: smaller;"></h1>
+        <h1 class="text-center mt-4 mb-4"  style="color: #ce352c;"> Projets de l'année  <p><| 2020 |></p> <a href="#" style="font-size: smaller;"></h1>
 
             <table class="table table-bordered mx-auto m-5"  style="max-width: 67.9%;">
                 <thead>
                     <tr class="table table-secondary">
-                        <th scope="col" class="text-center">TABLEAU DE BORD</th>
+                        <th scope="col">TABLEAU DE BORD</th>
                         <th scope="col" class="text-center">ID</th>
                         <th scope="col" class="text-center">Equipe</th>
                     </tr>
@@ -62,7 +83,11 @@
             </table>
 
             <div class="text-center m-5">
-                    <a href="fo-temps-01.php"><input type="button" class="btn btn-success" value="Mettre à jour votre feuille de temps">
+                <a href="fo-temps-01.php"><input type="button" class="btn btn-success" value="Mettre à jour votre feuille de temps">
+            </div>
+
+            <div class="update text-center m-5" style="display: none;">
+                <a href="fo-temps-01.php"><input type="button" class="btn btn-success" value="Mettre à jour">
             </div>
         
         </div>

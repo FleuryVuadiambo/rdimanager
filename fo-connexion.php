@@ -11,7 +11,7 @@
         section {height: 837px; display: flex; justify-content: center; }
 
         .connexion { position: absolute; top: 13%; left: 10%; }
-        .img-logo {position: relative; left: 15%; margin-bottom: 12px; }
+        .img-logo {position: relative; left: 6%; margin-bottom: 12px; }
         .logofooter1 { height: 15vh; width: 15vh; border-radius: 148%; margin-top: 13px; padding-left: 0vh; margin-left: 30px;margin-right: 6px; }
 
         /* form {border: 2px solid black; border-radius: 1em; min-height: 39vh; } */
@@ -21,6 +21,13 @@
 
         .presentation {position: absolute; left: 33%; top: 15%; }
         .text {width: 576px; text-align: justify; position: absolute; top: 116px; left: 40px; }
+
+        @media screen and (max-width: 1012px) {
+            body {overflow-x: hidden; }
+            .connexion {position: relative; left: -1%; }
+            .img-logo {position: relative; left: 10%; }
+            .presentation { display: none; text-decoration: none;  }
+        }
         
     </style>
     <title>Présentation FrontOffice RDI Manager</title>
@@ -45,10 +52,10 @@
                   <input type="password" class="form-control" id="nmdp">
                 </div>
                 <div class="forget_mdp mt-5">
-                    <span><a href="#"  style="color: #ce352c;">Mot de passe oublié ?</a></span>
+                    <span><a href="#"  style="color: white;">Mot de passe oublié ?</a></span>
                 </div>
                 <div class="new_compte mb-4">
-                    <span><a href="#"   style="color: #ce352c;">Créer un compte</a></span>
+                    <span><a href="#"   style="color: white;">Créer un compte</a></span>
                 </div>
                 <div class="connect text-center">
                     <a href="fo-tableau-de-bord.php"><input type="button" class="btn btn-success" value="Connexion"></a>

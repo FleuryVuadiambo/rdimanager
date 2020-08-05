@@ -2,8 +2,8 @@
 	<li><a href="fo-tableau-de-bord-01.php">Tableau de bord</a>	</li>
 	<li><a href="">Mes Projets</a>
 		<ul>
-			<li><a href="fo-projet-01.php">Liste des projets</a></li>
-			<li><a href="fo-new-projet.php">Nouveau projet</a></li>	
+			<li><a href="fo-projet-01.php"  class="menu-icon">Liste des projets</a></li>
+			<li><a href="fo-new-projet.php" class="menu-icon">Nouveau projet</a></li>	
 			<!-- <li><a href="fo-projet-02.php">Détails du projet</a></li>
 			<li><a href="fo-projet-03.php">Ajouter un fait marquant</a></li> -->
 			
