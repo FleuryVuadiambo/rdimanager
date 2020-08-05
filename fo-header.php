@@ -1,7 +1,7 @@
 
 
 <nav class="navbar navbar-expand-lg" style="position: relative;">
-     <div><img src="Logo-RDI-blanc.png" style="height:10vh" alt=""></div>
+     <div class="logoblanc"><img src="Logo-RDI-blanc.png" style="height:10vh" alt=""></div>
         <div style="margin:0 auto;">
             <!-- <a class="navbar-brand" href="#"><img style="height:13vh !important; " class="logoheader" src="societe1.png" alt=""></a> -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

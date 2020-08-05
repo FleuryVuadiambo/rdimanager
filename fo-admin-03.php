@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/jquery-ui.min.css">
 	<link rel="stylesheet" href="css/menu-horizontal.css">
     <style>
-        /* body {background-color: beige; color: brown; } */
+        body {overflow-y: scroll; overflow-x: hidden;w   }
         .container {min-height: 119vh; max-weight: 150vh; }
 
         h4 {position: relative; left: 16%; }
@@ -22,11 +22,11 @@
     
     </style>
     
-    <title>Maquette 1 (Fleury)</title>
+    <title>Nouvel utilisateur - RDI Manager</title>
 </head>
 <body>
     <?php 
-	include ("bo-header.php"); 
+	include ("fo-header.php"); 
 	?>
 	<?php 
 	include ("menu-horizontal.php"); 
