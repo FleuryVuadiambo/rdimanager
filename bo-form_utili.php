@@ -1,4 +1,4 @@
-<!doctype html>
+  <!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -54,7 +54,7 @@
             <div class="form-group row">
                 <label for="role" class="col-sm-2 col-form-label">Rôle</label>
                 <div class="col-sm-8">
-                    <select id="inputState" class="form-control">
+                    <select id="inputState" class="form-control"> 
                         <option>Utilisateur</option>
                         <option selected>Administrateur</option>
                         <option>Client</option>

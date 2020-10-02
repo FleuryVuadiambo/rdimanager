@@ -27,10 +27,11 @@
             .connexion {position: relative; left: -1%; }
             .img-logo {position: relative; left: 10%; }
             .presentation { display: none; text-decoration: none;  }
-        }
-        
+        }    
     </style>
+    
     <title>Présentation FrontOffice RDI Manager</title>
+
 </head>
 <body>
     <section>
@@ -49,14 +50,14 @@
                     <label for="mdp" class="col-sm-6 col-form-label">Mot de passe</label>
                 </div>
                 <div class="col-md-12">
-                  <input type="password" class="form-control" id="nmdp">
+                  <input type="password" class="form-control" id="mdp">
                 </div>
                 <div class="forget_mdp mt-5">
                     <span><a href="#"  style="color: white;">Mot de passe oublié ?</a></span>
                 </div>
-                <div class="new_compte mb-4">
+                <!-- <div class="new_compte mb-4">
                     <span><a href="#"   style="color: white;">Créer un compte</a></span>
-                </div>
+                </div> -->
                 <div class="connect text-center">
                     <a href="fo-tableau-de-bord.php"><input type="button" class="btn btn-success" value="Connexion"></a>
                 </div>
@@ -71,6 +72,7 @@
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ad cupiditate, doloremque maxime quas suscipit iure dignissimos, nobis veritatis debitis labore quis, aliquam ex ut harum eveniet quaerat quia at?
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus in reiciendis, magni omnis accusantium aperiam itaque voluptatum quis tempore numquam, optio ducimus harum saepe ipsam nulla repudiandae culpa sequi?</p>
             </div>
+
         </div>
     </section>
 
