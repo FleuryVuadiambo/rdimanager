@@ -51,7 +51,7 @@
                 </div>
             </div>
 
-            <div class="form-group row">
+            <!-- <div class="form-group row">
                 <label for="statut" class="col-sm-2 col-form-label">Statut</label>
                 <div class="col-sm-8">
                     <select id="inputState" class="form-control">
@@ -60,7 +60,7 @@
                         <option>Terminé</option>
                     </select>                
                 </div>
-            </div>
+            </div> -->
 
             <div class="form-group row">
                 <label for="liste_projets" class="col-sm-2 col-form-label">Résumé</label>
@@ -87,11 +87,38 @@
                 </div>
             </div>
 
+            <fieldset class="form-group">
+                <div class="row">
+                  <legend class="col-form-label col-sm-2 pt-0">Type de projet</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                      Projet en collaboration avec au moins un partenaire externe
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
+                      <label class="form-check-label" for="gridRadios2">
+                      Projet en collaboration avec un partenaire universitaire
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
+                      <label class="form-check-label" for="gridRadios3">
+                      Projet réalisé en interne par la société (avec ou sans prestataires)
+                      </label>
+                    </div>
+                  </div>
+                </div>
+            </fieldset>
+
+
             <div class="text-center mt-5 register">
                 <a href="fo-projet-01.php"><input type="button" class="btn btn-success" value="Enregistrer">
             </div>
-<!-- 
-            
+
+<!--             
             <h2 class="text-center m-4" style="font-size: 2.5em;">Faits marquants</h2>
 
             <table class="table table-bordered text-center mx-auto m-5">
@@ -111,9 +138,25 @@
                 </tbody>
             </table> -->
 
+                        <!-- <div class="form-group row">
+            <label for="type_projet" class="col-sm-2 col-form-label">Type de projet</label>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">Projet en collaboration avec au moins un partenaire externe</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">Projet en collaboration avec un partenaire universitaire</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                  <label class="form-check-label" for="inlineCheckbox3">Projet réalisé en interne par la société (avec ou sans prestataires)</label>
+                </div>
+            </div> -->
+
         </div>
 
-        <?php
+    <?php
     include("footer.php");
     ?>
         

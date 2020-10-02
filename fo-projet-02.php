@@ -73,6 +73,13 @@
                     <h1  style="color: #ce352c;">Acronyme du projet</h1>
                 </div>
             </div>
+            <div class="form-group row" style="display: flex;">
+                <div class="text-center mx-auto">
+                    <button type="button" class="btn btn-outline-primary">Collaboratif</button>
+                    <button type="button" class="btn btn-outline-secondary">PPP - R&D</button>
+                    <button type="button" class="btn btn-outline-success">Eligible RDI</button>
+                </div>
+            </div>
 <!-- 
             <div class="form-group row">
                 <label for="projet" class="col-sm-2 col-form-label">Projet</label>
@@ -86,7 +93,7 @@
                   <input type="text" class="form-control" id="titre" placeholder="Développement IP" disabled>
                 </div>
             </div>
-            <div class="form-group row">
+            <!-- <div class="form-group row">
                 <label for="statut" class="col-lg-2 col-form-label">Statut</label>
                 <div class="col-lg-8">
                     <select id="statut" class="form-control"  disabled>
@@ -95,7 +102,7 @@
                         <option>Terminé</option>
                     </select>                
                 </div>
-            </div>
+            </div> -->
             <div class="form-group row">
                 <label for="liste_projets" class="col-lg-2 col-form-label">Résumé</label>
                 <div class="col-lg-8">
@@ -140,7 +147,7 @@
                     <div class="form-group row" style="position: relative; left: -12%; margin-top: 7%;">
                         <div class="col-lg-4 mx-auto settings"  style="margin-left: 5%;">
                             <div class="gestion">
-                                <a href="#"><input type="button" class="btn btn-success" style="width: 30.2vh;" value="Fichiers joints"></a>
+                                <a href="fo-liste-fichiers.php"><input type="button" class="btn btn-success" style="width: 30.2vh;" value="Fichiers joints"></a>
                             </div>
                             <div class="new_user"  style="margin-left: -12%;">
                                 <a class="button" href="#popup3"><input type="button" class="btn btn-success" style="width: 30.2vh;" value="Gestion des participants"></a>

@@ -1,5 +1,5 @@
 <ul id="menu-demo2">
-	<li><a href="fo-tableau-de-bord-01.php">Tableau de bord</a>	</li>
+	<li><a href="fo-tableau-de-bord.php">Tableau de bord</a>	</li>
 	<li><a href="">Mes Projets</a>
 		<ul>
 			<li><a href="fo-projet-01.php"  class="menu-icon">Liste des projets</a></li>

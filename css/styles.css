@@ -10,13 +10,13 @@ body
 
 /*****************************HTML*************************/
 html{
-    height:100% !important;
+    min-height:100% !important;
 }
 
 .container 
 {
     background-color: white; 
-    min-height: 532px; 
+    
 }
 
 
